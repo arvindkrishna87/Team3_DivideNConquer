@@ -1,0 +1,131 @@
+{
+  "status": "COMPLETED",
+  "seed": 3902026,
+  "splits_completed": 5,
+  "created_utc": "2026-10-22T06:38:10.265551+00:00",
+  "split_metrics": [
+    {
+      "split": 1,
+      "train_cases": 57,
+      "validation_cases": 18,
+      "test_cases": 18,
+      "correct": 16,
+      "accuracy": 0.8888888888888888,
+      "benign_recall": 0.8571428571428571,
+      "high_grade_recall": 0.9090909090909091,
+      "epochs": 10,
+      "main_execution_seconds": 501.02,
+      "job_reference": "4841885",
+      "run_directory": "/home/siw1333/Yifan_Xia_coder_p1/runs/split01/run_20261022_002141",
+      "slurm_execution_seconds": 535
+    },
+    {
+      "split": 2,
+      "train_cases": 56,
+      "validation_cases": 18,
+      "test_cases": 19,
+      "correct": 17,
+      "accuracy": 0.8947368421052632,
+      "benign_recall": 0.7142857142857143,
+      "high_grade_recall": 1.0,
+      "epochs": 15,
+      "main_execution_seconds": 723.12,
+      "job_reference": "4844082_2",
+      "run_directory": "/home/siw1333/Yifan_Xia_coder_p1/runs/split02/run_20261022_004459",
+      "slurm_execution_seconds": 743
+    },
+    {
+      "split": 3,
+      "train_cases": 55,
+      "validation_cases": 19,
+      "test_cases": 19,
+      "correct": 17,
+      "accuracy": 0.8947368421052632,
+      "benign_recall": 0.8571428571428571,
+      "high_grade_recall": 0.9166666666666666,
+      "epochs": 22,
+      "main_execution_seconds": 1121.91,
+      "job_reference": "4844082_3",
+      "run_directory": "/home/siw1333/Yifan_Xia_coder_p1/runs/split03/run_20261022_004459",
+      "slurm_execution_seconds": 1143
+    },
+    {
+      "split": 4,
+      "train_cases": 55,
+      "validation_cases": 19,
+      "test_cases": 19,
+      "correct": 15,
+      "accuracy": 0.7894736842105263,
+      "benign_recall": 0.8571428571428571,
+      "high_grade_recall": 0.75,
+      "epochs": 14,
+      "main_execution_seconds": 697.26,
+      "job_reference": "4844082_4",
+      "run_directory": "/home/siw1333/Yifan_Xia_coder_p1/runs/split04/run_20261022_004459",
+      "slurm_execution_seconds": 721
+    },
+    {
+      "split": 5,
+      "train_cases": 56,
+      "validation_cases": 19,
+      "test_cases": 18,
+      "correct": 13,
+      "accuracy": 0.7222222222222222,
+      "benign_recall": 0.5714285714285714,
+      "high_grade_recall": 0.8181818181818182,
+      "epochs": 17,
+      "main_execution_seconds": 786.42,
+      "job_reference": "4844082_5",
+      "run_directory": "/home/siw1333/Yifan_Xia_coder_p1/runs/split05/run_20261022_004459",
+      "slurm_execution_seconds": 805
+    }
+  ],
+  "across_split_statistics": {
+    "accuracy": {
+      "mean": 0.8380116959064328,
+      "sample_standard_deviation": 0.07871961951094193,
+      "minimum": 0.7222222222222222,
+      "maximum": 0.8947368421052632
+    },
+    "benign_recall": {
+      "mean": 0.7714285714285714,
+      "sample_standard_deviation": 0.12777531299998796,
+      "minimum": 0.5714285714285714,
+      "maximum": 0.8571428571428571
+    },
+    "high_grade_recall": {
+      "mean": 0.8787878787878787,
+      "sample_standard_deviation": 0.09657233927259061,
+      "minimum": 0.75,
+      "maximum": 1.0
+    },
+    "main_execution_seconds": {
+      "mean": 765.9460000000001,
+      "sample_standard_deviation": 225.75826248445486,
+      "minimum": 501.02,
+      "maximum": 1121.91
+    }
+  },
+  "pooled_out_of_fold": {
+    "n_cases": 93,
+    "correct": 78,
+    "accuracy": 0.8387096774193549,
+    "benign_recall": 0.7714285714285715,
+    "high_grade_recall": 0.8793103448275862,
+    "confusion_matrix_true_rows_predicted_columns": [
+      [
+        27,
+        8
+      ],
+      [
+        7,
+        51
+      ]
+    ]
+  },
+  "standard_deviation_note": "Sample SD across five splits (ddof=1); descriptive variability, not a confidence interval.",
+  "runtime_note": "Main runtime includes data preparation, training, validation and testing; excludes queue and report generation. Runtimes are per job and overlap for parallel runs.",
+  "checkpoint_policy": "Each split evaluates its final in-memory epoch, matching the provided baseline; best.pth is not reloaded.",
+  "excluded_attempt": "Array 4843638 was canceled after an output-directory collision and excluded from all reported results. Its temporary outputs and failed logs were removed during workspace cleanup.",
+  "validation_checks_passed": true
+}

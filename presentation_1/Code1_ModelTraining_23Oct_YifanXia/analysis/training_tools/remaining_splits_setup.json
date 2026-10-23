@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETED",
+  "splits": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "seed": 3902026,
+  "resources_per_task": {
+    "cpus": 8,
+    "memory_gb": 32,
+    "time_limit": "02:00:00"
+  },
+  "max_concurrent_tasks": 4,
+  "script": "/home/siw1333/Yifan_Xia_coder_p1/code/run_remaining_splits.sbatch",
+  "baseline_python_sources_unchanged": true,
+  "checkpoint_policy": "Provided baseline: final in-memory epoch; not automatically best.pth.",
+  "output_policy": "Each process overrides only runs_dir in memory to runs/splitNN/, then executes unchanged main.py. No cross-node locking required.",
+  "selfchecks": "PASSED",
+  "replaces_cancelled_array": "4843638",
+  "tools_sha256": {
+    "run_training.py": "a9b724fede0d66e2a81b7abcd50f13c0ad2e6d6460ad15278cb7e8bde5b6b6fd",
+    "report_training.py": "d8e0eb65191f7c4c661366a80e90c924124542174779c08e94dfc6aac69ac9f7",
+    "check_parallel_launch.py": "4fc24c9af73b97915e011af75710626ee586c7c1cb5ffa48b75d9ad1f6e36085",
+    "check_report_training.py": "d9eade3a5771bbd2e1a0705b338769bc02bbbeeac5765dbd5676e9abc3d35727"
+  },
+  "created_utc": "2026-10-22T05:44:39.103597+00:00",
+  "array_job_id": "4844082",
+  "completed_utc": "2026-10-22T06:11:24.097985+00:00",
+  "summary": "analysis/five_split_summary/summary.json",
+  "current_tools_sha256": {
+    "run_training.py": "a9b724fede0d66e2a81b7abcd50f13c0ad2e6d6460ad15278cb7e8bde5b6b6fd",
+    "report_training.py": "3b0b00f79cc41af0faf694b395f463b3b11d6e3895a49dd94495bfbfb7be4c8d",
+    "aggregate_training.py": "d2893d9a1b4926dff436cdc958fac3e3c9417b97066bd6ce063b3b72f516f7b7"
+  },
+  "postrun_cleanup_record": "analysis/workspace_cleanup.json"
+}

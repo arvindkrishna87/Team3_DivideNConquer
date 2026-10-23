@@ -1,0 +1,507 @@
+{
+  "created_utc": "2026-10-21T23:49:33.312257+00:00",
+  "seed": 3902026,
+  "eligible_cases": 93,
+  "benign_cases": 35,
+  "high_grade_cases": 58,
+  "numpy_version": "2.3.4",
+  "sklearn_version": "1.8.0",
+  "reference_splits": "/projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_1/taylor_code/no_train_val_leakage_splits",
+  "balance_check_rule": "Absolute class-fraction deviation <= 0.15; no model predictions used.",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "exactly_five_split_files",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "split_1_no_duplicate_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_covers_all_eligible_cases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_disjoint_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_disjoint_case_families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_train_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_train_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.631578947368421,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_1_val_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_val_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.6111111111111112,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_1_test_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_test_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.6111111111111112,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_2_no_duplicate_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_covers_all_eligible_cases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_disjoint_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_disjoint_case_families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_train_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_train_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.625,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_2_val_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_val_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.6111111111111112,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_2_test_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_test_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.631578947368421,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_3_no_duplicate_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_covers_all_eligible_cases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_disjoint_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_disjoint_case_families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_train_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_train_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.6181818181818182,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_3_val_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_val_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.631578947368421,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_3_test_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_test_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.631578947368421,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_4_no_duplicate_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_covers_all_eligible_cases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_disjoint_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_disjoint_case_families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_train_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_train_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.6181818181818182,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_4_val_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_val_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.631578947368421,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_4_test_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_test_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.631578947368421,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_5_no_duplicate_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_covers_all_eligible_cases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_disjoint_case_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_disjoint_case_families",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_train_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_train_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.625,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_5_val_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_val_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.631578947368421,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "split_5_test_cases_both_classes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_test_cases_class_balance",
+      "passed": true,
+      "detail": {
+        "high_grade_fraction": 0.6111111111111112,
+        "overall_high_grade_fraction": 0.6236559139784946,
+        "maximum_absolute_deviation": 0.15
+      }
+    },
+    {
+      "check": "every_eligible_case_tested_exactly_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "same_seed_reproduces_saved_splits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "different_seed_changes_test_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "five_reference_splits_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "test_fold_partition_differs_from_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_1_not_duplicate_of_any_reference_assignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_2_not_duplicate_of_any_reference_assignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_3_not_duplicate_of_any_reference_assignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_4_not_duplicate_of_any_reference_assignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "split_5_not_duplicate_of_any_reference_assignment",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "splits": [
+    {
+      "split": 1,
+      "subset": "train",
+      "n_cases": 57,
+      "benign": 21,
+      "high_grade": 36,
+      "high_grade_fraction": 0.631578947368421
+    },
+    {
+      "split": 1,
+      "subset": "val",
+      "n_cases": 18,
+      "benign": 7,
+      "high_grade": 11,
+      "high_grade_fraction": 0.6111111111111112
+    },
+    {
+      "split": 1,
+      "subset": "test",
+      "n_cases": 18,
+      "benign": 7,
+      "high_grade": 11,
+      "high_grade_fraction": 0.6111111111111112
+    },
+    {
+      "split": 2,
+      "subset": "train",
+      "n_cases": 56,
+      "benign": 21,
+      "high_grade": 35,
+      "high_grade_fraction": 0.625
+    },
+    {
+      "split": 2,
+      "subset": "val",
+      "n_cases": 18,
+      "benign": 7,
+      "high_grade": 11,
+      "high_grade_fraction": 0.6111111111111112
+    },
+    {
+      "split": 2,
+      "subset": "test",
+      "n_cases": 19,
+      "benign": 7,
+      "high_grade": 12,
+      "high_grade_fraction": 0.631578947368421
+    },
+    {
+      "split": 3,
+      "subset": "train",
+      "n_cases": 55,
+      "benign": 21,
+      "high_grade": 34,
+      "high_grade_fraction": 0.6181818181818182
+    },
+    {
+      "split": 3,
+      "subset": "val",
+      "n_cases": 19,
+      "benign": 7,
+      "high_grade": 12,
+      "high_grade_fraction": 0.631578947368421
+    },
+    {
+      "split": 3,
+      "subset": "test",
+      "n_cases": 19,
+      "benign": 7,
+      "high_grade": 12,
+      "high_grade_fraction": 0.631578947368421
+    },
+    {
+      "split": 4,
+      "subset": "train",
+      "n_cases": 55,
+      "benign": 21,
+      "high_grade": 34,
+      "high_grade_fraction": 0.6181818181818182
+    },
+    {
+      "split": 4,
+      "subset": "val",
+      "n_cases": 19,
+      "benign": 7,
+      "high_grade": 12,
+      "high_grade_fraction": 0.631578947368421
+    },
+    {
+      "split": 4,
+      "subset": "test",
+      "n_cases": 19,
+      "benign": 7,
+      "high_grade": 12,
+      "high_grade_fraction": 0.631578947368421
+    },
+    {
+      "split": 5,
+      "subset": "train",
+      "n_cases": 56,
+      "benign": 21,
+      "high_grade": 35,
+      "high_grade_fraction": 0.625
+    },
+    {
+      "split": 5,
+      "subset": "val",
+      "n_cases": 19,
+      "benign": 7,
+      "high_grade": 12,
+      "high_grade_fraction": 0.631578947368421
+    },
+    {
+      "split": 5,
+      "subset": "test",
+      "n_cases": 18,
+      "benign": 7,
+      "high_grade": 11,
+      "high_grade_fraction": 0.6111111111111112
+    }
+  ],
+  "source_hashes": {
+    "make_splits.py": "c2df3d6f68164c059a316520bf5cff3c5b2973796d514714ebdd2cf481673b39",
+    "data_utils.py": "fb75b9feeb5a4846a92f09dc45943bec067003e57bf50e830831b54bf1d4fdd8",
+    "config.py": "91ac4526667c343afb932f6931e18f8fde19a2e59ab904c25e06d2a2f87248ab"
+  },
+  "labels_sha256": "5d44c74fea747a40ea9ee96058a2b34866d68652da1a057e71359ccaeae2ca3a"
+}

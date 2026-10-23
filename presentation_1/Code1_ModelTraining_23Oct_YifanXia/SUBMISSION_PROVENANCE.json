@@ -1,0 +1,16 @@
+{
+  "author": "Yifan Xia",
+  "packaged_date": "2026-10-23",
+  "original_quest_workspace": "/home/siw1333/Yifan_Xia_coder_p1",
+  "code_copy_policy": "Exact executed code; new reproduction helpers are separate in scripts/.",
+  "results_copy_policy": "Small completed results copied byte-for-byte; historical paths preserved.",
+  "excluded": [
+    "raw images",
+    "precomputed feature tensors",
+    "KimiaNet weights",
+    "training checkpoints",
+    "full raw logs"
+  ],
+  "new_training_launched": false,
+  "team_presentation_status": "Still being prepared separately by the team."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "SUBMITTED",
+  "split": 1,
+  "seed": 3902026,
+  "resources": {
+    "partition": "short",
+    "cpus": 8,
+    "memory_gb": 32,
+    "time_limit": "02:00:00"
+  },
+  "code_unchanged_except_previous_stage3": true,
+  "attention_analysis": false,
+  "checkpoint_policy": "Baseline final in-memory epoch; best.pth not automatically restored.",
+  "script": "/home/siw1333/Yifan_Xia_coder_p1/code/run_training_custom_split.sbatch",
+  "tools_sha256": {
+    "run_training.py": "06e313eecf643a90aae19ddb8b3377eea7c3b49c250e78d6dc9b51ffa57a787a",
+    "report_training.py": "ff2645ae2994cd0ebe76d020c67832a282cd6b0b95107448134cfcc507af7d34",
+    "check_report_training.py": "495adc4749a42289681b48fa6d5b84673c8f997010429de61c9b3f0b8e39c4f1"
+  },
+  "created_utc": "2026-10-22T05:20:43.752214+00:00",
+  "reporting_selfcheck": "PASSED",
+  "job_id": "4841885"
+}

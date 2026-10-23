@@ -1,0 +1,35 @@
+{
+  "split": 5,
+  "seed": 3902026,
+  "run_directory": "/home/siw1333/Yifan_Xia_coder_p1/runs/split05/run_20261022_004459",
+  "n_test_cases": 18,
+  "correct": 13,
+  "accuracy": 0.7222222222222222,
+  "benign_recall": 0.5714285714285714,
+  "high_grade_recall": 0.8181818181818182,
+  "confusion_matrix_true_rows_predicted_columns": [
+    [
+      4,
+      3
+    ],
+    [
+      2,
+      9
+    ]
+  ],
+  "class_order": [
+    "benign",
+    "high_grade"
+  ],
+  "test_loss_reported": 1.4817,
+  "epochs_completed": 17,
+  "main_execution_seconds": 786.42,
+  "main_runtime_scope": "Data preparation, training, validation and testing; excludes queue and reporting.",
+  "epoch_seconds_sum": 770.84,
+  "checkpoint_policy": "Last in-memory epoch, matching provided main.py; best.pth is not reloaded.",
+  "evaluated_checkpoint": "/home/siw1333/Yifan_Xia_coder_p1/runs/split05/run_20261022_004459/checkpoints/20261022_005755_HierarchicalAttnMIL_epoch17.pth",
+  "predictions_csv": "/home/siw1333/Yifan_Xia_coder_p1/runs/split05/run_20261022_004459/predictions.csv",
+  "confusion_matrix_png": "/home/siw1333/Yifan_Xia_coder_p1/runs/split05/run_20261022_004459/confusion_matrix.png",
+  "epoch_history_precision": "Losses parsed from the baseline four-decimal stdout records.",
+  "validation_checks_passed": true
+}

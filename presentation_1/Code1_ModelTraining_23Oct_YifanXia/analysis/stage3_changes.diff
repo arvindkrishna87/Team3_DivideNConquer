@@ -1,0 +1,85 @@
+--- baseline/make_splits.py
++++ executed/make_splits.py
+@@ -153,7 +153,10 @@
+         np.place(groups, mask, group[0])
+     
+     # Perform split according to smallest unit that can represent one split set
+-    sgkf = StratifiedGroupKFold(n_splits=sum(denom)) # shuffle disabled for causing deviations of labels ratio
++    # Seeded group shuffling; class balance is checked after saving the folds.
++    sgkf = StratifiedGroupKFold(
++        n_splits=sum(denom), shuffle=True, random_state=seed
++    )
+     sgkf_splits = sgkf.split(
+         np.array(case_ids), 
+         np.array([case_to_label[case_ids] for case_ids in case_ids]), 
+--- baseline/config.py
++++ executed/config.py
+@@ -34,7 +34,7 @@
+     'weight_decay': 3.05e-4,  # Updated from OPTUNA study
+     'num_workers': 2,
+     'pin_memory': True,
+-    'random_state': 42,
++    'random_state': 3902026,
+     'class_weights': [2.5285, 1.0],  # Increased benign weight from 2.0 to 2.5285 (from OPTUNA study)
+     'dropout': 0.2599,  # Add dropout for regularization
+     # Learning rate scheduler
+--- baseline/split_script.sbatch
++++ executed/split_script.sbatch
+@@ -1,35 +1,26 @@
+ #!/bin/bash
+-#SBATCH --account=e32998                  # Use your Quest project account (check with 'groups')
+-#SBATCH --partition=long                  # 'short', 'normal', or 'long' partition
+-#SBATCH --time=00:10:00                    # max run time
+-#SBATCH --nodes=1                         # 1 node
+-#SBATCH --ntasks=16                        # n nores
+-#SBATCH --mem=128G                          # n GB RAM
+-#SBATCH --job-name=MIL_train              # Job name (no spaces)
+-#SBATCH --output=splits_output.out
+-#SBATCH --error=splits_error.err
+-#SBATCH --mail-type=ALL                   # Send email on begin, end, and fail
+-#SBATCH --mail-user=<your email>  # Your NU email
++#SBATCH --account=e32998
++#SBATCH --partition=short
++#SBATCH --time=00:10:00
++#SBATCH --nodes=1
++#SBATCH --ntasks=1
++#SBATCH --cpus-per-task=1
++#SBATCH --mem=8G
++#SBATCH --job-name=Yifan_P1_splits
++#SBATCH --chdir=/home/siw1333/Yifan_Xia_coder_p1/code
++#SBATCH --output=/home/siw1333/Yifan_Xia_coder_p1/logs/splits_%j.out
++#SBATCH --error=/home/siw1333/Yifan_Xia_coder_p1/logs/splits_%j.err
+ 
+-module purge
+-module load python-anaconda3/2019.10
+-eval "$(conda shell.bash hook)"
+-conda activate /projects/e32998/env   # you might want to copy the env and put it in your new project directory, if different from e32998
++set -euo pipefail
++export OMP_NUM_THREADS="${SLURM_CPUS_PER_TASK:-1}"
++export MKL_NUM_THREADS="${SLURM_CPUS_PER_TASK:-1}"
++export OPENBLAS_NUM_THREADS="${SLURM_CPUS_PER_TASK:-1}"
+ 
+-# Print system info
+-echo "Job ID: $SLURM_JOB_ID"
+-echo "Start time: $(date)"
++/projects/e32998/env/bin/python -u make_splits.py \
++    --seed 3902026 \
++    --save_dir /home/siw1333/Yifan_Xia_coder_p1/splits
+ 
+-# Run training
+-python3 -m pip install -r /path/to/requirements.txt
+-python3 -m pip install --upgrade certifi
+-export SSL_CERT_FILE="$(python -m certifi)"
+-
+-cd /path/to/script
+-
+-# without loading checkpoints, trying 5 diff train / test splits
+-
+-python3 make_splits.py \
+-    --labels_csv /path/to/extra_benign_case_grade_match.csv \
+-    --patches_dir /projects/e32998/patches_benign_split \
+-    --save_dir /path/to//no_train_val_leakage_splits 
++/projects/e32998/env/bin/python -u /home/siw1333/Yifan_Xia_coder_p1/analysis/validate_splits.py \
++    --workspace /home/siw1333/Yifan_Xia_coder_p1 \
++    --seed 3902026 \
++    --reference-splits /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_1/taylor_code/no_train_val_leakage_splits

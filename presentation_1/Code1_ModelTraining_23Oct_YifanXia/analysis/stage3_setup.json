@@ -1,0 +1,18 @@
+{
+  "seed": 3902026,
+  "algorithm": "StratifiedGroupKFold(shuffle=True, random_state=seed)",
+  "reference_splits": "/projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_1/taylor_code/no_train_val_leakage_splits",
+  "changes": [
+    "code/make_splits.py",
+    "code/config.py",
+    "code/split_script.sbatch"
+  ],
+  "backup": "/home/siw1333/Yifan_Xia_coder_p1/analysis/stage3_originals",
+  "code_sha256": {
+    "code/make_splits.py": "c2df3d6f68164c059a316520bf5cff3c5b2973796d514714ebdd2cf481673b39",
+    "code/config.py": "91ac4526667c343afb932f6931e18f8fde19a2e59ab904c25e06d2a2f87248ab",
+    "code/split_script.sbatch": "6841470016ffd136a9a5976c9948b045f52839e82ebf744b9b68178e8624b8f0",
+    "analysis/validate_splits.py": "289d60bb6ca0e2ecaeac69ed631e8e1421afbfcb40bc1f6c3420465b5a78e391"
+  },
+  "job_id": "4814175"
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.mpl_cache/
+.DS_Store
+*.pth
+*.pt
+*.tif
+*.tiff
+*.svs
+logs/
