@@ -1,0 +1,70 @@
+
+=== Validation loss per split (from the training logs) ===
+ split  best_epoch  best_val_loss  final_val_loss  final_over_best  final_train_loss
+     1          22          0.064           0.074            1.155           -0.0006
+     2           2          0.241           0.337            1.397            0.0139
+     3           9          0.230           0.296            1.286           -0.0001
+     4           5          0.284           0.542            1.908            0.0041
+     5           5          0.228           0.591            2.593            0.0004
+
+=== How concentrated is the validation loss? (Presentation 1) ===
+PASS  best epoch from the per-case CSV equals the best epoch in the training logs
+ split  top2_share_of_final_val_loss accuracy_at_best_epoch  worst_case_final  worst_case_loss_final  worst_case_p_high_grade  mean_loss_of_other_cases_final
+     1                         0.882                  17/18                47                   1.09                    0.336                          0.0137
+     2                         0.827                  16/18                56                   2.62                    0.927                          0.2025
+     3                         0.945                  18/19                26                   4.32                    0.987                          0.0721
+     4                         0.929                  17/19                46                   5.57                    0.996                          0.2628
+     5                         0.878                  16/19                77                   5.01                    0.993                          0.3456
+
+=== Misclassified vs correctly classified cases (best epoch -> final epoch) ===
+ split  n_wrong_best  loss_wrong_best  loss_correct_best  median_case_loss_best  n_wrong_final  loss_wrong_final  loss_correct_final  median_case_loss_final accuracy_best accuracy_final
+     1             1            0.894              0.253                0.00065              1             1.091               0.233                 0.00078         17/18          17/18
+     2             2            1.897              2.442                0.18472              2             5.015               1.046                 0.00282         16/18          16/18
+     3             1            3.323              1.047                0.00304              2             5.311               0.309                 0.00110         18/19          17/19
+     4             2            4.638              0.760                0.01155              2             9.568               0.731                 0.00308         17/19          17/19
+     5             3            3.579              0.751                0.05210              3            11.146               0.083                 0.00369         16/19          16/19
+
+=== Cases wrong across models (last-epoch models) ===
+Cases wrong in at least 2 assessments:
+ case_id      class  patches P1 val P1 test P2 val  n_wrong  n_assessed
+      26     benign      868  WRONG   WRONG  WRONG      3.0           3
+      56     benign      424  WRONG   WRONG  WRONG      3.0           3
+      32 high-grade      399     ok   WRONG  WRONG      2.0           3
+      45     benign      123     ok   WRONG  WRONG      2.0           3
+      46     benign      185  WRONG   WRONG     ok      2.0           3
+      47 high-grade      946  WRONG      ok  WRONG      2.0           3
+      86     benign     1266  WRONG      ok  WRONG      2.0           3
+      92 high-grade      460  WRONG      ok  WRONG      2.0           3
+      94     benign      678  WRONG      ok  WRONG      2.0           3
+
+Focus cases used in the slides:
+ case_id      class  patches P1 val P1 test P2 val  n_wrong  n_assessed
+      15 high-grade     1754  WRONG      ok     ok      1.0           3
+      17 high-grade      482  WRONG      ok     ok      1.0           3
+      26     benign      868  WRONG   WRONG  WRONG      3.0           3
+      45     benign      123     ok   WRONG  WRONG      2.0           3
+      46     benign      185  WRONG   WRONG     ok      2.0           3
+      47 high-grade      946  WRONG      ok  WRONG      2.0           3
+      56     benign      424  WRONG   WRONG  WRONG      3.0           3
+      77     benign      348  WRONG      ok     ok      1.0           3
+      92 high-grade      460  WRONG      ok  WRONG      2.0           3
+      94     benign      678  WRONG      ok  WRONG      2.0           3
+P1 val: 10 wrong of 93 cases assessed
+P1 test: 8 wrong of 93 cases assessed
+P2 val: 12 wrong of 86 cases assessed
+
+=== Case-count audit of the split files ===
+PASS  P1: every case is in val exactly once
+PASS  P1: every case is in test exactly once
+PASS  P1: train / val / test are disjoint in all five splits
+PASS  P2: every case is in val exactly once
+PASS  P2: every case is in test exactly once
+PASS  P2: train / val / test are disjoint in all five splits
+version  cases  benign  high_grade
+     P1     93      35          58
+     P2     86      28          58
+PASS  cases in P1 but not P2 are exactly the 7 pseudo-cases [107, 108, 109, 110, 111, 118, 119]
+PASS  arithmetic: 105 - 13 low-grade - 6 high-grade without patches = 86 (P2); + 7 pseudo-cases = 93 (P1)
+P2 validation accuracy at the last epoch, splits 1-5: 12/17, 14/17, 15/18, 17/17, 16/17
+
+Saved tables and figures in /gpfs/projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_2/Code1_AnalyzeResults_5Nov_TaylorMassey/results/

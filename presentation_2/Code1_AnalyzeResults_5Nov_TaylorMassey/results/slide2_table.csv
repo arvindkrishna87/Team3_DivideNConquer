@@ -1,0 +1,6 @@
+split,top2_share_of_final_val_loss,accuracy_at_best_epoch,worst_case_final,worst_case_loss_final,worst_case_p_high_grade,mean_loss_of_other_cases_final
+1,0.882,17/18,47,1.09,0.336,0.0137
+2,0.827,16/18,56,2.62,0.927,0.2025
+3,0.945,18/19,26,4.32,0.987,0.0721
+4,0.929,17/19,46,5.57,0.996,0.2628
+5,0.878,16/19,77,5.01,0.993,0.3456

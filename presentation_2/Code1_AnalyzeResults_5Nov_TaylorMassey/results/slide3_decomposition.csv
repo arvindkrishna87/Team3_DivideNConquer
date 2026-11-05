@@ -1,0 +1,6 @@
+split,n_wrong_best,loss_wrong_best,loss_correct_best,median_case_loss_best,n_wrong_final,loss_wrong_final,loss_correct_final,median_case_loss_final,accuracy_best,accuracy_final
+1,1,0.894,0.253,0.00065,1,1.091,0.233,0.00078,17/18,17/18
+2,2,1.897,2.442,0.18472,2,5.015,1.046,0.00282,16/18,16/18
+3,1,3.323,1.047,0.00304,2,5.311,0.309,0.0011,18/19,17/19
+4,2,4.638,0.76,0.01155,2,9.568,0.731,0.00308,17/19,17/19
+5,3,3.579,0.751,0.0521,3,11.146,0.083,0.00369,16/19,16/19
