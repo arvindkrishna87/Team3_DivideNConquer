@@ -1,0 +1,61 @@
+KimiaNet test metrics
+Label 0 = benign, label 1 = high-grade
+Accuracy = (TN + TP) / N
+Benign recall = TN / (TN + FP)
+High-grade recall = TP / (TP + FN)
+Confusion matrix rows are true labels, columns are predicted labels.
+
+Fold 1  (n=18, benign=7, high-grade=11)
+  Accuracy:          0.9444
+  Benign recall:     0.8571
+  High-grade recall: 1.0000
+  Confusion matrix:
+                 pred benign  pred high-grade
+    true benign            6                1
+    true high              0               11
+
+Fold 2  (n=19, benign=7, high-grade=12)
+  Accuracy:          0.7368
+  Benign recall:     0.5714
+  High-grade recall: 0.8333
+  Confusion matrix:
+                 pred benign  pred high-grade
+    true benign            4                3
+    true high              2               10
+
+Fold 3  (n=19, benign=7, high-grade=12)
+  Accuracy:          0.7368
+  Benign recall:     0.8571
+  High-grade recall: 0.6667
+  Confusion matrix:
+                 pred benign  pred high-grade
+    true benign            6                1
+    true high              4                8
+
+Fold 4  (n=19, benign=7, high-grade=12)
+  Accuracy:          0.8947
+  Benign recall:     0.7143
+  High-grade recall: 1.0000
+  Confusion matrix:
+                 pred benign  pred high-grade
+    true benign            5                2
+    true high              0               12
+
+Fold 5  (n=18, benign=7, high-grade=11)
+  Accuracy:          1.0000
+  Benign recall:     1.0000
+  High-grade recall: 1.0000
+  Confusion matrix:
+                 pred benign  pred high-grade
+    true benign            7                0
+    true high              0               11
+
+Overall, five test folds pooled  (n=93, benign=35, high-grade=58)
+  Accuracy:          0.8602
+  Benign recall:     0.8000
+  High-grade recall: 0.8966
+  Confusion matrix:
+                 pred benign  pred high-grade
+    true benign           28                7
+    true high              6               52
+

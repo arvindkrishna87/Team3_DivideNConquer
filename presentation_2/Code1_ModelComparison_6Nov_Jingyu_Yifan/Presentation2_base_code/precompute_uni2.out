@@ -1,0 +1,1071 @@
+Job ID: 7352502
+Start time: Thu Nov  5 16:10:59 CST 2026
+CUDA_VISIBLE_DEVICES: 0
+[INFO] patches_dir:      /home/cny2467/patch_symlinks_odd
+[INFO] embeddings_dir:   /home/cny2467/uni2_embeddings_1536
+[INFO] uni2_ckpt:        MahmoodLab/UNI2-h
+[INFO] device:           cuda
+[INFO] batch_size:       8
+[INFO] num_workers:      4
+[INFO] overwrite:        False
+[INFO] dtype:            fp16
+[INFO] embed_dim:        1536
+[INFO] resizing:         disabled
+[INFO] padding:          right/bottom to a multiple of 14
+[INFO] forward pass:     one frozen patch at a time
+[INFO] Found 41815 PNG files.
+[INFO] Loaded UNI2-h weights from MahmoodLab/UNI2-h
+[PROGRESS] step=5 seen=40/41815 saved=40 skipped_existing=0 skipped_bad=0 rate=8.39 patches/sec ETA=1h 23m 1s
+[PROGRESS] step=10 seen=80/41815 saved=80 skipped_existing=0 skipped_bad=0 rate=2.23 patches/sec ETA=5h 11m 25s
+[PROGRESS] step=15 seen=120/41815 saved=120 skipped_existing=0 skipped_bad=0 rate=1.53 patches/sec ETA=7h 35m 24s
+[PROGRESS] step=20 seen=160/41815 saved=160 skipped_existing=0 skipped_bad=0 rate=0.79 patches/sec ETA=14h 44m 4s
+[PROGRESS] step=25 seen=200/41815 saved=200 skipped_existing=0 skipped_bad=0 rate=0.56 patches/sec ETA=20h 27m 47s
+[PROGRESS] step=30 seen=240/41815 saved=240 skipped_existing=0 skipped_bad=0 rate=0.54 patches/sec ETA=21h 12m 11s
+[PROGRESS] step=35 seen=280/41815 saved=280 skipped_existing=0 skipped_bad=0 rate=0.63 patches/sec ETA=18h 15m 41s
+[PROGRESS] step=40 seen=320/41815 saved=320 skipped_existing=0 skipped_bad=0 rate=0.72 patches/sec ETA=16h 5m 38s
+[PROGRESS] step=45 seen=360/41815 saved=360 skipped_existing=0 skipped_bad=0 rate=0.80 patches/sec ETA=14h 20m 46s
+[PROGRESS] step=50 seen=400/41815 saved=400 skipped_existing=0 skipped_bad=0 rate=0.89 patches/sec ETA=12h 56m 43s
+[PROGRESS] step=55 seen=440/41815 saved=440 skipped_existing=0 skipped_bad=0 rate=0.97 patches/sec ETA=11h 47m 29s
+[PROGRESS] step=60 seen=480/41815 saved=480 skipped_existing=0 skipped_bad=0 rate=1.06 patches/sec ETA=10h 49m 4s
+[PROGRESS] step=65 seen=520/41815 saved=520 skipped_existing=0 skipped_bad=0 rate=1.15 patches/sec ETA=9h 59m 26s
+[PROGRESS] step=70 seen=560/41815 saved=560 skipped_existing=0 skipped_bad=0 rate=1.23 patches/sec ETA=9h 17m 44s
+[PROGRESS] step=75 seen=600/41815 saved=600 skipped_existing=0 skipped_bad=0 rate=1.31 patches/sec ETA=8h 43m 16s
+[PROGRESS] step=80 seen=640/41815 saved=640 skipped_existing=0 skipped_bad=0 rate=1.39 patches/sec ETA=8h 12m 10s
+[PROGRESS] step=85 seen=680/41815 saved=680 skipped_existing=0 skipped_bad=0 rate=1.48 patches/sec ETA=7h 44m 33s
+[PROGRESS] step=90 seen=720/41815 saved=720 skipped_existing=0 skipped_bad=0 rate=1.55 patches/sec ETA=7h 20m 40s
+[PROGRESS] step=95 seen=760/41815 saved=760 skipped_existing=0 skipped_bad=0 rate=1.63 patches/sec ETA=6h 59m 33s
+[PROGRESS] step=100 seen=800/41815 saved=800 skipped_existing=0 skipped_bad=0 rate=1.71 patches/sec ETA=6h 39m 32s
+[PROGRESS] step=105 seen=840/41815 saved=840 skipped_existing=0 skipped_bad=0 rate=1.79 patches/sec ETA=6h 22m 15s
+[PROGRESS] step=110 seen=880/41815 saved=880 skipped_existing=0 skipped_bad=0 rate=1.86 patches/sec ETA=6h 6m 2s
+[PROGRESS] step=115 seen=920/41815 saved=920 skipped_existing=0 skipped_bad=0 rate=1.94 patches/sec ETA=5h 51m 1s
+[PROGRESS] step=120 seen=960/41815 saved=960 skipped_existing=0 skipped_bad=0 rate=2.02 patches/sec ETA=5h 36m 54s
+[PROGRESS] step=125 seen=1000/41815 saved=1000 skipped_existing=0 skipped_bad=0 rate=2.10 patches/sec ETA=5h 23m 59s
+[PROGRESS] step=130 seen=1040/41815 saved=1040 skipped_existing=0 skipped_bad=0 rate=2.17 patches/sec ETA=5h 12m 53s
+[PROGRESS] step=135 seen=1080/41815 saved=1080 skipped_existing=0 skipped_bad=0 rate=2.25 patches/sec ETA=5h 2m 1s
+[PROGRESS] step=140 seen=1120/41815 saved=1120 skipped_existing=0 skipped_bad=0 rate=2.32 patches/sec ETA=4h 52m 3s
+[PROGRESS] step=145 seen=1160/41815 saved=1160 skipped_existing=0 skipped_bad=0 rate=2.40 patches/sec ETA=4h 42m 53s
+[PROGRESS] step=150 seen=1200/41815 saved=1200 skipped_existing=0 skipped_bad=0 rate=2.46 patches/sec ETA=4h 34m 45s
+[PROGRESS] step=155 seen=1240/41815 saved=1240 skipped_existing=0 skipped_bad=0 rate=2.53 patches/sec ETA=4h 27m 7s
+[PROGRESS] step=160 seen=1280/41815 saved=1280 skipped_existing=0 skipped_bad=0 rate=2.60 patches/sec ETA=4h 19m 41s
+[PROGRESS] step=165 seen=1320/41815 saved=1320 skipped_existing=0 skipped_bad=0 rate=2.67 patches/sec ETA=4h 12m 54s
+[PROGRESS] step=170 seen=1360/41815 saved=1360 skipped_existing=0 skipped_bad=0 rate=2.74 patches/sec ETA=4h 6m 7s
+[PROGRESS] step=175 seen=1400/41815 saved=1400 skipped_existing=0 skipped_bad=0 rate=2.81 patches/sec ETA=3h 59m 54s
+[PROGRESS] step=180 seen=1440/41815 saved=1440 skipped_existing=0 skipped_bad=0 rate=2.88 patches/sec ETA=3h 53m 52s
+[PROGRESS] step=185 seen=1480/41815 saved=1480 skipped_existing=0 skipped_bad=0 rate=2.95 patches/sec ETA=3h 48m 6s
+[PROGRESS] step=190 seen=1520/41815 saved=1520 skipped_existing=0 skipped_bad=0 rate=3.02 patches/sec ETA=3h 42m 34s
+[PROGRESS] step=195 seen=1560/41815 saved=1560 skipped_existing=0 skipped_bad=0 rate=3.09 patches/sec ETA=3h 37m 25s
+[PROGRESS] step=200 seen=1600/41815 saved=1600 skipped_existing=0 skipped_bad=0 rate=3.15 patches/sec ETA=3h 32m 32s
+[PROGRESS] step=205 seen=1640/41815 saved=1640 skipped_existing=0 skipped_bad=0 rate=3.22 patches/sec ETA=3h 27m 43s
+[PROGRESS] step=210 seen=1680/41815 saved=1680 skipped_existing=0 skipped_bad=0 rate=3.29 patches/sec ETA=3h 23m 2s
+[PROGRESS] step=215 seen=1720/41815 saved=1720 skipped_existing=0 skipped_bad=0 rate=3.36 patches/sec ETA=3h 18m 35s
+[PROGRESS] step=220 seen=1760/41815 saved=1760 skipped_existing=0 skipped_bad=0 rate=3.44 patches/sec ETA=3h 14m 18s
+[PROGRESS] step=225 seen=1800/41815 saved=1800 skipped_existing=0 skipped_bad=0 rate=3.51 patches/sec ETA=3h 10m 12s
+[PROGRESS] step=230 seen=1840/41815 saved=1840 skipped_existing=0 skipped_bad=0 rate=3.57 patches/sec ETA=3h 6m 23s
+[PROGRESS] step=235 seen=1880/41815 saved=1880 skipped_existing=0 skipped_bad=0 rate=3.64 patches/sec ETA=3h 2m 40s
+[PROGRESS] step=240 seen=1920/41815 saved=1920 skipped_existing=0 skipped_bad=0 rate=3.71 patches/sec ETA=2h 59m 6s
+[PROGRESS] step=245 seen=1960/41815 saved=1960 skipped_existing=0 skipped_bad=0 rate=3.78 patches/sec ETA=2h 55m 37s
+[PROGRESS] step=250 seen=2000/41815 saved=2000 skipped_existing=0 skipped_bad=0 rate=3.85 patches/sec ETA=2h 52m 16s
+[PROGRESS] step=255 seen=2040/41815 saved=2040 skipped_existing=0 skipped_bad=0 rate=3.92 patches/sec ETA=2h 49m 1s
+[PROGRESS] step=260 seen=2080/41815 saved=2080 skipped_existing=0 skipped_bad=0 rate=3.99 patches/sec ETA=2h 45m 53s
+[PROGRESS] step=265 seen=2120/41815 saved=2120 skipped_existing=0 skipped_bad=0 rate=4.06 patches/sec ETA=2h 42m 51s
+[PROGRESS] step=270 seen=2160/41815 saved=2160 skipped_existing=0 skipped_bad=0 rate=4.13 patches/sec ETA=2h 39m 58s
+[PROGRESS] step=275 seen=2200/41815 saved=2200 skipped_existing=0 skipped_bad=0 rate=4.20 patches/sec ETA=2h 37m 9s
+[PROGRESS] step=280 seen=2240/41815 saved=2240 skipped_existing=0 skipped_bad=0 rate=4.27 patches/sec ETA=2h 34m 27s
+[PROGRESS] step=285 seen=2280/41815 saved=2280 skipped_existing=0 skipped_bad=0 rate=4.34 patches/sec ETA=2h 31m 50s
+[PROGRESS] step=290 seen=2320/41815 saved=2320 skipped_existing=0 skipped_bad=0 rate=4.41 patches/sec ETA=2h 29m 18s
+[PROGRESS] step=295 seen=2360/41815 saved=2360 skipped_existing=0 skipped_bad=0 rate=4.48 patches/sec ETA=2h 26m 49s
+[PROGRESS] step=300 seen=2400/41815 saved=2400 skipped_existing=0 skipped_bad=0 rate=4.55 patches/sec ETA=2h 24m 23s
+[PROGRESS] step=305 seen=2440/41815 saved=2440 skipped_existing=0 skipped_bad=0 rate=4.62 patches/sec ETA=2h 22m 3s
+[PROGRESS] step=310 seen=2480/41815 saved=2480 skipped_existing=0 skipped_bad=0 rate=4.69 patches/sec ETA=2h 19m 47s
+[PROGRESS] step=315 seen=2520/41815 saved=2520 skipped_existing=0 skipped_bad=0 rate=4.74 patches/sec ETA=2h 18m 9s
+[PROGRESS] step=320 seen=2560/41815 saved=2560 skipped_existing=0 skipped_bad=0 rate=4.79 patches/sec ETA=2h 16m 30s
+[PROGRESS] step=325 seen=2600/41815 saved=2600 skipped_existing=0 skipped_bad=0 rate=4.85 patches/sec ETA=2h 14m 51s
+[PROGRESS] step=330 seen=2640/41815 saved=2640 skipped_existing=0 skipped_bad=0 rate=4.90 patches/sec ETA=2h 13m 7s
+[PROGRESS] step=335 seen=2680/41815 saved=2680 skipped_existing=0 skipped_bad=0 rate=4.96 patches/sec ETA=2h 11m 23s
+[PROGRESS] step=340 seen=2720/41815 saved=2720 skipped_existing=0 skipped_bad=0 rate=4.93 patches/sec ETA=2h 12m 17s
+[PROGRESS] step=345 seen=2760/41815 saved=2760 skipped_existing=0 skipped_bad=0 rate=4.87 patches/sec ETA=2h 13m 47s
+[PROGRESS] step=350 seen=2800/41815 saved=2800 skipped_existing=0 skipped_bad=0 rate=4.91 patches/sec ETA=2h 12m 31s
+[PROGRESS] step=355 seen=2840/41815 saved=2840 skipped_existing=0 skipped_bad=0 rate=4.97 patches/sec ETA=2h 10m 47s
+[PROGRESS] step=360 seen=2880/41815 saved=2880 skipped_existing=0 skipped_bad=0 rate=5.02 patches/sec ETA=2h 9m 9s
+[PROGRESS] step=365 seen=2920/41815 saved=2920 skipped_existing=0 skipped_bad=0 rate=5.07 patches/sec ETA=2h 7m 56s
+[PROGRESS] step=370 seen=2960/41815 saved=2960 skipped_existing=0 skipped_bad=0 rate=5.11 patches/sec ETA=2h 6m 37s
+[PROGRESS] step=375 seen=3000/41815 saved=3000 skipped_existing=0 skipped_bad=0 rate=5.13 patches/sec ETA=2h 6m 7s
+[PROGRESS] step=380 seen=3040/41815 saved=3040 skipped_existing=0 skipped_bad=0 rate=5.18 patches/sec ETA=2h 4m 41s
+[PROGRESS] step=385 seen=3080/41815 saved=3080 skipped_existing=0 skipped_bad=0 rate=5.24 patches/sec ETA=2h 3m 13s
+[PROGRESS] step=390 seen=3120/41815 saved=3120 skipped_existing=0 skipped_bad=0 rate=5.29 patches/sec ETA=2h 1m 52s
+[PROGRESS] step=395 seen=3160/41815 saved=3160 skipped_existing=0 skipped_bad=0 rate=5.35 patches/sec ETA=2h 0m 31s
+[PROGRESS] step=400 seen=3200/41815 saved=3200 skipped_existing=0 skipped_bad=0 rate=5.40 patches/sec ETA=1h 59m 9s
+[PROGRESS] step=405 seen=3240/41815 saved=3240 skipped_existing=0 skipped_bad=0 rate=5.36 patches/sec ETA=1h 59m 59s
+[PROGRESS] step=410 seen=3280/41815 saved=3280 skipped_existing=0 skipped_bad=0 rate=5.40 patches/sec ETA=1h 58m 50s
+[PROGRESS] step=415 seen=3320/41815 saved=3320 skipped_existing=0 skipped_bad=0 rate=5.47 patches/sec ETA=1h 57m 23s
+[PROGRESS] step=420 seen=3360/41815 saved=3360 skipped_existing=0 skipped_bad=0 rate=5.53 patches/sec ETA=1h 56m 0s
+[PROGRESS] step=425 seen=3400/41815 saved=3400 skipped_existing=0 skipped_bad=0 rate=5.58 patches/sec ETA=1h 54m 40s
+[PROGRESS] step=430 seen=3440/41815 saved=3440 skipped_existing=0 skipped_bad=0 rate=5.64 patches/sec ETA=1h 53m 22s
+[PROGRESS] step=435 seen=3480/41815 saved=3480 skipped_existing=0 skipped_bad=0 rate=5.70 patches/sec ETA=1h 52m 4s
+[PROGRESS] step=440 seen=3520/41815 saved=3520 skipped_existing=0 skipped_bad=0 rate=5.76 patches/sec ETA=1h 50m 47s
+[PROGRESS] step=445 seen=3560/41815 saved=3560 skipped_existing=0 skipped_bad=0 rate=5.82 patches/sec ETA=1h 49m 37s
+[PROGRESS] step=450 seen=3600/41815 saved=3600 skipped_existing=0 skipped_bad=0 rate=5.87 patches/sec ETA=1h 48m 32s
+[PROGRESS] step=455 seen=3640/41815 saved=3640 skipped_existing=0 skipped_bad=0 rate=5.92 patches/sec ETA=1h 47m 32s
+[PROGRESS] step=460 seen=3680/41815 saved=3680 skipped_existing=0 skipped_bad=0 rate=5.36 patches/sec ETA=1h 58m 33s
+[PROGRESS] step=465 seen=3720/41815 saved=3720 skipped_existing=0 skipped_bad=0 rate=4.84 patches/sec ETA=2h 11m 8s
+[PROGRESS] step=470 seen=3760/41815 saved=3760 skipped_existing=0 skipped_bad=0 rate=4.16 patches/sec ETA=2h 32m 23s
+[PROGRESS] step=475 seen=3800/41815 saved=3800 skipped_existing=0 skipped_bad=0 rate=3.88 patches/sec ETA=2h 43m 13s
+[PROGRESS] step=480 seen=3840/41815 saved=3840 skipped_existing=0 skipped_bad=0 rate=3.60 patches/sec ETA=2h 55m 56s
+[PROGRESS] step=485 seen=3880/41815 saved=3880 skipped_existing=0 skipped_bad=0 rate=3.58 patches/sec ETA=2h 56m 27s
+[PROGRESS] step=490 seen=3920/41815 saved=3920 skipped_existing=0 skipped_bad=0 rate=3.59 patches/sec ETA=2h 55m 53s
+[PROGRESS] step=495 seen=3960/41815 saved=3960 skipped_existing=0 skipped_bad=0 rate=3.58 patches/sec ETA=2h 56m 6s
+[PROGRESS] step=500 seen=4000/41815 saved=4000 skipped_existing=0 skipped_bad=0 rate=3.60 patches/sec ETA=2h 54m 55s
+[PROGRESS] step=505 seen=4040/41815 saved=4040 skipped_existing=0 skipped_bad=0 rate=3.59 patches/sec ETA=2h 55m 21s
+[PROGRESS] step=510 seen=4080/41815 saved=4080 skipped_existing=0 skipped_bad=0 rate=3.51 patches/sec ETA=2h 59m 7s
+[PROGRESS] step=515 seen=4120/41815 saved=4120 skipped_existing=0 skipped_bad=0 rate=3.42 patches/sec ETA=3h 3m 47s
+[PROGRESS] step=520 seen=4160/41815 saved=4160 skipped_existing=0 skipped_bad=0 rate=3.37 patches/sec ETA=3h 6m 2s
+[PROGRESS] step=525 seen=4200/41815 saved=4200 skipped_existing=0 skipped_bad=0 rate=3.34 patches/sec ETA=3h 7m 42s
+[PROGRESS] step=530 seen=4240/41815 saved=4240 skipped_existing=0 skipped_bad=0 rate=3.30 patches/sec ETA=3h 9m 48s
+[PROGRESS] step=535 seen=4280/41815 saved=4280 skipped_existing=0 skipped_bad=0 rate=3.33 patches/sec ETA=3h 7m 58s
+[PROGRESS] step=540 seen=4320/41815 saved=4320 skipped_existing=0 skipped_bad=0 rate=3.36 patches/sec ETA=3h 6m 8s
+[PROGRESS] step=545 seen=4360/41815 saved=4360 skipped_existing=0 skipped_bad=0 rate=3.39 patches/sec ETA=3h 4m 23s
+[PROGRESS] step=550 seen=4400/41815 saved=4400 skipped_existing=0 skipped_bad=0 rate=3.41 patches/sec ETA=3h 2m 38s
+[PROGRESS] step=555 seen=4440/41815 saved=4440 skipped_existing=0 skipped_bad=0 rate=3.44 patches/sec ETA=3h 0m 57s
+[PROGRESS] step=560 seen=4480/41815 saved=4480 skipped_existing=0 skipped_bad=0 rate=3.47 patches/sec ETA=2h 59m 19s
+[PROGRESS] step=565 seen=4520/41815 saved=4520 skipped_existing=0 skipped_bad=0 rate=3.50 patches/sec ETA=2h 57m 40s
+[PROGRESS] step=570 seen=4560/41815 saved=4560 skipped_existing=0 skipped_bad=0 rate=3.53 patches/sec ETA=2h 56m 5s
+[PROGRESS] step=575 seen=4600/41815 saved=4600 skipped_existing=0 skipped_bad=0 rate=3.55 patches/sec ETA=2h 54m 31s
+[PROGRESS] step=580 seen=4640/41815 saved=4640 skipped_existing=0 skipped_bad=0 rate=3.58 patches/sec ETA=2h 53m 7s
+[PROGRESS] step=585 seen=4680/41815 saved=4680 skipped_existing=0 skipped_bad=0 rate=3.60 patches/sec ETA=2h 51m 44s
+[PROGRESS] step=590 seen=4720/41815 saved=4720 skipped_existing=0 skipped_bad=0 rate=3.63 patches/sec ETA=2h 50m 24s
+[PROGRESS] step=595 seen=4760/41815 saved=4760 skipped_existing=0 skipped_bad=0 rate=3.64 patches/sec ETA=2h 49m 36s
+[PROGRESS] step=600 seen=4800/41815 saved=4800 skipped_existing=0 skipped_bad=0 rate=3.65 patches/sec ETA=2h 49m 5s
+[PROGRESS] step=605 seen=4840/41815 saved=4840 skipped_existing=0 skipped_bad=0 rate=3.67 patches/sec ETA=2h 47m 53s
+[PROGRESS] step=610 seen=4880/41815 saved=4880 skipped_existing=0 skipped_bad=0 rate=3.70 patches/sec ETA=2h 46m 31s
+[PROGRESS] step=615 seen=4920/41815 saved=4920 skipped_existing=0 skipped_bad=0 rate=3.71 patches/sec ETA=2h 45m 32s
+[PROGRESS] step=620 seen=4960/41815 saved=4960 skipped_existing=0 skipped_bad=0 rate=3.74 patches/sec ETA=2h 44m 16s
+[PROGRESS] step=625 seen=5000/41815 saved=5000 skipped_existing=0 skipped_bad=0 rate=3.77 patches/sec ETA=2h 42m 51s
+[PROGRESS] step=630 seen=5040/41815 saved=5040 skipped_existing=0 skipped_bad=0 rate=3.80 patches/sec ETA=2h 41m 27s
+[PROGRESS] step=635 seen=5080/41815 saved=5080 skipped_existing=0 skipped_bad=0 rate=3.82 patches/sec ETA=2h 40m 8s
+[PROGRESS] step=640 seen=5120/41815 saved=5120 skipped_existing=0 skipped_bad=0 rate=3.85 patches/sec ETA=2h 38m 51s
+[PROGRESS] step=645 seen=5160/41815 saved=5160 skipped_existing=0 skipped_bad=0 rate=3.87 patches/sec ETA=2h 37m 42s
+[PROGRESS] step=650 seen=5200/41815 saved=5200 skipped_existing=0 skipped_bad=0 rate=3.90 patches/sec ETA=2h 36m 23s
+[PROGRESS] step=655 seen=5240/41815 saved=5240 skipped_existing=0 skipped_bad=0 rate=3.93 patches/sec ETA=2h 35m 6s
+[PROGRESS] step=660 seen=5280/41815 saved=5280 skipped_existing=0 skipped_bad=0 rate=3.96 patches/sec ETA=2h 33m 51s
+[PROGRESS] step=665 seen=5320/41815 saved=5320 skipped_existing=0 skipped_bad=0 rate=3.98 patches/sec ETA=2h 32m 49s
+[PROGRESS] step=670 seen=5360/41815 saved=5360 skipped_existing=0 skipped_bad=0 rate=4.01 patches/sec ETA=2h 31m 36s
+[PROGRESS] step=675 seen=5400/41815 saved=5400 skipped_existing=0 skipped_bad=0 rate=4.03 patches/sec ETA=2h 30m 24s
+[PROGRESS] step=680 seen=5440/41815 saved=5440 skipped_existing=0 skipped_bad=0 rate=4.06 patches/sec ETA=2h 29m 19s
+[PROGRESS] step=685 seen=5480/41815 saved=5480 skipped_existing=0 skipped_bad=0 rate=4.08 patches/sec ETA=2h 28m 21s
+[PROGRESS] step=690 seen=5520/41815 saved=5520 skipped_existing=0 skipped_bad=0 rate=4.10 patches/sec ETA=2h 27m 24s
+[PROGRESS] step=695 seen=5560/41815 saved=5560 skipped_existing=0 skipped_bad=0 rate=4.13 patches/sec ETA=2h 26m 25s
+[PROGRESS] step=700 seen=5600/41815 saved=5600 skipped_existing=0 skipped_bad=0 rate=4.15 patches/sec ETA=2h 25m 31s
+[PROGRESS] step=705 seen=5640/41815 saved=5640 skipped_existing=0 skipped_bad=0 rate=4.17 patches/sec ETA=2h 24m 32s
+[PROGRESS] step=710 seen=5680/41815 saved=5680 skipped_existing=0 skipped_bad=0 rate=4.20 patches/sec ETA=2h 23m 29s
+[PROGRESS] step=715 seen=5720/41815 saved=5720 skipped_existing=0 skipped_bad=0 rate=4.22 patches/sec ETA=2h 22m 29s
+[PROGRESS] step=720 seen=5760/41815 saved=5760 skipped_existing=0 skipped_bad=0 rate=4.25 patches/sec ETA=2h 21m 32s
+[PROGRESS] step=725 seen=5800/41815 saved=5800 skipped_existing=0 skipped_bad=0 rate=4.27 patches/sec ETA=2h 20m 33s
+[PROGRESS] step=730 seen=5840/41815 saved=5840 skipped_existing=0 skipped_bad=0 rate=4.29 patches/sec ETA=2h 19m 44s
+[PROGRESS] step=735 seen=5880/41815 saved=5880 skipped_existing=0 skipped_bad=0 rate=4.31 patches/sec ETA=2h 19m 4s
+[PROGRESS] step=740 seen=5920/41815 saved=5920 skipped_existing=0 skipped_bad=0 rate=4.33 patches/sec ETA=2h 18m 8s
+[PROGRESS] step=745 seen=5960/41815 saved=5960 skipped_existing=0 skipped_bad=0 rate=4.35 patches/sec ETA=2h 17m 15s
+[PROGRESS] step=750 seen=6000/41815 saved=6000 skipped_existing=0 skipped_bad=0 rate=4.36 patches/sec ETA=2h 16m 48s
+[PROGRESS] step=755 seen=6040/41815 saved=6040 skipped_existing=0 skipped_bad=0 rate=4.38 patches/sec ETA=2h 16m 5s
+[PROGRESS] step=760 seen=6080/41815 saved=6080 skipped_existing=0 skipped_bad=0 rate=4.37 patches/sec ETA=2h 16m 16s
+[PROGRESS] step=765 seen=6120/41815 saved=6120 skipped_existing=0 skipped_bad=0 rate=4.39 patches/sec ETA=2h 15m 30s
+[PROGRESS] step=770 seen=6160/41815 saved=6160 skipped_existing=0 skipped_bad=0 rate=4.38 patches/sec ETA=2h 15m 35s
+[PROGRESS] step=775 seen=6200/41815 saved=6200 skipped_existing=0 skipped_bad=0 rate=4.35 patches/sec ETA=2h 16m 19s
+[PROGRESS] step=780 seen=6240/41815 saved=6240 skipped_existing=0 skipped_bad=0 rate=4.34 patches/sec ETA=2h 16m 44s
+[PROGRESS] step=785 seen=6280/41815 saved=6280 skipped_existing=0 skipped_bad=0 rate=4.36 patches/sec ETA=2h 15m 52s
+[PROGRESS] step=790 seen=6320/41815 saved=6320 skipped_existing=0 skipped_bad=0 rate=4.38 patches/sec ETA=2h 15m 10s
+[PROGRESS] step=795 seen=6360/41815 saved=6360 skipped_existing=0 skipped_bad=0 rate=4.40 patches/sec ETA=2h 14m 16s
+[PROGRESS] step=800 seen=6400/41815 saved=6400 skipped_existing=0 skipped_bad=0 rate=4.42 patches/sec ETA=2h 13m 38s
+[PROGRESS] step=805 seen=6440/41815 saved=6440 skipped_existing=0 skipped_bad=0 rate=4.44 patches/sec ETA=2h 12m 43s
+[PROGRESS] step=810 seen=6480/41815 saved=6480 skipped_existing=0 skipped_bad=0 rate=4.46 patches/sec ETA=2h 12m 3s
+[PROGRESS] step=815 seen=6520/41815 saved=6520 skipped_existing=0 skipped_bad=0 rate=4.41 patches/sec ETA=2h 13m 18s
+[PROGRESS] step=820 seen=6560/41815 saved=6560 skipped_existing=0 skipped_bad=0 rate=4.42 patches/sec ETA=2h 12m 54s
+[PROGRESS] step=825 seen=6600/41815 saved=6600 skipped_existing=0 skipped_bad=0 rate=4.44 patches/sec ETA=2h 12m 18s
+[PROGRESS] step=830 seen=6640/41815 saved=6640 skipped_existing=0 skipped_bad=0 rate=4.46 patches/sec ETA=2h 11m 29s
+[PROGRESS] step=835 seen=6680/41815 saved=6680 skipped_existing=0 skipped_bad=0 rate=4.48 patches/sec ETA=2h 10m 42s
+[PROGRESS] step=840 seen=6720/41815 saved=6720 skipped_existing=0 skipped_bad=0 rate=4.50 patches/sec ETA=2h 10m 6s
+[PROGRESS] step=845 seen=6760/41815 saved=6760 skipped_existing=0 skipped_bad=0 rate=4.52 patches/sec ETA=2h 9m 18s
+[PROGRESS] step=850 seen=6800/41815 saved=6800 skipped_existing=0 skipped_bad=0 rate=4.54 patches/sec ETA=2h 8m 31s
+[PROGRESS] step=855 seen=6840/41815 saved=6840 skipped_existing=0 skipped_bad=0 rate=4.56 patches/sec ETA=2h 7m 49s
+[PROGRESS] step=860 seen=6880/41815 saved=6880 skipped_existing=0 skipped_bad=0 rate=4.58 patches/sec ETA=2h 7m 7s
+[PROGRESS] step=865 seen=6920/41815 saved=6920 skipped_existing=0 skipped_bad=0 rate=4.60 patches/sec ETA=2h 6m 25s
+[PROGRESS] step=870 seen=6960/41815 saved=6960 skipped_existing=0 skipped_bad=0 rate=4.62 patches/sec ETA=2h 5m 37s
+[PROGRESS] step=875 seen=7000/41815 saved=7000 skipped_existing=0 skipped_bad=0 rate=4.65 patches/sec ETA=2h 4m 54s
+[PROGRESS] step=880 seen=7040/41815 saved=7040 skipped_existing=0 skipped_bad=0 rate=4.66 patches/sec ETA=2h 4m 20s
+[PROGRESS] step=885 seen=7080/41815 saved=7080 skipped_existing=0 skipped_bad=0 rate=4.68 patches/sec ETA=2h 3m 44s
+[PROGRESS] step=890 seen=7120/41815 saved=7120 skipped_existing=0 skipped_bad=0 rate=4.69 patches/sec ETA=2h 3m 22s
+[PROGRESS] step=895 seen=7160/41815 saved=7160 skipped_existing=0 skipped_bad=0 rate=4.60 patches/sec ETA=2h 5m 38s
+[PROGRESS] step=900 seen=7200/41815 saved=7200 skipped_existing=0 skipped_bad=0 rate=4.28 patches/sec ETA=2h 14m 55s
+[PROGRESS] step=905 seen=7240/41815 saved=7240 skipped_existing=0 skipped_bad=0 rate=4.06 patches/sec ETA=2h 21m 46s
+[PROGRESS] step=910 seen=7280/41815 saved=7280 skipped_existing=0 skipped_bad=0 rate=4.02 patches/sec ETA=2h 23m 14s
+[PROGRESS] step=915 seen=7320/41815 saved=7320 skipped_existing=0 skipped_bad=0 rate=3.86 patches/sec ETA=2h 28m 52s
+[PROGRESS] step=920 seen=7360/41815 saved=7360 skipped_existing=0 skipped_bad=0 rate=3.83 patches/sec ETA=2h 30m 4s
+[PROGRESS] step=925 seen=7400/41815 saved=7400 skipped_existing=0 skipped_bad=0 rate=3.84 patches/sec ETA=2h 29m 22s
+[PROGRESS] step=930 seen=7440/41815 saved=7440 skipped_existing=0 skipped_bad=0 rate=3.84 patches/sec ETA=2h 29m 6s
+[PROGRESS] step=935 seen=7480/41815 saved=7480 skipped_existing=0 skipped_bad=0 rate=3.82 patches/sec ETA=2h 29m 38s
+[PROGRESS] step=940 seen=7520/41815 saved=7520 skipped_existing=0 skipped_bad=0 rate=3.70 patches/sec ETA=2h 34m 37s
+[PROGRESS] step=945 seen=7560/41815 saved=7560 skipped_existing=0 skipped_bad=0 rate=3.70 patches/sec ETA=2h 34m 12s
+[PROGRESS] step=950 seen=7600/41815 saved=7600 skipped_existing=0 skipped_bad=0 rate=3.72 patches/sec ETA=2h 33m 23s
+[PROGRESS] step=955 seen=7640/41815 saved=7640 skipped_existing=0 skipped_bad=0 rate=3.72 patches/sec ETA=2h 33m 0s
+[PROGRESS] step=960 seen=7680/41815 saved=7680 skipped_existing=0 skipped_bad=0 rate=3.73 patches/sec ETA=2h 32m 25s
+[PROGRESS] step=965 seen=7720/41815 saved=7720 skipped_existing=0 skipped_bad=0 rate=3.75 patches/sec ETA=2h 31m 39s
+[PROGRESS] step=970 seen=7760/41815 saved=7760 skipped_existing=0 skipped_bad=0 rate=3.76 patches/sec ETA=2h 30m 57s
+[PROGRESS] step=975 seen=7800/41815 saved=7800 skipped_existing=0 skipped_bad=0 rate=3.78 patches/sec ETA=2h 30m 7s
+[PROGRESS] step=980 seen=7840/41815 saved=7840 skipped_existing=0 skipped_bad=0 rate=3.79 patches/sec ETA=2h 29m 16s
+[PROGRESS] step=985 seen=7880/41815 saved=7880 skipped_existing=0 skipped_bad=0 rate=3.81 patches/sec ETA=2h 28m 24s
+[PROGRESS] step=990 seen=7920/41815 saved=7920 skipped_existing=0 skipped_bad=0 rate=3.83 patches/sec ETA=2h 27m 33s
+[PROGRESS] step=995 seen=7960/41815 saved=7960 skipped_existing=0 skipped_bad=0 rate=3.85 patches/sec ETA=2h 26m 42s
+[PROGRESS] step=1000 seen=8000/41815 saved=8000 skipped_existing=0 skipped_bad=0 rate=3.86 patches/sec ETA=2h 25m 54s
+[PROGRESS] step=1005 seen=8040/41815 saved=8040 skipped_existing=0 skipped_bad=0 rate=3.88 patches/sec ETA=2h 25m 6s
+[PROGRESS] step=1010 seen=8080/41815 saved=8080 skipped_existing=0 skipped_bad=0 rate=3.89 patches/sec ETA=2h 24m 23s
+[PROGRESS] step=1015 seen=8120/41815 saved=8120 skipped_existing=0 skipped_bad=0 rate=3.91 patches/sec ETA=2h 23m 37s
+[PROGRESS] step=1020 seen=8160/41815 saved=8160 skipped_existing=0 skipped_bad=0 rate=3.93 patches/sec ETA=2h 22m 51s
+[PROGRESS] step=1025 seen=8200/41815 saved=8200 skipped_existing=0 skipped_bad=0 rate=3.94 patches/sec ETA=2h 22m 8s
+[PROGRESS] step=1030 seen=8240/41815 saved=8240 skipped_existing=0 skipped_bad=0 rate=3.96 patches/sec ETA=2h 21m 25s
+[PROGRESS] step=1035 seen=8280/41815 saved=8280 skipped_existing=0 skipped_bad=0 rate=3.97 patches/sec ETA=2h 20m 39s
+[PROGRESS] step=1040 seen=8320/41815 saved=8320 skipped_existing=0 skipped_bad=0 rate=3.99 patches/sec ETA=2h 19m 55s
+[PROGRESS] step=1045 seen=8360/41815 saved=8360 skipped_existing=0 skipped_bad=0 rate=4.01 patches/sec ETA=2h 19m 10s
+[PROGRESS] step=1050 seen=8400/41815 saved=8400 skipped_existing=0 skipped_bad=0 rate=4.02 patches/sec ETA=2h 18m 26s
+[PROGRESS] step=1055 seen=8440/41815 saved=8440 skipped_existing=0 skipped_bad=0 rate=4.04 patches/sec ETA=2h 17m 41s
+[PROGRESS] step=1060 seen=8480/41815 saved=8480 skipped_existing=0 skipped_bad=0 rate=4.06 patches/sec ETA=2h 16m 55s
+[PROGRESS] step=1065 seen=8520/41815 saved=8520 skipped_existing=0 skipped_bad=0 rate=4.07 patches/sec ETA=2h 16m 10s
+[PROGRESS] step=1070 seen=8560/41815 saved=8560 skipped_existing=0 skipped_bad=0 rate=4.09 patches/sec ETA=2h 15m 29s
+[PROGRESS] step=1075 seen=8600/41815 saved=8600 skipped_existing=0 skipped_bad=0 rate=4.10 patches/sec ETA=2h 15m 5s
+[PROGRESS] step=1080 seen=8640/41815 saved=8640 skipped_existing=0 skipped_bad=0 rate=4.11 patches/sec ETA=2h 14m 22s
+[PROGRESS] step=1085 seen=8680/41815 saved=8680 skipped_existing=0 skipped_bad=0 rate=4.13 patches/sec ETA=2h 13m 39s
+[PROGRESS] step=1090 seen=8720/41815 saved=8720 skipped_existing=0 skipped_bad=0 rate=4.15 patches/sec ETA=2h 12m 57s
+[PROGRESS] step=1095 seen=8760/41815 saved=8760 skipped_existing=0 skipped_bad=0 rate=4.17 patches/sec ETA=2h 12m 13s
+[PROGRESS] step=1100 seen=8800/41815 saved=8800 skipped_existing=0 skipped_bad=0 rate=4.18 patches/sec ETA=2h 11m 32s
+[PROGRESS] step=1105 seen=8840/41815 saved=8840 skipped_existing=0 skipped_bad=0 rate=4.20 patches/sec ETA=2h 10m 50s
+[PROGRESS] step=1110 seen=8880/41815 saved=8880 skipped_existing=0 skipped_bad=0 rate=4.22 patches/sec ETA=2h 10m 11s
+[PROGRESS] step=1115 seen=8920/41815 saved=8920 skipped_existing=0 skipped_bad=0 rate=4.23 patches/sec ETA=2h 9m 31s
+[PROGRESS] step=1120 seen=8960/41815 saved=8960 skipped_existing=0 skipped_bad=0 rate=4.25 patches/sec ETA=2h 8m 52s
+[PROGRESS] step=1125 seen=9000/41815 saved=9000 skipped_existing=0 skipped_bad=0 rate=4.27 patches/sec ETA=2h 8m 12s
+[PROGRESS] step=1130 seen=9040/41815 saved=9040 skipped_existing=0 skipped_bad=0 rate=4.28 patches/sec ETA=2h 7m 34s
+[PROGRESS] step=1135 seen=9080/41815 saved=9080 skipped_existing=0 skipped_bad=0 rate=4.30 patches/sec ETA=2h 6m 56s
+[PROGRESS] step=1140 seen=9120/41815 saved=9120 skipped_existing=0 skipped_bad=0 rate=4.31 patches/sec ETA=2h 6m 17s
+[PROGRESS] step=1145 seen=9160/41815 saved=9160 skipped_existing=0 skipped_bad=0 rate=4.33 patches/sec ETA=2h 5m 40s
+[PROGRESS] step=1150 seen=9200/41815 saved=9200 skipped_existing=0 skipped_bad=0 rate=4.35 patches/sec ETA=2h 5m 4s
+[PROGRESS] step=1155 seen=9240/41815 saved=9240 skipped_existing=0 skipped_bad=0 rate=4.36 patches/sec ETA=2h 4m 26s
+[PROGRESS] step=1160 seen=9280/41815 saved=9280 skipped_existing=0 skipped_bad=0 rate=4.38 patches/sec ETA=2h 3m 47s
+[PROGRESS] step=1165 seen=9320/41815 saved=9320 skipped_existing=0 skipped_bad=0 rate=4.40 patches/sec ETA=2h 3m 8s
+[PROGRESS] step=1170 seen=9360/41815 saved=9360 skipped_existing=0 skipped_bad=0 rate=4.42 patches/sec ETA=2h 2m 30s
+[PROGRESS] step=1175 seen=9400/41815 saved=9400 skipped_existing=0 skipped_bad=0 rate=4.43 patches/sec ETA=2h 1m 51s
+[PROGRESS] step=1180 seen=9440/41815 saved=9440 skipped_existing=0 skipped_bad=0 rate=4.45 patches/sec ETA=2h 1m 15s
+[PROGRESS] step=1185 seen=9480/41815 saved=9480 skipped_existing=0 skipped_bad=0 rate=4.47 patches/sec ETA=2h 0m 38s
+[PROGRESS] step=1190 seen=9520/41815 saved=9520 skipped_existing=0 skipped_bad=0 rate=4.48 patches/sec ETA=2h 0m 3s
+[PROGRESS] step=1195 seen=9560/41815 saved=9560 skipped_existing=0 skipped_bad=0 rate=4.49 patches/sec ETA=1h 59m 36s
+[PROGRESS] step=1200 seen=9600/41815 saved=9600 skipped_existing=0 skipped_bad=0 rate=4.51 patches/sec ETA=1h 59m 6s
+[PROGRESS] step=1205 seen=9640/41815 saved=9640 skipped_existing=0 skipped_bad=0 rate=4.52 patches/sec ETA=1h 58m 41s
+[PROGRESS] step=1210 seen=9680/41815 saved=9680 skipped_existing=0 skipped_bad=0 rate=4.53 patches/sec ETA=1h 58m 15s
+[PROGRESS] step=1215 seen=9720/41815 saved=9720 skipped_existing=0 skipped_bad=0 rate=4.54 patches/sec ETA=1h 57m 52s
+[PROGRESS] step=1220 seen=9760/41815 saved=9760 skipped_existing=0 skipped_bad=0 rate=4.55 patches/sec ETA=1h 57m 18s
+[PROGRESS] step=1225 seen=9800/41815 saved=9800 skipped_existing=0 skipped_bad=0 rate=4.56 patches/sec ETA=1h 57m 4s
+[PROGRESS] step=1230 seen=9840/41815 saved=9840 skipped_existing=0 skipped_bad=0 rate=4.57 patches/sec ETA=1h 56m 31s
+[PROGRESS] step=1235 seen=9880/41815 saved=9880 skipped_existing=0 skipped_bad=0 rate=4.59 patches/sec ETA=1h 55m 58s
+[PROGRESS] step=1240 seen=9920/41815 saved=9920 skipped_existing=0 skipped_bad=0 rate=4.61 patches/sec ETA=1h 55m 25s
+[PROGRESS] step=1245 seen=9960/41815 saved=9960 skipped_existing=0 skipped_bad=0 rate=4.62 patches/sec ETA=1h 54m 53s
+[PROGRESS] step=1250 seen=10000/41815 saved=10000 skipped_existing=0 skipped_bad=0 rate=4.64 patches/sec ETA=1h 54m 20s
+[PROGRESS] step=1255 seen=10040/41815 saved=10040 skipped_existing=0 skipped_bad=0 rate=4.65 patches/sec ETA=1h 53m 58s
+[PROGRESS] step=1260 seen=10080/41815 saved=10080 skipped_existing=0 skipped_bad=0 rate=4.66 patches/sec ETA=1h 53m 26s
+[PROGRESS] step=1265 seen=10120/41815 saved=10120 skipped_existing=0 skipped_bad=0 rate=4.68 patches/sec ETA=1h 52m 55s
+[PROGRESS] step=1270 seen=10160/41815 saved=10160 skipped_existing=0 skipped_bad=0 rate=4.69 patches/sec ETA=1h 52m 22s
+[PROGRESS] step=1275 seen=10200/41815 saved=10200 skipped_existing=0 skipped_bad=0 rate=4.71 patches/sec ETA=1h 51m 52s
+[PROGRESS] step=1280 seen=10240/41815 saved=10240 skipped_existing=0 skipped_bad=0 rate=4.73 patches/sec ETA=1h 51m 19s
+[PROGRESS] step=1285 seen=10280/41815 saved=10280 skipped_existing=0 skipped_bad=0 rate=4.74 patches/sec ETA=1h 50m 48s
+[PROGRESS] step=1290 seen=10320/41815 saved=10320 skipped_existing=0 skipped_bad=0 rate=4.76 patches/sec ETA=1h 50m 16s
+[PROGRESS] step=1295 seen=10360/41815 saved=10360 skipped_existing=0 skipped_bad=0 rate=4.77 patches/sec ETA=1h 49m 47s
+[PROGRESS] step=1300 seen=10400/41815 saved=10400 skipped_existing=0 skipped_bad=0 rate=4.79 patches/sec ETA=1h 49m 22s
+[PROGRESS] step=1305 seen=10440/41815 saved=10440 skipped_existing=0 skipped_bad=0 rate=4.80 patches/sec ETA=1h 48m 52s
+[PROGRESS] step=1310 seen=10480/41815 saved=10480 skipped_existing=0 skipped_bad=0 rate=4.82 patches/sec ETA=1h 48m 21s
+[PROGRESS] step=1315 seen=10520/41815 saved=10520 skipped_existing=0 skipped_bad=0 rate=4.83 patches/sec ETA=1h 47m 53s
+[PROGRESS] step=1320 seen=10560/41815 saved=10560 skipped_existing=0 skipped_bad=0 rate=4.85 patches/sec ETA=1h 47m 25s
+[PROGRESS] step=1325 seen=10600/41815 saved=10600 skipped_existing=0 skipped_bad=0 rate=4.86 patches/sec ETA=1h 46m 56s
+[PROGRESS] step=1330 seen=10640/41815 saved=10640 skipped_existing=0 skipped_bad=0 rate=4.74 patches/sec ETA=1h 49m 42s
+[PROGRESS] step=1335 seen=10680/41815 saved=10680 skipped_existing=0 skipped_bad=0 rate=4.75 patches/sec ETA=1h 49m 18s
+[PROGRESS] step=1340 seen=10720/41815 saved=10720 skipped_existing=0 skipped_bad=0 rate=4.76 patches/sec ETA=1h 48m 57s
+[PROGRESS] step=1345 seen=10760/41815 saved=10760 skipped_existing=0 skipped_bad=0 rate=4.77 patches/sec ETA=1h 48m 32s
+[PROGRESS] step=1350 seen=10800/41815 saved=10800 skipped_existing=0 skipped_bad=0 rate=4.78 patches/sec ETA=1h 48m 4s
+[PROGRESS] step=1355 seen=10840/41815 saved=10840 skipped_existing=0 skipped_bad=0 rate=4.80 patches/sec ETA=1h 47m 38s
+[PROGRESS] step=1360 seen=10880/41815 saved=10880 skipped_existing=0 skipped_bad=0 rate=4.81 patches/sec ETA=1h 47m 11s
+[PROGRESS] step=1365 seen=10920/41815 saved=10920 skipped_existing=0 skipped_bad=0 rate=4.82 patches/sec ETA=1h 46m 46s
+[PROGRESS] step=1370 seen=10960/41815 saved=10960 skipped_existing=0 skipped_bad=0 rate=4.84 patches/sec ETA=1h 46m 19s
+[PROGRESS] step=1375 seen=11000/41815 saved=11000 skipped_existing=0 skipped_bad=0 rate=4.85 patches/sec ETA=1h 45m 53s
+[PROGRESS] step=1380 seen=11040/41815 saved=11040 skipped_existing=0 skipped_bad=0 rate=4.86 patches/sec ETA=1h 45m 27s
+[PROGRESS] step=1385 seen=11080/41815 saved=11080 skipped_existing=0 skipped_bad=0 rate=4.88 patches/sec ETA=1h 45m 0s
+[PROGRESS] step=1390 seen=11120/41815 saved=11120 skipped_existing=0 skipped_bad=0 rate=4.87 patches/sec ETA=1h 45m 9s
+[PROGRESS] step=1395 seen=11160/41815 saved=11160 skipped_existing=0 skipped_bad=0 rate=4.86 patches/sec ETA=1h 45m 5s
+[PROGRESS] step=1400 seen=11200/41815 saved=11200 skipped_existing=0 skipped_bad=0 rate=4.87 patches/sec ETA=1h 44m 51s
+[PROGRESS] step=1405 seen=11240/41815 saved=11240 skipped_existing=0 skipped_bad=0 rate=4.88 patches/sec ETA=1h 44m 27s
+[PROGRESS] step=1410 seen=11280/41815 saved=11280 skipped_existing=0 skipped_bad=0 rate=4.89 patches/sec ETA=1h 44m 1s
+[PROGRESS] step=1415 seen=11320/41815 saved=11320 skipped_existing=0 skipped_bad=0 rate=4.91 patches/sec ETA=1h 43m 35s
+[PROGRESS] step=1420 seen=11360/41815 saved=11360 skipped_existing=0 skipped_bad=0 rate=4.92 patches/sec ETA=1h 43m 10s
+[PROGRESS] step=1425 seen=11400/41815 saved=11400 skipped_existing=0 skipped_bad=0 rate=4.93 patches/sec ETA=1h 42m 46s
+[PROGRESS] step=1430 seen=11440/41815 saved=11440 skipped_existing=0 skipped_bad=0 rate=4.94 patches/sec ETA=1h 42m 24s
+[PROGRESS] step=1435 seen=11480/41815 saved=11480 skipped_existing=0 skipped_bad=0 rate=4.96 patches/sec ETA=1h 41m 55s
+[PROGRESS] step=1440 seen=11520/41815 saved=11520 skipped_existing=0 skipped_bad=0 rate=4.98 patches/sec ETA=1h 41m 28s
+[PROGRESS] step=1445 seen=11560/41815 saved=11560 skipped_existing=0 skipped_bad=0 rate=4.99 patches/sec ETA=1h 41m 3s
+[PROGRESS] step=1450 seen=11600/41815 saved=11600 skipped_existing=0 skipped_bad=0 rate=5.01 patches/sec ETA=1h 40m 36s
+[PROGRESS] step=1455 seen=11640/41815 saved=11640 skipped_existing=0 skipped_bad=0 rate=4.91 patches/sec ETA=1h 42m 22s
+[PROGRESS] step=1460 seen=11680/41815 saved=11680 skipped_existing=0 skipped_bad=0 rate=4.80 patches/sec ETA=1h 44m 35s
+[PROGRESS] step=1465 seen=11720/41815 saved=11720 skipped_existing=0 skipped_bad=0 rate=4.81 patches/sec ETA=1h 44m 20s
+[PROGRESS] step=1470 seen=11760/41815 saved=11760 skipped_existing=0 skipped_bad=0 rate=4.79 patches/sec ETA=1h 44m 33s
+[PROGRESS] step=1475 seen=11800/41815 saved=11800 skipped_existing=0 skipped_bad=0 rate=4.77 patches/sec ETA=1h 44m 54s
+[PROGRESS] step=1480 seen=11840/41815 saved=11840 skipped_existing=0 skipped_bad=0 rate=4.77 patches/sec ETA=1h 44m 39s
+[PROGRESS] step=1485 seen=11880/41815 saved=11880 skipped_existing=0 skipped_bad=0 rate=4.78 patches/sec ETA=1h 44m 26s
+[PROGRESS] step=1490 seen=11920/41815 saved=11920 skipped_existing=0 skipped_bad=0 rate=4.79 patches/sec ETA=1h 43m 59s
+[PROGRESS] step=1495 seen=11960/41815 saved=11960 skipped_existing=0 skipped_bad=0 rate=4.80 patches/sec ETA=1h 43m 37s
+[PROGRESS] step=1500 seen=12000/41815 saved=12000 skipped_existing=0 skipped_bad=0 rate=4.81 patches/sec ETA=1h 43m 13s
+[PROGRESS] step=1505 seen=12040/41815 saved=12040 skipped_existing=0 skipped_bad=0 rate=4.82 patches/sec ETA=1h 42m 51s
+[PROGRESS] step=1510 seen=12080/41815 saved=12080 skipped_existing=0 skipped_bad=0 rate=4.71 patches/sec ETA=1h 45m 9s
+[PROGRESS] step=1515 seen=12120/41815 saved=12120 skipped_existing=0 skipped_bad=0 rate=4.71 patches/sec ETA=1h 45m 8s
+[PROGRESS] step=1520 seen=12160/41815 saved=12160 skipped_existing=0 skipped_bad=0 rate=4.70 patches/sec ETA=1h 45m 13s
+[PROGRESS] step=1525 seen=12200/41815 saved=12200 skipped_existing=0 skipped_bad=0 rate=4.71 patches/sec ETA=1h 44m 50s
+[PROGRESS] step=1530 seen=12240/41815 saved=12240 skipped_existing=0 skipped_bad=0 rate=4.72 patches/sec ETA=1h 44m 27s
+[PROGRESS] step=1535 seen=12280/41815 saved=12280 skipped_existing=0 skipped_bad=0 rate=4.71 patches/sec ETA=1h 44m 34s
+[PROGRESS] step=1540 seen=12320/41815 saved=12320 skipped_existing=0 skipped_bad=0 rate=4.72 patches/sec ETA=1h 44m 12s
+[PROGRESS] step=1545 seen=12360/41815 saved=12360 skipped_existing=0 skipped_bad=0 rate=4.73 patches/sec ETA=1h 43m 47s
+[PROGRESS] step=1550 seen=12400/41815 saved=12400 skipped_existing=0 skipped_bad=0 rate=4.74 patches/sec ETA=1h 43m 29s
+[PROGRESS] step=1555 seen=12440/41815 saved=12440 skipped_existing=0 skipped_bad=0 rate=4.73 patches/sec ETA=1h 43m 25s
+[PROGRESS] step=1560 seen=12480/41815 saved=12480 skipped_existing=0 skipped_bad=0 rate=4.74 patches/sec ETA=1h 43m 3s
+[PROGRESS] step=1565 seen=12520/41815 saved=12520 skipped_existing=0 skipped_bad=0 rate=4.76 patches/sec ETA=1h 42m 39s
+[PROGRESS] step=1570 seen=12560/41815 saved=12560 skipped_existing=0 skipped_bad=0 rate=4.77 patches/sec ETA=1h 42m 14s
+[PROGRESS] step=1575 seen=12600/41815 saved=12600 skipped_existing=0 skipped_bad=0 rate=4.78 patches/sec ETA=1h 41m 49s
+[PROGRESS] step=1580 seen=12640/41815 saved=12640 skipped_existing=0 skipped_bad=0 rate=4.79 patches/sec ETA=1h 41m 24s
+[PROGRESS] step=1585 seen=12680/41815 saved=12680 skipped_existing=0 skipped_bad=0 rate=4.81 patches/sec ETA=1h 41m 0s
+[PROGRESS] step=1590 seen=12720/41815 saved=12720 skipped_existing=0 skipped_bad=0 rate=4.82 patches/sec ETA=1h 40m 35s
+[PROGRESS] step=1595 seen=12760/41815 saved=12760 skipped_existing=0 skipped_bad=0 rate=4.83 patches/sec ETA=1h 40m 12s
+[PROGRESS] step=1600 seen=12800/41815 saved=12800 skipped_existing=0 skipped_bad=0 rate=4.85 patches/sec ETA=1h 39m 48s
+[PROGRESS] step=1605 seen=12840/41815 saved=12840 skipped_existing=0 skipped_bad=0 rate=4.86 patches/sec ETA=1h 39m 24s
+[PROGRESS] step=1610 seen=12880/41815 saved=12880 skipped_existing=0 skipped_bad=0 rate=4.87 patches/sec ETA=1h 39m 3s
+[PROGRESS] step=1615 seen=12920/41815 saved=12920 skipped_existing=0 skipped_bad=0 rate=4.88 patches/sec ETA=1h 38m 38s
+[PROGRESS] step=1620 seen=12960/41815 saved=12960 skipped_existing=0 skipped_bad=0 rate=4.90 patches/sec ETA=1h 38m 13s
+[PROGRESS] step=1625 seen=13000/41815 saved=13000 skipped_existing=0 skipped_bad=0 rate=4.91 patches/sec ETA=1h 37m 49s
+[PROGRESS] step=1630 seen=13040/41815 saved=13040 skipped_existing=0 skipped_bad=0 rate=4.92 patches/sec ETA=1h 37m 26s
+[PROGRESS] step=1635 seen=13080/41815 saved=13080 skipped_existing=0 skipped_bad=0 rate=4.93 patches/sec ETA=1h 37m 3s
+[PROGRESS] step=1640 seen=13120/41815 saved=13120 skipped_existing=0 skipped_bad=0 rate=4.94 patches/sec ETA=1h 36m 45s
+[PROGRESS] step=1645 seen=13160/41815 saved=13160 skipped_existing=0 skipped_bad=0 rate=4.96 patches/sec ETA=1h 36m 22s
+[PROGRESS] step=1650 seen=13200/41815 saved=13200 skipped_existing=0 skipped_bad=0 rate=4.97 patches/sec ETA=1h 36m 3s
+[PROGRESS] step=1655 seen=13240/41815 saved=13240 skipped_existing=0 skipped_bad=0 rate=4.97 patches/sec ETA=1h 35m 45s
+[PROGRESS] step=1660 seen=13280/41815 saved=13280 skipped_existing=0 skipped_bad=0 rate=4.99 patches/sec ETA=1h 35m 22s
+[PROGRESS] step=1665 seen=13320/41815 saved=13320 skipped_existing=0 skipped_bad=0 rate=5.00 patches/sec ETA=1h 34m 59s
+[PROGRESS] step=1670 seen=13360/41815 saved=13360 skipped_existing=0 skipped_bad=0 rate=5.01 patches/sec ETA=1h 34m 35s
+[PROGRESS] step=1675 seen=13400/41815 saved=13400 skipped_existing=0 skipped_bad=0 rate=5.03 patches/sec ETA=1h 34m 11s
+[PROGRESS] step=1680 seen=13440/41815 saved=13440 skipped_existing=0 skipped_bad=0 rate=5.04 patches/sec ETA=1h 33m 50s
+[PROGRESS] step=1685 seen=13480/41815 saved=13480 skipped_existing=0 skipped_bad=0 rate=5.05 patches/sec ETA=1h 33m 29s
+[PROGRESS] step=1690 seen=13520/41815 saved=13520 skipped_existing=0 skipped_bad=0 rate=5.06 patches/sec ETA=1h 33m 8s
+[PROGRESS] step=1695 seen=13560/41815 saved=13560 skipped_existing=0 skipped_bad=0 rate=5.08 patches/sec ETA=1h 32m 47s
+[PROGRESS] step=1700 seen=13600/41815 saved=13600 skipped_existing=0 skipped_bad=0 rate=5.08 patches/sec ETA=1h 32m 29s
+[PROGRESS] step=1705 seen=13640/41815 saved=13640 skipped_existing=0 skipped_bad=0 rate=5.10 patches/sec ETA=1h 32m 8s
+[PROGRESS] step=1710 seen=13680/41815 saved=13680 skipped_existing=0 skipped_bad=0 rate=5.11 patches/sec ETA=1h 31m 47s
+[PROGRESS] step=1715 seen=13720/41815 saved=13720 skipped_existing=0 skipped_bad=0 rate=5.12 patches/sec ETA=1h 31m 28s
+[PROGRESS] step=1720 seen=13760/41815 saved=13760 skipped_existing=0 skipped_bad=0 rate=5.13 patches/sec ETA=1h 31m 8s
+[PROGRESS] step=1725 seen=13800/41815 saved=13800 skipped_existing=0 skipped_bad=0 rate=5.14 patches/sec ETA=1h 30m 48s
+[PROGRESS] step=1730 seen=13840/41815 saved=13840 skipped_existing=0 skipped_bad=0 rate=5.16 patches/sec ETA=1h 30m 26s
+[PROGRESS] step=1735 seen=13880/41815 saved=13880 skipped_existing=0 skipped_bad=0 rate=5.17 patches/sec ETA=1h 30m 4s
+[PROGRESS] step=1740 seen=13920/41815 saved=13920 skipped_existing=0 skipped_bad=0 rate=5.18 patches/sec ETA=1h 29m 42s
+[PROGRESS] step=1745 seen=13960/41815 saved=13960 skipped_existing=0 skipped_bad=0 rate=5.20 patches/sec ETA=1h 29m 21s
+[PROGRESS] step=1750 seen=14000/41815 saved=14000 skipped_existing=0 skipped_bad=0 rate=5.21 patches/sec ETA=1h 28m 59s
+[PROGRESS] step=1755 seen=14040/41815 saved=14040 skipped_existing=0 skipped_bad=0 rate=5.22 patches/sec ETA=1h 28m 38s
+[PROGRESS] step=1760 seen=14080/41815 saved=14080 skipped_existing=0 skipped_bad=0 rate=5.24 patches/sec ETA=1h 28m 16s
+[PROGRESS] step=1765 seen=14120/41815 saved=14120 skipped_existing=0 skipped_bad=0 rate=5.25 patches/sec ETA=1h 27m 55s
+[PROGRESS] step=1770 seen=14160/41815 saved=14160 skipped_existing=0 skipped_bad=0 rate=5.26 patches/sec ETA=1h 27m 34s
+[PROGRESS] step=1775 seen=14200/41815 saved=14200 skipped_existing=0 skipped_bad=0 rate=5.28 patches/sec ETA=1h 27m 13s
+[PROGRESS] step=1780 seen=14240/41815 saved=14240 skipped_existing=0 skipped_bad=0 rate=5.29 patches/sec ETA=1h 26m 53s
+[PROGRESS] step=1785 seen=14280/41815 saved=14280 skipped_existing=0 skipped_bad=0 rate=5.30 patches/sec ETA=1h 26m 33s
+[PROGRESS] step=1790 seen=14320/41815 saved=14320 skipped_existing=0 skipped_bad=0 rate=5.31 patches/sec ETA=1h 26m 13s
+[PROGRESS] step=1795 seen=14360/41815 saved=14360 skipped_existing=0 skipped_bad=0 rate=5.33 patches/sec ETA=1h 25m 54s
+[PROGRESS] step=1800 seen=14400/41815 saved=14400 skipped_existing=0 skipped_bad=0 rate=5.34 patches/sec ETA=1h 25m 34s
+[PROGRESS] step=1805 seen=14440/41815 saved=14440 skipped_existing=0 skipped_bad=0 rate=5.35 patches/sec ETA=1h 25m 14s
+[PROGRESS] step=1810 seen=14480/41815 saved=14480 skipped_existing=0 skipped_bad=0 rate=5.37 patches/sec ETA=1h 24m 53s
+[PROGRESS] step=1815 seen=14520/41815 saved=14520 skipped_existing=0 skipped_bad=0 rate=5.38 patches/sec ETA=1h 24m 33s
+[PROGRESS] step=1820 seen=14560/41815 saved=14560 skipped_existing=0 skipped_bad=0 rate=5.39 patches/sec ETA=1h 24m 14s
+[PROGRESS] step=1825 seen=14600/41815 saved=14600 skipped_existing=0 skipped_bad=0 rate=5.41 patches/sec ETA=1h 23m 54s
+[PROGRESS] step=1830 seen=14640/41815 saved=14640 skipped_existing=0 skipped_bad=0 rate=5.42 patches/sec ETA=1h 23m 35s
+[PROGRESS] step=1835 seen=14680/41815 saved=14680 skipped_existing=0 skipped_bad=0 rate=5.43 patches/sec ETA=1h 23m 16s
+[PROGRESS] step=1840 seen=14720/41815 saved=14720 skipped_existing=0 skipped_bad=0 rate=5.44 patches/sec ETA=1h 22m 56s
+[PROGRESS] step=1845 seen=14760/41815 saved=14760 skipped_existing=0 skipped_bad=0 rate=5.46 patches/sec ETA=1h 22m 37s
+[PROGRESS] step=1850 seen=14800/41815 saved=14800 skipped_existing=0 skipped_bad=0 rate=5.47 patches/sec ETA=1h 22m 18s
+[PROGRESS] step=1855 seen=14840/41815 saved=14840 skipped_existing=0 skipped_bad=0 rate=5.48 patches/sec ETA=1h 21m 59s
+[PROGRESS] step=1860 seen=14880/41815 saved=14880 skipped_existing=0 skipped_bad=0 rate=5.50 patches/sec ETA=1h 21m 40s
+[PROGRESS] step=1865 seen=14920/41815 saved=14920 skipped_existing=0 skipped_bad=0 rate=5.50 patches/sec ETA=1h 21m 25s
+[PROGRESS] step=1870 seen=14960/41815 saved=14960 skipped_existing=0 skipped_bad=0 rate=5.51 patches/sec ETA=1h 21m 10s
+[PROGRESS] step=1875 seen=15000/41815 saved=15000 skipped_existing=0 skipped_bad=0 rate=5.53 patches/sec ETA=1h 20m 53s
+[PROGRESS] step=1880 seen=15040/41815 saved=15040 skipped_existing=0 skipped_bad=0 rate=5.54 patches/sec ETA=1h 20m 36s
+[PROGRESS] step=1885 seen=15080/41815 saved=15080 skipped_existing=0 skipped_bad=0 rate=5.55 patches/sec ETA=1h 20m 19s
+[PROGRESS] step=1890 seen=15120/41815 saved=15120 skipped_existing=0 skipped_bad=0 rate=5.56 patches/sec ETA=1h 20m 4s
+[PROGRESS] step=1895 seen=15160/41815 saved=15160 skipped_existing=0 skipped_bad=0 rate=5.57 patches/sec ETA=1h 19m 48s
+[PROGRESS] step=1900 seen=15200/41815 saved=15200 skipped_existing=0 skipped_bad=0 rate=5.58 patches/sec ETA=1h 19m 33s
+[PROGRESS] step=1905 seen=15240/41815 saved=15240 skipped_existing=0 skipped_bad=0 rate=5.59 patches/sec ETA=1h 19m 16s
+[PROGRESS] step=1910 seen=15280/41815 saved=15280 skipped_existing=0 skipped_bad=0 rate=5.60 patches/sec ETA=1h 18m 59s
+[PROGRESS] step=1915 seen=15320/41815 saved=15320 skipped_existing=0 skipped_bad=0 rate=5.61 patches/sec ETA=1h 18m 45s
+[PROGRESS] step=1920 seen=15360/41815 saved=15360 skipped_existing=0 skipped_bad=0 rate=5.61 patches/sec ETA=1h 18m 36s
+[PROGRESS] step=1925 seen=15400/41815 saved=15400 skipped_existing=0 skipped_bad=0 rate=5.61 patches/sec ETA=1h 18m 25s
+[PROGRESS] step=1930 seen=15440/41815 saved=15440 skipped_existing=0 skipped_bad=0 rate=5.62 patches/sec ETA=1h 18m 10s
+[PROGRESS] step=1935 seen=15480/41815 saved=15480 skipped_existing=0 skipped_bad=0 rate=5.63 patches/sec ETA=1h 17m 54s
+[PROGRESS] step=1940 seen=15520/41815 saved=15520 skipped_existing=0 skipped_bad=0 rate=5.64 patches/sec ETA=1h 17m 38s
+[PROGRESS] step=1945 seen=15560/41815 saved=15560 skipped_existing=0 skipped_bad=0 rate=5.65 patches/sec ETA=1h 17m 23s
+[PROGRESS] step=1950 seen=15600/41815 saved=15600 skipped_existing=0 skipped_bad=0 rate=5.67 patches/sec ETA=1h 17m 7s
+[PROGRESS] step=1955 seen=15640/41815 saved=15640 skipped_existing=0 skipped_bad=0 rate=5.68 patches/sec ETA=1h 16m 52s
+[PROGRESS] step=1960 seen=15680/41815 saved=15680 skipped_existing=0 skipped_bad=0 rate=5.69 patches/sec ETA=1h 16m 36s
+[PROGRESS] step=1965 seen=15720/41815 saved=15720 skipped_existing=0 skipped_bad=0 rate=5.69 patches/sec ETA=1h 16m 24s
+[PROGRESS] step=1970 seen=15760/41815 saved=15760 skipped_existing=0 skipped_bad=0 rate=5.70 patches/sec ETA=1h 16m 9s
+[PROGRESS] step=1975 seen=15800/41815 saved=15800 skipped_existing=0 skipped_bad=0 rate=5.71 patches/sec ETA=1h 15m 57s
+[PROGRESS] step=1980 seen=15840/41815 saved=15840 skipped_existing=0 skipped_bad=0 rate=5.72 patches/sec ETA=1h 15m 41s
+[PROGRESS] step=1985 seen=15880/41815 saved=15880 skipped_existing=0 skipped_bad=0 rate=5.72 patches/sec ETA=1h 15m 30s
+[PROGRESS] step=1990 seen=15920/41815 saved=15920 skipped_existing=0 skipped_bad=0 rate=5.73 patches/sec ETA=1h 15m 15s
+[PROGRESS] step=1995 seen=15960/41815 saved=15960 skipped_existing=0 skipped_bad=0 rate=5.74 patches/sec ETA=1h 15m 1s
+[PROGRESS] step=2000 seen=16000/41815 saved=16000 skipped_existing=0 skipped_bad=0 rate=5.75 patches/sec ETA=1h 14m 47s
+[PROGRESS] step=2005 seen=16040/41815 saved=16040 skipped_existing=0 skipped_bad=0 rate=5.76 patches/sec ETA=1h 14m 33s
+[PROGRESS] step=2010 seen=16080/41815 saved=16080 skipped_existing=0 skipped_bad=0 rate=5.77 patches/sec ETA=1h 14m 18s
+[PROGRESS] step=2015 seen=16120/41815 saved=16120 skipped_existing=0 skipped_bad=0 rate=5.78 patches/sec ETA=1h 14m 1s
+[PROGRESS] step=2020 seen=16160/41815 saved=16160 skipped_existing=0 skipped_bad=0 rate=5.80 patches/sec ETA=1h 13m 45s
+[PROGRESS] step=2025 seen=16200/41815 saved=16200 skipped_existing=0 skipped_bad=0 rate=5.81 patches/sec ETA=1h 13m 28s
+[PROGRESS] step=2030 seen=16240/41815 saved=16240 skipped_existing=0 skipped_bad=0 rate=5.82 patches/sec ETA=1h 13m 11s
+[PROGRESS] step=2035 seen=16280/41815 saved=16280 skipped_existing=0 skipped_bad=0 rate=5.84 patches/sec ETA=1h 12m 55s
+[PROGRESS] step=2040 seen=16320/41815 saved=16320 skipped_existing=0 skipped_bad=0 rate=5.85 patches/sec ETA=1h 12m 39s
+[PROGRESS] step=2045 seen=16360/41815 saved=16360 skipped_existing=0 skipped_bad=0 rate=5.86 patches/sec ETA=1h 12m 23s
+[PROGRESS] step=2050 seen=16400/41815 saved=16400 skipped_existing=0 skipped_bad=0 rate=5.87 patches/sec ETA=1h 12m 7s
+[PROGRESS] step=2055 seen=16440/41815 saved=16440 skipped_existing=0 skipped_bad=0 rate=5.88 patches/sec ETA=1h 11m 51s
+[PROGRESS] step=2060 seen=16480/41815 saved=16480 skipped_existing=0 skipped_bad=0 rate=5.90 patches/sec ETA=1h 11m 35s
+[PROGRESS] step=2065 seen=16520/41815 saved=16520 skipped_existing=0 skipped_bad=0 rate=5.91 patches/sec ETA=1h 11m 19s
+[PROGRESS] step=2070 seen=16560/41815 saved=16560 skipped_existing=0 skipped_bad=0 rate=5.92 patches/sec ETA=1h 11m 5s
+[PROGRESS] step=2075 seen=16600/41815 saved=16600 skipped_existing=0 skipped_bad=0 rate=5.93 patches/sec ETA=1h 10m 49s
+[PROGRESS] step=2080 seen=16640/41815 saved=16640 skipped_existing=0 skipped_bad=0 rate=5.94 patches/sec ETA=1h 10m 35s
+[PROGRESS] step=2085 seen=16680/41815 saved=16680 skipped_existing=0 skipped_bad=0 rate=5.95 patches/sec ETA=1h 10m 20s
+[PROGRESS] step=2090 seen=16720/41815 saved=16720 skipped_existing=0 skipped_bad=0 rate=5.97 patches/sec ETA=1h 10m 6s
+[PROGRESS] step=2095 seen=16760/41815 saved=16760 skipped_existing=0 skipped_bad=0 rate=5.98 patches/sec ETA=1h 9m 52s
+[PROGRESS] step=2100 seen=16800/41815 saved=16800 skipped_existing=0 skipped_bad=0 rate=5.99 patches/sec ETA=1h 9m 36s
+[PROGRESS] step=2105 seen=16840/41815 saved=16840 skipped_existing=0 skipped_bad=0 rate=6.00 patches/sec ETA=1h 9m 21s
+[PROGRESS] step=2110 seen=16880/41815 saved=16880 skipped_existing=0 skipped_bad=0 rate=6.01 patches/sec ETA=1h 9m 5s
+[PROGRESS] step=2115 seen=16920/41815 saved=16920 skipped_existing=0 skipped_bad=0 rate=6.03 patches/sec ETA=1h 8m 50s
+[PROGRESS] step=2120 seen=16960/41815 saved=16960 skipped_existing=0 skipped_bad=0 rate=6.04 patches/sec ETA=1h 8m 35s
+[PROGRESS] step=2125 seen=17000/41815 saved=17000 skipped_existing=0 skipped_bad=0 rate=6.05 patches/sec ETA=1h 8m 20s
+[PROGRESS] step=2130 seen=17040/41815 saved=17040 skipped_existing=0 skipped_bad=0 rate=6.06 patches/sec ETA=1h 8m 5s
+[PROGRESS] step=2135 seen=17080/41815 saved=17080 skipped_existing=0 skipped_bad=0 rate=6.08 patches/sec ETA=1h 7m 50s
+[PROGRESS] step=2140 seen=17120/41815 saved=17120 skipped_existing=0 skipped_bad=0 rate=6.09 patches/sec ETA=1h 7m 35s
+[PROGRESS] step=2145 seen=17160/41815 saved=17160 skipped_existing=0 skipped_bad=0 rate=6.10 patches/sec ETA=1h 7m 20s
+[PROGRESS] step=2150 seen=17200/41815 saved=17200 skipped_existing=0 skipped_bad=0 rate=6.11 patches/sec ETA=1h 7m 5s
+[PROGRESS] step=2155 seen=17240/41815 saved=17240 skipped_existing=0 skipped_bad=0 rate=6.13 patches/sec ETA=1h 6m 51s
+[PROGRESS] step=2160 seen=17280/41815 saved=17280 skipped_existing=0 skipped_bad=0 rate=6.14 patches/sec ETA=1h 6m 36s
+[PROGRESS] step=2165 seen=17320/41815 saved=17320 skipped_existing=0 skipped_bad=0 rate=6.15 patches/sec ETA=1h 6m 22s
+[PROGRESS] step=2170 seen=17360/41815 saved=17360 skipped_existing=0 skipped_bad=0 rate=6.16 patches/sec ETA=1h 6m 8s
+[PROGRESS] step=2175 seen=17400/41815 saved=17400 skipped_existing=0 skipped_bad=0 rate=6.17 patches/sec ETA=1h 5m 54s
+[PROGRESS] step=2180 seen=17440/41815 saved=17440 skipped_existing=0 skipped_bad=0 rate=6.18 patches/sec ETA=1h 5m 45s
+[PROGRESS] step=2185 seen=17480/41815 saved=17480 skipped_existing=0 skipped_bad=0 rate=6.18 patches/sec ETA=1h 5m 35s
+[PROGRESS] step=2190 seen=17520/41815 saved=17520 skipped_existing=0 skipped_bad=0 rate=6.19 patches/sec ETA=1h 5m 25s
+[PROGRESS] step=2195 seen=17560/41815 saved=17560 skipped_existing=0 skipped_bad=0 rate=6.20 patches/sec ETA=1h 5m 14s
+[PROGRESS] step=2200 seen=17600/41815 saved=17600 skipped_existing=0 skipped_bad=0 rate=6.20 patches/sec ETA=1h 5m 2s
+[PROGRESS] step=2205 seen=17640/41815 saved=17640 skipped_existing=0 skipped_bad=0 rate=6.22 patches/sec ETA=1h 4m 49s
+[PROGRESS] step=2210 seen=17680/41815 saved=17680 skipped_existing=0 skipped_bad=0 rate=6.22 patches/sec ETA=1h 4m 37s
+[PROGRESS] step=2215 seen=17720/41815 saved=17720 skipped_existing=0 skipped_bad=0 rate=6.23 patches/sec ETA=1h 4m 28s
+[PROGRESS] step=2220 seen=17760/41815 saved=17760 skipped_existing=0 skipped_bad=0 rate=6.24 patches/sec ETA=1h 4m 14s
+[PROGRESS] step=2225 seen=17800/41815 saved=17800 skipped_existing=0 skipped_bad=0 rate=6.25 patches/sec ETA=1h 4m 0s
+[PROGRESS] step=2230 seen=17840/41815 saved=17840 skipped_existing=0 skipped_bad=0 rate=6.27 patches/sec ETA=1h 3m 46s
+[PROGRESS] step=2235 seen=17880/41815 saved=17880 skipped_existing=0 skipped_bad=0 rate=6.28 patches/sec ETA=1h 3m 32s
+[PROGRESS] step=2240 seen=17920/41815 saved=17920 skipped_existing=0 skipped_bad=0 rate=6.29 patches/sec ETA=1h 3m 18s
+[PROGRESS] step=2245 seen=17960/41815 saved=17960 skipped_existing=0 skipped_bad=0 rate=6.30 patches/sec ETA=1h 3m 6s
+[PROGRESS] step=2250 seen=18000/41815 saved=18000 skipped_existing=0 skipped_bad=0 rate=6.31 patches/sec ETA=1h 2m 53s
+[PROGRESS] step=2255 seen=18040/41815 saved=18040 skipped_existing=0 skipped_bad=0 rate=6.32 patches/sec ETA=1h 2m 40s
+[PROGRESS] step=2260 seen=18080/41815 saved=18080 skipped_existing=0 skipped_bad=0 rate=6.33 patches/sec ETA=1h 2m 27s
+[PROGRESS] step=2265 seen=18120/41815 saved=18120 skipped_existing=0 skipped_bad=0 rate=6.34 patches/sec ETA=1h 2m 14s
+[PROGRESS] step=2270 seen=18160/41815 saved=18160 skipped_existing=0 skipped_bad=0 rate=6.36 patches/sec ETA=1h 2m 1s
+[PROGRESS] step=2275 seen=18200/41815 saved=18200 skipped_existing=0 skipped_bad=0 rate=6.37 patches/sec ETA=1h 1m 48s
+[PROGRESS] step=2280 seen=18240/41815 saved=18240 skipped_existing=0 skipped_bad=0 rate=6.38 patches/sec ETA=1h 1m 35s
+[PROGRESS] step=2285 seen=18280/41815 saved=18280 skipped_existing=0 skipped_bad=0 rate=6.39 patches/sec ETA=1h 1m 22s
+[PROGRESS] step=2290 seen=18320/41815 saved=18320 skipped_existing=0 skipped_bad=0 rate=6.40 patches/sec ETA=1h 1m 9s
+[PROGRESS] step=2295 seen=18360/41815 saved=18360 skipped_existing=0 skipped_bad=0 rate=6.41 patches/sec ETA=1h 0m 57s
+[PROGRESS] step=2300 seen=18400/41815 saved=18400 skipped_existing=0 skipped_bad=0 rate=6.42 patches/sec ETA=1h 0m 44s
+[PROGRESS] step=2305 seen=18440/41815 saved=18440 skipped_existing=0 skipped_bad=0 rate=6.43 patches/sec ETA=1h 0m 32s
+[PROGRESS] step=2310 seen=18480/41815 saved=18480 skipped_existing=0 skipped_bad=0 rate=6.45 patches/sec ETA=1h 0m 20s
+[PROGRESS] step=2315 seen=18520/41815 saved=18520 skipped_existing=0 skipped_bad=0 rate=6.46 patches/sec ETA=1h 0m 7s
+[PROGRESS] step=2320 seen=18560/41815 saved=18560 skipped_existing=0 skipped_bad=0 rate=6.47 patches/sec ETA=59m 55s
+[PROGRESS] step=2325 seen=18600/41815 saved=18600 skipped_existing=0 skipped_bad=0 rate=6.48 patches/sec ETA=59m 43s
+[PROGRESS] step=2330 seen=18640/41815 saved=18640 skipped_existing=0 skipped_bad=0 rate=6.49 patches/sec ETA=59m 30s
+[PROGRESS] step=2335 seen=18680/41815 saved=18680 skipped_existing=0 skipped_bad=0 rate=6.50 patches/sec ETA=59m 18s
+[PROGRESS] step=2340 seen=18720/41815 saved=18720 skipped_existing=0 skipped_bad=0 rate=6.51 patches/sec ETA=59m 5s
+[PROGRESS] step=2345 seen=18760/41815 saved=18760 skipped_existing=0 skipped_bad=0 rate=6.52 patches/sec ETA=58m 54s
+[PROGRESS] step=2350 seen=18800/41815 saved=18800 skipped_existing=0 skipped_bad=0 rate=6.54 patches/sec ETA=58m 41s
+[PROGRESS] step=2355 seen=18840/41815 saved=18840 skipped_existing=0 skipped_bad=0 rate=6.47 patches/sec ETA=59m 10s
+[PROGRESS] step=2360 seen=18880/41815 saved=18880 skipped_existing=0 skipped_bad=0 rate=6.48 patches/sec ETA=58m 58s
+[PROGRESS] step=2365 seen=18920/41815 saved=18920 skipped_existing=0 skipped_bad=0 rate=6.49 patches/sec ETA=58m 50s
+[PROGRESS] step=2370 seen=18960/41815 saved=18960 skipped_existing=0 skipped_bad=0 rate=6.49 patches/sec ETA=58m 39s
+[PROGRESS] step=2375 seen=19000/41815 saved=19000 skipped_existing=0 skipped_bad=0 rate=6.51 patches/sec ETA=58m 27s
+[PROGRESS] step=2380 seen=19040/41815 saved=19040 skipped_existing=0 skipped_bad=0 rate=6.52 patches/sec ETA=58m 14s
+[PROGRESS] step=2385 seen=19080/41815 saved=19080 skipped_existing=0 skipped_bad=0 rate=6.52 patches/sec ETA=58m 7s
+[PROGRESS] step=2390 seen=19120/41815 saved=19120 skipped_existing=0 skipped_bad=0 rate=6.52 patches/sec ETA=58m 2s
+[PROGRESS] step=2395 seen=19160/41815 saved=19160 skipped_existing=0 skipped_bad=0 rate=6.53 patches/sec ETA=57m 51s
+[PROGRESS] step=2400 seen=19200/41815 saved=19200 skipped_existing=0 skipped_bad=0 rate=6.54 patches/sec ETA=57m 39s
+[PROGRESS] step=2405 seen=19240/41815 saved=19240 skipped_existing=0 skipped_bad=0 rate=6.55 patches/sec ETA=57m 27s
+[PROGRESS] step=2410 seen=19280/41815 saved=19280 skipped_existing=0 skipped_bad=0 rate=6.56 patches/sec ETA=57m 14s
+[PROGRESS] step=2415 seen=19320/41815 saved=19320 skipped_existing=0 skipped_bad=0 rate=6.57 patches/sec ETA=57m 2s
+[PROGRESS] step=2420 seen=19360/41815 saved=19360 skipped_existing=0 skipped_bad=0 rate=6.58 patches/sec ETA=56m 51s
+[PROGRESS] step=2425 seen=19400/41815 saved=19400 skipped_existing=0 skipped_bad=0 rate=6.59 patches/sec ETA=56m 39s
+[PROGRESS] step=2430 seen=19440/41815 saved=19440 skipped_existing=0 skipped_bad=0 rate=6.61 patches/sec ETA=56m 26s
+[PROGRESS] step=2435 seen=19480/41815 saved=19480 skipped_existing=0 skipped_bad=0 rate=6.62 patches/sec ETA=56m 15s
+[PROGRESS] step=2440 seen=19520/41815 saved=19520 skipped_existing=0 skipped_bad=0 rate=6.63 patches/sec ETA=56m 3s
+[PROGRESS] step=2445 seen=19560/41815 saved=19560 skipped_existing=0 skipped_bad=0 rate=6.64 patches/sec ETA=55m 51s
+[PROGRESS] step=2450 seen=19600/41815 saved=19600 skipped_existing=0 skipped_bad=0 rate=6.65 patches/sec ETA=55m 40s
+[PROGRESS] step=2455 seen=19640/41815 saved=19640 skipped_existing=0 skipped_bad=0 rate=6.66 patches/sec ETA=55m 28s
+[PROGRESS] step=2460 seen=19680/41815 saved=19680 skipped_existing=0 skipped_bad=0 rate=6.67 patches/sec ETA=55m 16s
+[PROGRESS] step=2465 seen=19720/41815 saved=19720 skipped_existing=0 skipped_bad=0 rate=6.69 patches/sec ETA=55m 4s
+[PROGRESS] step=2470 seen=19760/41815 saved=19760 skipped_existing=0 skipped_bad=0 rate=6.70 patches/sec ETA=54m 53s
+[PROGRESS] step=2475 seen=19800/41815 saved=19800 skipped_existing=0 skipped_bad=0 rate=6.71 patches/sec ETA=54m 42s
+[PROGRESS] step=2480 seen=19840/41815 saved=19840 skipped_existing=0 skipped_bad=0 rate=6.72 patches/sec ETA=54m 29s
+[PROGRESS] step=2485 seen=19880/41815 saved=19880 skipped_existing=0 skipped_bad=0 rate=6.73 patches/sec ETA=54m 18s
+[PROGRESS] step=2490 seen=19920/41815 saved=19920 skipped_existing=0 skipped_bad=0 rate=6.74 patches/sec ETA=54m 7s
+[PROGRESS] step=2495 seen=19960/41815 saved=19960 skipped_existing=0 skipped_bad=0 rate=6.75 patches/sec ETA=53m 55s
+[PROGRESS] step=2500 seen=20000/41815 saved=20000 skipped_existing=0 skipped_bad=0 rate=6.76 patches/sec ETA=53m 45s
+[PROGRESS] step=2505 seen=20040/41815 saved=20040 skipped_existing=0 skipped_bad=0 rate=6.78 patches/sec ETA=53m 33s
+[PROGRESS] step=2510 seen=20080/41815 saved=20080 skipped_existing=0 skipped_bad=0 rate=6.79 patches/sec ETA=53m 22s
+[PROGRESS] step=2515 seen=20120/41815 saved=20120 skipped_existing=0 skipped_bad=0 rate=6.80 patches/sec ETA=53m 12s
+[PROGRESS] step=2520 seen=20160/41815 saved=20160 skipped_existing=0 skipped_bad=0 rate=6.81 patches/sec ETA=53m 1s
+[PROGRESS] step=2525 seen=20200/41815 saved=20200 skipped_existing=0 skipped_bad=0 rate=6.82 patches/sec ETA=52m 49s
+[PROGRESS] step=2530 seen=20240/41815 saved=20240 skipped_existing=0 skipped_bad=0 rate=6.83 patches/sec ETA=52m 38s
+[PROGRESS] step=2535 seen=20280/41815 saved=20280 skipped_existing=0 skipped_bad=0 rate=6.84 patches/sec ETA=52m 27s
+[PROGRESS] step=2540 seen=20320/41815 saved=20320 skipped_existing=0 skipped_bad=0 rate=6.85 patches/sec ETA=52m 16s
+[PROGRESS] step=2545 seen=20360/41815 saved=20360 skipped_existing=0 skipped_bad=0 rate=6.86 patches/sec ETA=52m 6s
+[PROGRESS] step=2550 seen=20400/41815 saved=20400 skipped_existing=0 skipped_bad=0 rate=6.87 patches/sec ETA=51m 56s
+[PROGRESS] step=2555 seen=20440/41815 saved=20440 skipped_existing=0 skipped_bad=0 rate=6.88 patches/sec ETA=51m 46s
+[PROGRESS] step=2560 seen=20480/41815 saved=20480 skipped_existing=0 skipped_bad=0 rate=6.89 patches/sec ETA=51m 35s
+[PROGRESS] step=2565 seen=20520/41815 saved=20520 skipped_existing=0 skipped_bad=0 rate=6.90 patches/sec ETA=51m 24s
+[PROGRESS] step=2570 seen=20560/41815 saved=20560 skipped_existing=0 skipped_bad=0 rate=6.91 patches/sec ETA=51m 15s
+[PROGRESS] step=2575 seen=20600/41815 saved=20600 skipped_existing=0 skipped_bad=0 rate=6.92 patches/sec ETA=51m 5s
+[PROGRESS] step=2580 seen=20640/41815 saved=20640 skipped_existing=0 skipped_bad=0 rate=6.93 patches/sec ETA=50m 55s
+[PROGRESS] step=2585 seen=20680/41815 saved=20680 skipped_existing=0 skipped_bad=0 rate=6.94 patches/sec ETA=50m 44s
+[PROGRESS] step=2590 seen=20720/41815 saved=20720 skipped_existing=0 skipped_bad=0 rate=6.95 patches/sec ETA=50m 34s
+[PROGRESS] step=2595 seen=20760/41815 saved=20760 skipped_existing=0 skipped_bad=0 rate=6.96 patches/sec ETA=50m 23s
+[PROGRESS] step=2600 seen=20800/41815 saved=20800 skipped_existing=0 skipped_bad=0 rate=6.97 patches/sec ETA=50m 13s
+[PROGRESS] step=2605 seen=20840/41815 saved=20840 skipped_existing=0 skipped_bad=0 rate=6.98 patches/sec ETA=50m 3s
+[PROGRESS] step=2610 seen=20880/41815 saved=20880 skipped_existing=0 skipped_bad=0 rate=6.99 patches/sec ETA=49m 54s
+[PROGRESS] step=2615 seen=20920/41815 saved=20920 skipped_existing=0 skipped_bad=0 rate=7.00 patches/sec ETA=49m 44s
+[PROGRESS] step=2620 seen=20960/41815 saved=20960 skipped_existing=0 skipped_bad=0 rate=7.01 patches/sec ETA=49m 35s
+[PROGRESS] step=2625 seen=21000/41815 saved=21000 skipped_existing=0 skipped_bad=0 rate=7.02 patches/sec ETA=49m 25s
+[PROGRESS] step=2630 seen=21040/41815 saved=21040 skipped_existing=0 skipped_bad=0 rate=7.03 patches/sec ETA=49m 16s
+[PROGRESS] step=2635 seen=21080/41815 saved=21080 skipped_existing=0 skipped_bad=0 rate=7.04 patches/sec ETA=49m 7s
+[PROGRESS] step=2640 seen=21120/41815 saved=21120 skipped_existing=0 skipped_bad=0 rate=7.04 patches/sec ETA=48m 58s
+[PROGRESS] step=2645 seen=21160/41815 saved=21160 skipped_existing=0 skipped_bad=0 rate=7.05 patches/sec ETA=48m 49s
+[PROGRESS] step=2650 seen=21200/41815 saved=21200 skipped_existing=0 skipped_bad=0 rate=7.06 patches/sec ETA=48m 40s
+[PROGRESS] step=2655 seen=21240/41815 saved=21240 skipped_existing=0 skipped_bad=0 rate=7.07 patches/sec ETA=48m 31s
+[PROGRESS] step=2660 seen=21280/41815 saved=21280 skipped_existing=0 skipped_bad=0 rate=7.07 patches/sec ETA=48m 24s
+[PROGRESS] step=2665 seen=21320/41815 saved=21320 skipped_existing=0 skipped_bad=0 rate=7.08 patches/sec ETA=48m 16s
+[PROGRESS] step=2670 seen=21360/41815 saved=21360 skipped_existing=0 skipped_bad=0 rate=7.07 patches/sec ETA=48m 11s
+[PROGRESS] step=2675 seen=21400/41815 saved=21400 skipped_existing=0 skipped_bad=0 rate=7.08 patches/sec ETA=48m 3s
+[PROGRESS] step=2680 seen=21440/41815 saved=21440 skipped_existing=0 skipped_bad=0 rate=7.09 patches/sec ETA=47m 53s
+[PROGRESS] step=2685 seen=21480/41815 saved=21480 skipped_existing=0 skipped_bad=0 rate=7.10 patches/sec ETA=47m 43s
+[PROGRESS] step=2690 seen=21520/41815 saved=21520 skipped_existing=0 skipped_bad=0 rate=7.11 patches/sec ETA=47m 34s
+[PROGRESS] step=2695 seen=21560/41815 saved=21560 skipped_existing=0 skipped_bad=0 rate=7.11 patches/sec ETA=47m 29s
+[PROGRESS] step=2700 seen=21600/41815 saved=21600 skipped_existing=0 skipped_bad=0 rate=7.11 patches/sec ETA=47m 22s
+[PROGRESS] step=2705 seen=21640/41815 saved=21640 skipped_existing=0 skipped_bad=0 rate=7.12 patches/sec ETA=47m 13s
+[PROGRESS] step=2710 seen=21680/41815 saved=21680 skipped_existing=0 skipped_bad=0 rate=7.13 patches/sec ETA=47m 4s
+[PROGRESS] step=2715 seen=21720/41815 saved=21720 skipped_existing=0 skipped_bad=0 rate=7.14 patches/sec ETA=46m 54s
+[PROGRESS] step=2720 seen=21760/41815 saved=21760 skipped_existing=0 skipped_bad=0 rate=7.15 patches/sec ETA=46m 45s
+[PROGRESS] step=2725 seen=21800/41815 saved=21800 skipped_existing=0 skipped_bad=0 rate=7.16 patches/sec ETA=46m 37s
+[PROGRESS] step=2730 seen=21840/41815 saved=21840 skipped_existing=0 skipped_bad=0 rate=7.16 patches/sec ETA=46m 28s
+[PROGRESS] step=2735 seen=21880/41815 saved=21880 skipped_existing=0 skipped_bad=0 rate=7.17 patches/sec ETA=46m 20s
+[PROGRESS] step=2740 seen=21920/41815 saved=21920 skipped_existing=0 skipped_bad=0 rate=7.18 patches/sec ETA=46m 11s
+[PROGRESS] step=2745 seen=21960/41815 saved=21960 skipped_existing=0 skipped_bad=0 rate=7.19 patches/sec ETA=46m 1s
+[PROGRESS] step=2750 seen=22000/41815 saved=22000 skipped_existing=0 skipped_bad=0 rate=7.20 patches/sec ETA=45m 52s
+[PROGRESS] step=2755 seen=22040/41815 saved=22040 skipped_existing=0 skipped_bad=0 rate=7.21 patches/sec ETA=45m 42s
+[PROGRESS] step=2760 seen=22080/41815 saved=22080 skipped_existing=0 skipped_bad=0 rate=7.22 patches/sec ETA=45m 33s
+[PROGRESS] step=2765 seen=22120/41815 saved=22120 skipped_existing=0 skipped_bad=0 rate=7.23 patches/sec ETA=45m 24s
+[PROGRESS] step=2770 seen=22160/41815 saved=22160 skipped_existing=0 skipped_bad=0 rate=7.24 patches/sec ETA=45m 14s
+[PROGRESS] step=2775 seen=22200/41815 saved=22200 skipped_existing=0 skipped_bad=0 rate=7.25 patches/sec ETA=45m 5s
+[PROGRESS] step=2780 seen=22240/41815 saved=22240 skipped_existing=0 skipped_bad=0 rate=7.26 patches/sec ETA=44m 56s
+[PROGRESS] step=2785 seen=22280/41815 saved=22280 skipped_existing=0 skipped_bad=0 rate=7.27 patches/sec ETA=44m 47s
+[PROGRESS] step=2790 seen=22320/41815 saved=22320 skipped_existing=0 skipped_bad=0 rate=7.28 patches/sec ETA=44m 38s
+[PROGRESS] step=2795 seen=22360/41815 saved=22360 skipped_existing=0 skipped_bad=0 rate=7.29 patches/sec ETA=44m 29s
+[PROGRESS] step=2800 seen=22400/41815 saved=22400 skipped_existing=0 skipped_bad=0 rate=7.30 patches/sec ETA=44m 19s
+[PROGRESS] step=2805 seen=22440/41815 saved=22440 skipped_existing=0 skipped_bad=0 rate=7.31 patches/sec ETA=44m 10s
+[PROGRESS] step=2810 seen=22480/41815 saved=22480 skipped_existing=0 skipped_bad=0 rate=7.32 patches/sec ETA=44m 0s
+[PROGRESS] step=2815 seen=22520/41815 saved=22520 skipped_existing=0 skipped_bad=0 rate=7.33 patches/sec ETA=43m 51s
+[PROGRESS] step=2820 seen=22560/41815 saved=22560 skipped_existing=0 skipped_bad=0 rate=7.34 patches/sec ETA=43m 41s
+[PROGRESS] step=2825 seen=22600/41815 saved=22600 skipped_existing=0 skipped_bad=0 rate=7.36 patches/sec ETA=43m 32s
+[PROGRESS] step=2830 seen=22640/41815 saved=22640 skipped_existing=0 skipped_bad=0 rate=7.37 patches/sec ETA=43m 23s
+[PROGRESS] step=2835 seen=22680/41815 saved=22680 skipped_existing=0 skipped_bad=0 rate=7.38 patches/sec ETA=43m 13s
+[PROGRESS] step=2840 seen=22720/41815 saved=22720 skipped_existing=0 skipped_bad=0 rate=7.39 patches/sec ETA=43m 4s
+[PROGRESS] step=2845 seen=22760/41815 saved=22760 skipped_existing=0 skipped_bad=0 rate=7.40 patches/sec ETA=42m 55s
+[PROGRESS] step=2850 seen=22800/41815 saved=22800 skipped_existing=0 skipped_bad=0 rate=7.41 patches/sec ETA=42m 46s
+[PROGRESS] step=2855 seen=22840/41815 saved=22840 skipped_existing=0 skipped_bad=0 rate=7.42 patches/sec ETA=42m 37s
+[PROGRESS] step=2860 seen=22880/41815 saved=22880 skipped_existing=0 skipped_bad=0 rate=7.43 patches/sec ETA=42m 28s
+[PROGRESS] step=2865 seen=22920/41815 saved=22920 skipped_existing=0 skipped_bad=0 rate=7.44 patches/sec ETA=42m 20s
+[PROGRESS] step=2870 seen=22960/41815 saved=22960 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=42m 11s
+[PROGRESS] step=2875 seen=23000/41815 saved=23000 skipped_existing=0 skipped_bad=0 rate=7.46 patches/sec ETA=42m 2s
+[PROGRESS] step=2880 seen=23040/41815 saved=23040 skipped_existing=0 skipped_bad=0 rate=7.47 patches/sec ETA=41m 53s
+[PROGRESS] step=2885 seen=23080/41815 saved=23080 skipped_existing=0 skipped_bad=0 rate=7.48 patches/sec ETA=41m 44s
+[PROGRESS] step=2890 seen=23120/41815 saved=23120 skipped_existing=0 skipped_bad=0 rate=7.49 patches/sec ETA=41m 35s
+[PROGRESS] step=2895 seen=23160/41815 saved=23160 skipped_existing=0 skipped_bad=0 rate=7.50 patches/sec ETA=41m 26s
+[PROGRESS] step=2900 seen=23200/41815 saved=23200 skipped_existing=0 skipped_bad=0 rate=7.51 patches/sec ETA=41m 17s
+[PROGRESS] step=2905 seen=23240/41815 saved=23240 skipped_existing=0 skipped_bad=0 rate=7.53 patches/sec ETA=41m 8s
+[PROGRESS] step=2910 seen=23280/41815 saved=23280 skipped_existing=0 skipped_bad=0 rate=7.54 patches/sec ETA=40m 59s
+[PROGRESS] step=2915 seen=23320/41815 saved=23320 skipped_existing=0 skipped_bad=0 rate=7.55 patches/sec ETA=40m 50s
+[PROGRESS] step=2920 seen=23360/41815 saved=23360 skipped_existing=0 skipped_bad=0 rate=7.56 patches/sec ETA=40m 41s
+[PROGRESS] step=2925 seen=23400/41815 saved=23400 skipped_existing=0 skipped_bad=0 rate=7.57 patches/sec ETA=40m 32s
+[PROGRESS] step=2930 seen=23440/41815 saved=23440 skipped_existing=0 skipped_bad=0 rate=7.58 patches/sec ETA=40m 24s
+[PROGRESS] step=2935 seen=23480/41815 saved=23480 skipped_existing=0 skipped_bad=0 rate=7.59 patches/sec ETA=40m 15s
+[PROGRESS] step=2940 seen=23520/41815 saved=23520 skipped_existing=0 skipped_bad=0 rate=7.60 patches/sec ETA=40m 6s
+[PROGRESS] step=2945 seen=23560/41815 saved=23560 skipped_existing=0 skipped_bad=0 rate=7.61 patches/sec ETA=39m 58s
+[PROGRESS] step=2950 seen=23600/41815 saved=23600 skipped_existing=0 skipped_bad=0 rate=7.62 patches/sec ETA=39m 49s
+[PROGRESS] step=2955 seen=23640/41815 saved=23640 skipped_existing=0 skipped_bad=0 rate=7.63 patches/sec ETA=39m 40s
+[PROGRESS] step=2960 seen=23680/41815 saved=23680 skipped_existing=0 skipped_bad=0 rate=7.64 patches/sec ETA=39m 32s
+[PROGRESS] step=2965 seen=23720/41815 saved=23720 skipped_existing=0 skipped_bad=0 rate=7.66 patches/sec ETA=39m 23s
+[PROGRESS] step=2970 seen=23760/41815 saved=23760 skipped_existing=0 skipped_bad=0 rate=7.67 patches/sec ETA=39m 14s
+[PROGRESS] step=2975 seen=23800/41815 saved=23800 skipped_existing=0 skipped_bad=0 rate=7.68 patches/sec ETA=39m 6s
+[PROGRESS] step=2980 seen=23840/41815 saved=23840 skipped_existing=0 skipped_bad=0 rate=7.69 patches/sec ETA=38m 57s
+[PROGRESS] step=2985 seen=23880/41815 saved=23880 skipped_existing=0 skipped_bad=0 rate=7.70 patches/sec ETA=38m 49s
+[PROGRESS] step=2990 seen=23920/41815 saved=23920 skipped_existing=0 skipped_bad=0 rate=7.71 patches/sec ETA=38m 41s
+[PROGRESS] step=2995 seen=23960/41815 saved=23960 skipped_existing=0 skipped_bad=0 rate=7.72 patches/sec ETA=38m 33s
+[PROGRESS] step=3000 seen=24000/41815 saved=24000 skipped_existing=0 skipped_bad=0 rate=7.73 patches/sec ETA=38m 24s
+[PROGRESS] step=3005 seen=24040/41815 saved=24040 skipped_existing=0 skipped_bad=0 rate=7.74 patches/sec ETA=38m 17s
+[PROGRESS] step=3010 seen=24080/41815 saved=24080 skipped_existing=0 skipped_bad=0 rate=7.75 patches/sec ETA=38m 9s
+[PROGRESS] step=3015 seen=24120/41815 saved=24120 skipped_existing=0 skipped_bad=0 rate=7.76 patches/sec ETA=38m 0s
+[PROGRESS] step=3020 seen=24160/41815 saved=24160 skipped_existing=0 skipped_bad=0 rate=7.77 patches/sec ETA=37m 52s
+[PROGRESS] step=3025 seen=24200/41815 saved=24200 skipped_existing=0 skipped_bad=0 rate=7.78 patches/sec ETA=37m 44s
+[PROGRESS] step=3030 seen=24240/41815 saved=24240 skipped_existing=0 skipped_bad=0 rate=7.79 patches/sec ETA=37m 37s
+[PROGRESS] step=3035 seen=24280/41815 saved=24280 skipped_existing=0 skipped_bad=0 rate=7.80 patches/sec ETA=37m 29s
+[PROGRESS] step=3040 seen=24320/41815 saved=24320 skipped_existing=0 skipped_bad=0 rate=7.80 patches/sec ETA=37m 21s
+[PROGRESS] step=3045 seen=24360/41815 saved=24360 skipped_existing=0 skipped_bad=0 rate=7.81 patches/sec ETA=37m 14s
+[PROGRESS] step=3050 seen=24400/41815 saved=24400 skipped_existing=0 skipped_bad=0 rate=7.82 patches/sec ETA=37m 6s
+[PROGRESS] step=3055 seen=24440/41815 saved=24440 skipped_existing=0 skipped_bad=0 rate=7.83 patches/sec ETA=36m 58s
+[PROGRESS] step=3060 seen=24480/41815 saved=24480 skipped_existing=0 skipped_bad=0 rate=7.84 patches/sec ETA=36m 50s
+[PROGRESS] step=3065 seen=24520/41815 saved=24520 skipped_existing=0 skipped_bad=0 rate=7.85 patches/sec ETA=36m 43s
+[PROGRESS] step=3070 seen=24560/41815 saved=24560 skipped_existing=0 skipped_bad=0 rate=7.86 patches/sec ETA=36m 35s
+[PROGRESS] step=3075 seen=24600/41815 saved=24600 skipped_existing=0 skipped_bad=0 rate=7.87 patches/sec ETA=36m 27s
+[PROGRESS] step=3080 seen=24640/41815 saved=24640 skipped_existing=0 skipped_bad=0 rate=7.88 patches/sec ETA=36m 19s
+[PROGRESS] step=3085 seen=24680/41815 saved=24680 skipped_existing=0 skipped_bad=0 rate=7.89 patches/sec ETA=36m 11s
+[PROGRESS] step=3090 seen=24720/41815 saved=24720 skipped_existing=0 skipped_bad=0 rate=7.90 patches/sec ETA=36m 3s
+[PROGRESS] step=3095 seen=24760/41815 saved=24760 skipped_existing=0 skipped_bad=0 rate=7.91 patches/sec ETA=35m 56s
+[PROGRESS] step=3100 seen=24800/41815 saved=24800 skipped_existing=0 skipped_bad=0 rate=7.92 patches/sec ETA=35m 48s
+[PROGRESS] step=3105 seen=24840/41815 saved=24840 skipped_existing=0 skipped_bad=0 rate=7.93 patches/sec ETA=35m 40s
+[PROGRESS] step=3110 seen=24880/41815 saved=24880 skipped_existing=0 skipped_bad=0 rate=7.94 patches/sec ETA=35m 33s
+[PROGRESS] step=3115 seen=24920/41815 saved=24920 skipped_existing=0 skipped_bad=0 rate=7.95 patches/sec ETA=35m 25s
+[PROGRESS] step=3120 seen=24960/41815 saved=24960 skipped_existing=0 skipped_bad=0 rate=7.96 patches/sec ETA=35m 18s
+[PROGRESS] step=3125 seen=25000/41815 saved=25000 skipped_existing=0 skipped_bad=0 rate=7.96 patches/sec ETA=35m 12s
+[PROGRESS] step=3130 seen=25040/41815 saved=25040 skipped_existing=0 skipped_bad=0 rate=7.97 patches/sec ETA=35m 5s
+[PROGRESS] step=3135 seen=25080/41815 saved=25080 skipped_existing=0 skipped_bad=0 rate=7.98 patches/sec ETA=34m 57s
+[PROGRESS] step=3140 seen=25120/41815 saved=25120 skipped_existing=0 skipped_bad=0 rate=7.99 patches/sec ETA=34m 49s
+[PROGRESS] step=3145 seen=25160/41815 saved=25160 skipped_existing=0 skipped_bad=0 rate=8.00 patches/sec ETA=34m 42s
+[PROGRESS] step=3150 seen=25200/41815 saved=25200 skipped_existing=0 skipped_bad=0 rate=8.01 patches/sec ETA=34m 34s
+[PROGRESS] step=3155 seen=25240/41815 saved=25240 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=34m 27s
+[PROGRESS] step=3160 seen=25280/41815 saved=25280 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=34m 21s
+[PROGRESS] step=3165 seen=25320/41815 saved=25320 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=34m 16s
+[PROGRESS] step=3170 seen=25360/41815 saved=25360 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=34m 9s
+[PROGRESS] step=3175 seen=25400/41815 saved=25400 skipped_existing=0 skipped_bad=0 rate=8.04 patches/sec ETA=34m 2s
+[PROGRESS] step=3180 seen=25440/41815 saved=25440 skipped_existing=0 skipped_bad=0 rate=8.05 patches/sec ETA=33m 55s
+[PROGRESS] step=3185 seen=25480/41815 saved=25480 skipped_existing=0 skipped_bad=0 rate=8.04 patches/sec ETA=33m 52s
+[PROGRESS] step=3190 seen=25520/41815 saved=25520 skipped_existing=0 skipped_bad=0 rate=8.04 patches/sec ETA=33m 46s
+[PROGRESS] step=3195 seen=25560/41815 saved=25560 skipped_existing=0 skipped_bad=0 rate=8.05 patches/sec ETA=33m 38s
+[PROGRESS] step=3200 seen=25600/41815 saved=25600 skipped_existing=0 skipped_bad=0 rate=8.06 patches/sec ETA=33m 31s
+[PROGRESS] step=3205 seen=25640/41815 saved=25640 skipped_existing=0 skipped_bad=0 rate=8.07 patches/sec ETA=33m 23s
+[PROGRESS] step=3210 seen=25680/41815 saved=25680 skipped_existing=0 skipped_bad=0 rate=8.08 patches/sec ETA=33m 16s
+[PROGRESS] step=3215 seen=25720/41815 saved=25720 skipped_existing=0 skipped_bad=0 rate=8.09 patches/sec ETA=33m 8s
+[PROGRESS] step=3220 seen=25760/41815 saved=25760 skipped_existing=0 skipped_bad=0 rate=8.10 patches/sec ETA=33m 1s
+[PROGRESS] step=3225 seen=25800/41815 saved=25800 skipped_existing=0 skipped_bad=0 rate=8.11 patches/sec ETA=32m 54s
+[PROGRESS] step=3230 seen=25840/41815 saved=25840 skipped_existing=0 skipped_bad=0 rate=7.98 patches/sec ETA=33m 22s
+[PROGRESS] step=3235 seen=25880/41815 saved=25880 skipped_existing=0 skipped_bad=0 rate=7.61 patches/sec ETA=34m 54s
+[PROGRESS] step=3240 seen=25920/41815 saved=25920 skipped_existing=0 skipped_bad=0 rate=7.44 patches/sec ETA=35m 35s
+[PROGRESS] step=3245 seen=25960/41815 saved=25960 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=35m 27s
+[PROGRESS] step=3250 seen=26000/41815 saved=26000 skipped_existing=0 skipped_bad=0 rate=7.46 patches/sec ETA=35m 19s
+[PROGRESS] step=3255 seen=26040/41815 saved=26040 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=35m 16s
+[PROGRESS] step=3260 seen=26080/41815 saved=26080 skipped_existing=0 skipped_bad=0 rate=7.27 patches/sec ETA=36m 5s
+[PROGRESS] step=3265 seen=26120/41815 saved=26120 skipped_existing=0 skipped_bad=0 rate=7.02 patches/sec ETA=37m 16s
+[PROGRESS] step=3270 seen=26160/41815 saved=26160 skipped_existing=0 skipped_bad=0 rate=6.72 patches/sec ETA=38m 51s
+[PROGRESS] step=3275 seen=26200/41815 saved=26200 skipped_existing=0 skipped_bad=0 rate=6.48 patches/sec ETA=40m 7s
+[PROGRESS] step=3280 seen=26240/41815 saved=26240 skipped_existing=0 skipped_bad=0 rate=6.46 patches/sec ETA=40m 12s
+[PROGRESS] step=3285 seen=26280/41815 saved=26280 skipped_existing=0 skipped_bad=0 rate=6.46 patches/sec ETA=40m 2s
+[PROGRESS] step=3290 seen=26320/41815 saved=26320 skipped_existing=0 skipped_bad=0 rate=6.47 patches/sec ETA=39m 53s
+[PROGRESS] step=3295 seen=26360/41815 saved=26360 skipped_existing=0 skipped_bad=0 rate=6.48 patches/sec ETA=39m 43s
+[PROGRESS] step=3300 seen=26400/41815 saved=26400 skipped_existing=0 skipped_bad=0 rate=6.49 patches/sec ETA=39m 34s
+[PROGRESS] step=3305 seen=26440/41815 saved=26440 skipped_existing=0 skipped_bad=0 rate=6.50 patches/sec ETA=39m 25s
+[PROGRESS] step=3310 seen=26480/41815 saved=26480 skipped_existing=0 skipped_bad=0 rate=6.51 patches/sec ETA=39m 15s
+[PROGRESS] step=3315 seen=26520/41815 saved=26520 skipped_existing=0 skipped_bad=0 rate=6.52 patches/sec ETA=39m 6s
+[PROGRESS] step=3320 seen=26560/41815 saved=26560 skipped_existing=0 skipped_bad=0 rate=6.53 patches/sec ETA=38m 57s
+[PROGRESS] step=3325 seen=26600/41815 saved=26600 skipped_existing=0 skipped_bad=0 rate=6.53 patches/sec ETA=38m 48s
+[PROGRESS] step=3330 seen=26640/41815 saved=26640 skipped_existing=0 skipped_bad=0 rate=6.54 patches/sec ETA=38m 39s
+[PROGRESS] step=3335 seen=26680/41815 saved=26680 skipped_existing=0 skipped_bad=0 rate=6.55 patches/sec ETA=38m 30s
+[PROGRESS] step=3340 seen=26720/41815 saved=26720 skipped_existing=0 skipped_bad=0 rate=6.56 patches/sec ETA=38m 21s
+[PROGRESS] step=3345 seen=26760/41815 saved=26760 skipped_existing=0 skipped_bad=0 rate=6.57 patches/sec ETA=38m 12s
+[PROGRESS] step=3350 seen=26800/41815 saved=26800 skipped_existing=0 skipped_bad=0 rate=6.58 patches/sec ETA=38m 3s
+[PROGRESS] step=3355 seen=26840/41815 saved=26840 skipped_existing=0 skipped_bad=0 rate=6.58 patches/sec ETA=37m 54s
+[PROGRESS] step=3360 seen=26880/41815 saved=26880 skipped_existing=0 skipped_bad=0 rate=6.59 patches/sec ETA=37m 45s
+[PROGRESS] step=3365 seen=26920/41815 saved=26920 skipped_existing=0 skipped_bad=0 rate=6.60 patches/sec ETA=37m 37s
+[PROGRESS] step=3370 seen=26960/41815 saved=26960 skipped_existing=0 skipped_bad=0 rate=6.61 patches/sec ETA=37m 29s
+[PROGRESS] step=3375 seen=27000/41815 saved=27000 skipped_existing=0 skipped_bad=0 rate=6.61 patches/sec ETA=37m 20s
+[PROGRESS] step=3380 seen=27040/41815 saved=27040 skipped_existing=0 skipped_bad=0 rate=6.62 patches/sec ETA=37m 11s
+[PROGRESS] step=3385 seen=27080/41815 saved=27080 skipped_existing=0 skipped_bad=0 rate=6.63 patches/sec ETA=37m 2s
+[PROGRESS] step=3390 seen=27120/41815 saved=27120 skipped_existing=0 skipped_bad=0 rate=6.64 patches/sec ETA=36m 53s
+[PROGRESS] step=3395 seen=27160/41815 saved=27160 skipped_existing=0 skipped_bad=0 rate=6.64 patches/sec ETA=36m 45s
+[PROGRESS] step=3400 seen=27200/41815 saved=27200 skipped_existing=0 skipped_bad=0 rate=6.65 patches/sec ETA=36m 37s
+[PROGRESS] step=3405 seen=27240/41815 saved=27240 skipped_existing=0 skipped_bad=0 rate=6.66 patches/sec ETA=36m 28s
+[PROGRESS] step=3410 seen=27280/41815 saved=27280 skipped_existing=0 skipped_bad=0 rate=6.67 patches/sec ETA=36m 20s
+[PROGRESS] step=3415 seen=27320/41815 saved=27320 skipped_existing=0 skipped_bad=0 rate=6.67 patches/sec ETA=36m 12s
+[PROGRESS] step=3420 seen=27360/41815 saved=27360 skipped_existing=0 skipped_bad=0 rate=6.68 patches/sec ETA=36m 5s
+[PROGRESS] step=3425 seen=27400/41815 saved=27400 skipped_existing=0 skipped_bad=0 rate=6.68 patches/sec ETA=35m 56s
+[PROGRESS] step=3430 seen=27440/41815 saved=27440 skipped_existing=0 skipped_bad=0 rate=6.69 patches/sec ETA=35m 47s
+[PROGRESS] step=3435 seen=27480/41815 saved=27480 skipped_existing=0 skipped_bad=0 rate=6.70 patches/sec ETA=35m 39s
+[PROGRESS] step=3440 seen=27520/41815 saved=27520 skipped_existing=0 skipped_bad=0 rate=6.71 patches/sec ETA=35m 30s
+[PROGRESS] step=3445 seen=27560/41815 saved=27560 skipped_existing=0 skipped_bad=0 rate=6.72 patches/sec ETA=35m 22s
+[PROGRESS] step=3450 seen=27600/41815 saved=27600 skipped_existing=0 skipped_bad=0 rate=6.73 patches/sec ETA=35m 13s
+[PROGRESS] step=3455 seen=27640/41815 saved=27640 skipped_existing=0 skipped_bad=0 rate=6.73 patches/sec ETA=35m 5s
+[PROGRESS] step=3460 seen=27680/41815 saved=27680 skipped_existing=0 skipped_bad=0 rate=6.74 patches/sec ETA=34m 56s
+[PROGRESS] step=3465 seen=27720/41815 saved=27720 skipped_existing=0 skipped_bad=0 rate=6.75 patches/sec ETA=34m 48s
+[PROGRESS] step=3470 seen=27760/41815 saved=27760 skipped_existing=0 skipped_bad=0 rate=6.75 patches/sec ETA=34m 40s
+[PROGRESS] step=3475 seen=27800/41815 saved=27800 skipped_existing=0 skipped_bad=0 rate=6.75 patches/sec ETA=34m 37s
+[PROGRESS] step=3480 seen=27840/41815 saved=27840 skipped_existing=0 skipped_bad=0 rate=6.73 patches/sec ETA=34m 37s
+[PROGRESS] step=3485 seen=27880/41815 saved=27880 skipped_existing=0 skipped_bad=0 rate=6.72 patches/sec ETA=34m 32s
+[PROGRESS] step=3490 seen=27920/41815 saved=27920 skipped_existing=0 skipped_bad=0 rate=6.73 patches/sec ETA=34m 26s
+[PROGRESS] step=3495 seen=27960/41815 saved=27960 skipped_existing=0 skipped_bad=0 rate=6.73 patches/sec ETA=34m 18s
+[PROGRESS] step=3500 seen=28000/41815 saved=28000 skipped_existing=0 skipped_bad=0 rate=6.74 patches/sec ETA=34m 9s
+[PROGRESS] step=3505 seen=28040/41815 saved=28040 skipped_existing=0 skipped_bad=0 rate=6.75 patches/sec ETA=34m 1s
+[PROGRESS] step=3510 seen=28080/41815 saved=28080 skipped_existing=0 skipped_bad=0 rate=6.76 patches/sec ETA=33m 53s
+[PROGRESS] step=3515 seen=28120/41815 saved=28120 skipped_existing=0 skipped_bad=0 rate=6.76 patches/sec ETA=33m 46s
+[PROGRESS] step=3520 seen=28160/41815 saved=28160 skipped_existing=0 skipped_bad=0 rate=6.76 patches/sec ETA=33m 39s
+[PROGRESS] step=3525 seen=28200/41815 saved=28200 skipped_existing=0 skipped_bad=0 rate=6.77 patches/sec ETA=33m 31s
+[PROGRESS] step=3530 seen=28240/41815 saved=28240 skipped_existing=0 skipped_bad=0 rate=6.78 patches/sec ETA=33m 23s
+[PROGRESS] step=3535 seen=28280/41815 saved=28280 skipped_existing=0 skipped_bad=0 rate=6.78 patches/sec ETA=33m 15s
+[PROGRESS] step=3540 seen=28320/41815 saved=28320 skipped_existing=0 skipped_bad=0 rate=6.79 patches/sec ETA=33m 8s
+[PROGRESS] step=3545 seen=28360/41815 saved=28360 skipped_existing=0 skipped_bad=0 rate=6.80 patches/sec ETA=32m 59s
+[PROGRESS] step=3550 seen=28400/41815 saved=28400 skipped_existing=0 skipped_bad=0 rate=6.80 patches/sec ETA=32m 51s
+[PROGRESS] step=3555 seen=28440/41815 saved=28440 skipped_existing=0 skipped_bad=0 rate=6.81 patches/sec ETA=32m 43s
+[PROGRESS] step=3560 seen=28480/41815 saved=28480 skipped_existing=0 skipped_bad=0 rate=6.82 patches/sec ETA=32m 36s
+[PROGRESS] step=3565 seen=28520/41815 saved=28520 skipped_existing=0 skipped_bad=0 rate=6.82 patches/sec ETA=32m 28s
+[PROGRESS] step=3570 seen=28560/41815 saved=28560 skipped_existing=0 skipped_bad=0 rate=6.83 patches/sec ETA=32m 20s
+[PROGRESS] step=3575 seen=28600/41815 saved=28600 skipped_existing=0 skipped_bad=0 rate=6.84 patches/sec ETA=32m 12s
+[PROGRESS] step=3580 seen=28640/41815 saved=28640 skipped_existing=0 skipped_bad=0 rate=6.85 patches/sec ETA=32m 4s
+[PROGRESS] step=3585 seen=28680/41815 saved=28680 skipped_existing=0 skipped_bad=0 rate=6.85 patches/sec ETA=31m 56s
+[PROGRESS] step=3590 seen=28720/41815 saved=28720 skipped_existing=0 skipped_bad=0 rate=6.86 patches/sec ETA=31m 48s
+[PROGRESS] step=3595 seen=28760/41815 saved=28760 skipped_existing=0 skipped_bad=0 rate=6.87 patches/sec ETA=31m 40s
+[PROGRESS] step=3600 seen=28800/41815 saved=28800 skipped_existing=0 skipped_bad=0 rate=6.88 patches/sec ETA=31m 32s
+[PROGRESS] step=3605 seen=28840/41815 saved=28840 skipped_existing=0 skipped_bad=0 rate=6.89 patches/sec ETA=31m 24s
+[PROGRESS] step=3610 seen=28880/41815 saved=28880 skipped_existing=0 skipped_bad=0 rate=6.89 patches/sec ETA=31m 16s
+[PROGRESS] step=3615 seen=28920/41815 saved=28920 skipped_existing=0 skipped_bad=0 rate=6.90 patches/sec ETA=31m 8s
+[PROGRESS] step=3620 seen=28960/41815 saved=28960 skipped_existing=0 skipped_bad=0 rate=6.91 patches/sec ETA=31m 0s
+[PROGRESS] step=3625 seen=29000/41815 saved=29000 skipped_existing=0 skipped_bad=0 rate=6.92 patches/sec ETA=30m 52s
+[PROGRESS] step=3630 seen=29040/41815 saved=29040 skipped_existing=0 skipped_bad=0 rate=6.92 patches/sec ETA=30m 44s
+[PROGRESS] step=3635 seen=29080/41815 saved=29080 skipped_existing=0 skipped_bad=0 rate=6.93 patches/sec ETA=30m 36s
+[PROGRESS] step=3640 seen=29120/41815 saved=29120 skipped_existing=0 skipped_bad=0 rate=6.94 patches/sec ETA=30m 29s
+[PROGRESS] step=3645 seen=29160/41815 saved=29160 skipped_existing=0 skipped_bad=0 rate=6.94 patches/sec ETA=30m 22s
+[PROGRESS] step=3650 seen=29200/41815 saved=29200 skipped_existing=0 skipped_bad=0 rate=6.94 patches/sec ETA=30m 18s
+[PROGRESS] step=3655 seen=29240/41815 saved=29240 skipped_existing=0 skipped_bad=0 rate=6.94 patches/sec ETA=30m 10s
+[PROGRESS] step=3660 seen=29280/41815 saved=29280 skipped_existing=0 skipped_bad=0 rate=6.95 patches/sec ETA=30m 2s
+[PROGRESS] step=3665 seen=29320/41815 saved=29320 skipped_existing=0 skipped_bad=0 rate=6.96 patches/sec ETA=29m 54s
+[PROGRESS] step=3670 seen=29360/41815 saved=29360 skipped_existing=0 skipped_bad=0 rate=6.97 patches/sec ETA=29m 46s
+[PROGRESS] step=3675 seen=29400/41815 saved=29400 skipped_existing=0 skipped_bad=0 rate=6.98 patches/sec ETA=29m 39s
+[PROGRESS] step=3680 seen=29440/41815 saved=29440 skipped_existing=0 skipped_bad=0 rate=6.99 patches/sec ETA=29m 31s
+[PROGRESS] step=3685 seen=29480/41815 saved=29480 skipped_existing=0 skipped_bad=0 rate=7.00 patches/sec ETA=29m 23s
+[PROGRESS] step=3690 seen=29520/41815 saved=29520 skipped_existing=0 skipped_bad=0 rate=7.00 patches/sec ETA=29m 15s
+[PROGRESS] step=3695 seen=29560/41815 saved=29560 skipped_existing=0 skipped_bad=0 rate=7.01 patches/sec ETA=29m 7s
+[PROGRESS] step=3700 seen=29600/41815 saved=29600 skipped_existing=0 skipped_bad=0 rate=7.02 patches/sec ETA=28m 59s
+[PROGRESS] step=3705 seen=29640/41815 saved=29640 skipped_existing=0 skipped_bad=0 rate=7.03 patches/sec ETA=28m 51s
+[PROGRESS] step=3710 seen=29680/41815 saved=29680 skipped_existing=0 skipped_bad=0 rate=7.04 patches/sec ETA=28m 44s
+[PROGRESS] step=3715 seen=29720/41815 saved=29720 skipped_existing=0 skipped_bad=0 rate=7.05 patches/sec ETA=28m 36s
+[PROGRESS] step=3720 seen=29760/41815 saved=29760 skipped_existing=0 skipped_bad=0 rate=7.06 patches/sec ETA=28m 28s
+[PROGRESS] step=3725 seen=29800/41815 saved=29800 skipped_existing=0 skipped_bad=0 rate=7.06 patches/sec ETA=28m 20s
+[PROGRESS] step=3730 seen=29840/41815 saved=29840 skipped_existing=0 skipped_bad=0 rate=7.07 patches/sec ETA=28m 13s
+[PROGRESS] step=3735 seen=29880/41815 saved=29880 skipped_existing=0 skipped_bad=0 rate=7.08 patches/sec ETA=28m 5s
+[PROGRESS] step=3740 seen=29920/41815 saved=29920 skipped_existing=0 skipped_bad=0 rate=7.09 patches/sec ETA=27m 58s
+[PROGRESS] step=3745 seen=29960/41815 saved=29960 skipped_existing=0 skipped_bad=0 rate=7.09 patches/sec ETA=27m 51s
+[PROGRESS] step=3750 seen=30000/41815 saved=30000 skipped_existing=0 skipped_bad=0 rate=7.10 patches/sec ETA=27m 43s
+[PROGRESS] step=3755 seen=30040/41815 saved=30040 skipped_existing=0 skipped_bad=0 rate=7.11 patches/sec ETA=27m 36s
+[PROGRESS] step=3760 seen=30080/41815 saved=30080 skipped_existing=0 skipped_bad=0 rate=7.11 patches/sec ETA=27m 29s
+[PROGRESS] step=3765 seen=30120/41815 saved=30120 skipped_existing=0 skipped_bad=0 rate=7.12 patches/sec ETA=27m 22s
+[PROGRESS] step=3770 seen=30160/41815 saved=30160 skipped_existing=0 skipped_bad=0 rate=7.13 patches/sec ETA=27m 15s
+[PROGRESS] step=3775 seen=30200/41815 saved=30200 skipped_existing=0 skipped_bad=0 rate=7.13 patches/sec ETA=27m 8s
+[PROGRESS] step=3780 seen=30240/41815 saved=30240 skipped_existing=0 skipped_bad=0 rate=7.14 patches/sec ETA=27m 1s
+[PROGRESS] step=3785 seen=30280/41815 saved=30280 skipped_existing=0 skipped_bad=0 rate=7.15 patches/sec ETA=26m 54s
+[PROGRESS] step=3790 seen=30320/41815 saved=30320 skipped_existing=0 skipped_bad=0 rate=7.12 patches/sec ETA=26m 55s
+[PROGRESS] step=3795 seen=30360/41815 saved=30360 skipped_existing=0 skipped_bad=0 rate=7.01 patches/sec ETA=27m 14s
+[PROGRESS] step=3800 seen=30400/41815 saved=30400 skipped_existing=0 skipped_bad=0 rate=6.95 patches/sec ETA=27m 22s
+[PROGRESS] step=3805 seen=30440/41815 saved=30440 skipped_existing=0 skipped_bad=0 rate=6.96 patches/sec ETA=27m 14s
+[PROGRESS] step=3810 seen=30480/41815 saved=30480 skipped_existing=0 skipped_bad=0 rate=6.97 patches/sec ETA=27m 6s
+[PROGRESS] step=3815 seen=30520/41815 saved=30520 skipped_existing=0 skipped_bad=0 rate=6.98 patches/sec ETA=26m 59s
+[PROGRESS] step=3820 seen=30560/41815 saved=30560 skipped_existing=0 skipped_bad=0 rate=6.98 patches/sec ETA=26m 51s
+[PROGRESS] step=3825 seen=30600/41815 saved=30600 skipped_existing=0 skipped_bad=0 rate=6.99 patches/sec ETA=26m 43s
+[PROGRESS] step=3830 seen=30640/41815 saved=30640 skipped_existing=0 skipped_bad=0 rate=7.00 patches/sec ETA=26m 36s
+[PROGRESS] step=3835 seen=30680/41815 saved=30680 skipped_existing=0 skipped_bad=0 rate=7.01 patches/sec ETA=26m 28s
+[PROGRESS] step=3840 seen=30720/41815 saved=30720 skipped_existing=0 skipped_bad=0 rate=7.02 patches/sec ETA=26m 21s
+[PROGRESS] step=3845 seen=30760/41815 saved=30760 skipped_existing=0 skipped_bad=0 rate=7.03 patches/sec ETA=26m 13s
+[PROGRESS] step=3850 seen=30800/41815 saved=30800 skipped_existing=0 skipped_bad=0 rate=7.03 patches/sec ETA=26m 6s
+[PROGRESS] step=3855 seen=30840/41815 saved=30840 skipped_existing=0 skipped_bad=0 rate=7.04 patches/sec ETA=25m 58s
+[PROGRESS] step=3860 seen=30880/41815 saved=30880 skipped_existing=0 skipped_bad=0 rate=7.05 patches/sec ETA=25m 51s
+[PROGRESS] step=3865 seen=30920/41815 saved=30920 skipped_existing=0 skipped_bad=0 rate=7.06 patches/sec ETA=25m 44s
+[PROGRESS] step=3870 seen=30960/41815 saved=30960 skipped_existing=0 skipped_bad=0 rate=7.06 patches/sec ETA=25m 36s
+[PROGRESS] step=3875 seen=31000/41815 saved=31000 skipped_existing=0 skipped_bad=0 rate=7.07 patches/sec ETA=25m 29s
+[PROGRESS] step=3880 seen=31040/41815 saved=31040 skipped_existing=0 skipped_bad=0 rate=7.08 patches/sec ETA=25m 22s
+[PROGRESS] step=3885 seen=31080/41815 saved=31080 skipped_existing=0 skipped_bad=0 rate=7.09 patches/sec ETA=25m 15s
+[PROGRESS] step=3890 seen=31120/41815 saved=31120 skipped_existing=0 skipped_bad=0 rate=7.09 patches/sec ETA=25m 7s
+[PROGRESS] step=3895 seen=31160/41815 saved=31160 skipped_existing=0 skipped_bad=0 rate=7.10 patches/sec ETA=25m 0s
+[PROGRESS] step=3900 seen=31200/41815 saved=31200 skipped_existing=0 skipped_bad=0 rate=7.11 patches/sec ETA=24m 53s
+[PROGRESS] step=3905 seen=31240/41815 saved=31240 skipped_existing=0 skipped_bad=0 rate=7.12 patches/sec ETA=24m 46s
+[PROGRESS] step=3910 seen=31280/41815 saved=31280 skipped_existing=0 skipped_bad=0 rate=7.12 patches/sec ETA=24m 38s
+[PROGRESS] step=3915 seen=31320/41815 saved=31320 skipped_existing=0 skipped_bad=0 rate=7.13 patches/sec ETA=24m 31s
+[PROGRESS] step=3920 seen=31360/41815 saved=31360 skipped_existing=0 skipped_bad=0 rate=7.14 patches/sec ETA=24m 24s
+[PROGRESS] step=3925 seen=31400/41815 saved=31400 skipped_existing=0 skipped_bad=0 rate=7.14 patches/sec ETA=24m 17s
+[PROGRESS] step=3930 seen=31440/41815 saved=31440 skipped_existing=0 skipped_bad=0 rate=7.15 patches/sec ETA=24m 10s
+[PROGRESS] step=3935 seen=31480/41815 saved=31480 skipped_existing=0 skipped_bad=0 rate=7.16 patches/sec ETA=24m 3s
+[PROGRESS] step=3940 seen=31520/41815 saved=31520 skipped_existing=0 skipped_bad=0 rate=7.17 patches/sec ETA=23m 56s
+[PROGRESS] step=3945 seen=31560/41815 saved=31560 skipped_existing=0 skipped_bad=0 rate=7.18 patches/sec ETA=23m 48s
+[PROGRESS] step=3950 seen=31600/41815 saved=31600 skipped_existing=0 skipped_bad=0 rate=7.18 patches/sec ETA=23m 41s
+[PROGRESS] step=3955 seen=31640/41815 saved=31640 skipped_existing=0 skipped_bad=0 rate=7.19 patches/sec ETA=23m 34s
+[PROGRESS] step=3960 seen=31680/41815 saved=31680 skipped_existing=0 skipped_bad=0 rate=7.20 patches/sec ETA=23m 27s
+[PROGRESS] step=3965 seen=31720/41815 saved=31720 skipped_existing=0 skipped_bad=0 rate=7.21 patches/sec ETA=23m 20s
+[PROGRESS] step=3970 seen=31760/41815 saved=31760 skipped_existing=0 skipped_bad=0 rate=7.21 patches/sec ETA=23m 13s
+[PROGRESS] step=3975 seen=31800/41815 saved=31800 skipped_existing=0 skipped_bad=0 rate=7.22 patches/sec ETA=23m 6s
+[PROGRESS] step=3980 seen=31840/41815 saved=31840 skipped_existing=0 skipped_bad=0 rate=7.23 patches/sec ETA=22m 59s
+[PROGRESS] step=3985 seen=31880/41815 saved=31880 skipped_existing=0 skipped_bad=0 rate=7.23 patches/sec ETA=22m 53s
+[PROGRESS] step=3990 seen=31920/41815 saved=31920 skipped_existing=0 skipped_bad=0 rate=7.24 patches/sec ETA=22m 47s
+[PROGRESS] step=3995 seen=31960/41815 saved=31960 skipped_existing=0 skipped_bad=0 rate=7.24 patches/sec ETA=22m 41s
+[PROGRESS] step=4000 seen=32000/41815 saved=32000 skipped_existing=0 skipped_bad=0 rate=7.24 patches/sec ETA=22m 34s
+[PROGRESS] step=4005 seen=32040/41815 saved=32040 skipped_existing=0 skipped_bad=0 rate=7.25 patches/sec ETA=22m 28s
+[PROGRESS] step=4010 seen=32080/41815 saved=32080 skipped_existing=0 skipped_bad=0 rate=7.25 patches/sec ETA=22m 21s
+[PROGRESS] step=4015 seen=32120/41815 saved=32120 skipped_existing=0 skipped_bad=0 rate=7.26 patches/sec ETA=22m 15s
+[PROGRESS] step=4020 seen=32160/41815 saved=32160 skipped_existing=0 skipped_bad=0 rate=7.26 patches/sec ETA=22m 10s
+[PROGRESS] step=4025 seen=32200/41815 saved=32200 skipped_existing=0 skipped_bad=0 rate=7.26 patches/sec ETA=22m 4s
+[PROGRESS] step=4030 seen=32240/41815 saved=32240 skipped_existing=0 skipped_bad=0 rate=7.27 patches/sec ETA=21m 57s
+[PROGRESS] step=4035 seen=32280/41815 saved=32280 skipped_existing=0 skipped_bad=0 rate=7.28 patches/sec ETA=21m 50s
+[PROGRESS] step=4040 seen=32320/41815 saved=32320 skipped_existing=0 skipped_bad=0 rate=7.28 patches/sec ETA=21m 43s
+[PROGRESS] step=4045 seen=32360/41815 saved=32360 skipped_existing=0 skipped_bad=0 rate=7.29 patches/sec ETA=21m 36s
+[PROGRESS] step=4050 seen=32400/41815 saved=32400 skipped_existing=0 skipped_bad=0 rate=7.30 patches/sec ETA=21m 29s
+[PROGRESS] step=4055 seen=32440/41815 saved=32440 skipped_existing=0 skipped_bad=0 rate=7.31 patches/sec ETA=21m 22s
+[PROGRESS] step=4060 seen=32480/41815 saved=32480 skipped_existing=0 skipped_bad=0 rate=7.32 patches/sec ETA=21m 15s
+[PROGRESS] step=4065 seen=32520/41815 saved=32520 skipped_existing=0 skipped_bad=0 rate=7.32 patches/sec ETA=21m 9s
+[PROGRESS] step=4070 seen=32560/41815 saved=32560 skipped_existing=0 skipped_bad=0 rate=7.33 patches/sec ETA=21m 2s
+[PROGRESS] step=4075 seen=32600/41815 saved=32600 skipped_existing=0 skipped_bad=0 rate=7.34 patches/sec ETA=20m 55s
+[PROGRESS] step=4080 seen=32640/41815 saved=32640 skipped_existing=0 skipped_bad=0 rate=7.35 patches/sec ETA=20m 48s
+[PROGRESS] step=4085 seen=32680/41815 saved=32680 skipped_existing=0 skipped_bad=0 rate=7.35 patches/sec ETA=20m 42s
+[PROGRESS] step=4090 seen=32720/41815 saved=32720 skipped_existing=0 skipped_bad=0 rate=7.36 patches/sec ETA=20m 35s
+[PROGRESS] step=4095 seen=32760/41815 saved=32760 skipped_existing=0 skipped_bad=0 rate=7.37 patches/sec ETA=20m 28s
+[PROGRESS] step=4100 seen=32800/41815 saved=32800 skipped_existing=0 skipped_bad=0 rate=7.37 patches/sec ETA=20m 22s
+[PROGRESS] step=4105 seen=32840/41815 saved=32840 skipped_existing=0 skipped_bad=0 rate=7.38 patches/sec ETA=20m 15s
+[PROGRESS] step=4110 seen=32880/41815 saved=32880 skipped_existing=0 skipped_bad=0 rate=7.39 patches/sec ETA=20m 9s
+[PROGRESS] step=4115 seen=32920/41815 saved=32920 skipped_existing=0 skipped_bad=0 rate=7.40 patches/sec ETA=20m 2s
+[PROGRESS] step=4120 seen=32960/41815 saved=32960 skipped_existing=0 skipped_bad=0 rate=7.40 patches/sec ETA=19m 55s
+[PROGRESS] step=4125 seen=33000/41815 saved=33000 skipped_existing=0 skipped_bad=0 rate=7.41 patches/sec ETA=19m 49s
+[PROGRESS] step=4130 seen=33040/41815 saved=33040 skipped_existing=0 skipped_bad=0 rate=7.42 patches/sec ETA=19m 42s
+[PROGRESS] step=4135 seen=33080/41815 saved=33080 skipped_existing=0 skipped_bad=0 rate=7.43 patches/sec ETA=19m 36s
+[PROGRESS] step=4140 seen=33120/41815 saved=33120 skipped_existing=0 skipped_bad=0 rate=7.43 patches/sec ETA=19m 29s
+[PROGRESS] step=4145 seen=33160/41815 saved=33160 skipped_existing=0 skipped_bad=0 rate=7.44 patches/sec ETA=19m 23s
+[PROGRESS] step=4150 seen=33200/41815 saved=33200 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=19m 17s
+[PROGRESS] step=4155 seen=33240/41815 saved=33240 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=19m 10s
+[PROGRESS] step=4160 seen=33280/41815 saved=33280 skipped_existing=0 skipped_bad=0 rate=7.46 patches/sec ETA=19m 4s
+[PROGRESS] step=4165 seen=33320/41815 saved=33320 skipped_existing=0 skipped_bad=0 rate=7.47 patches/sec ETA=18m 57s
+[PROGRESS] step=4170 seen=33360/41815 saved=33360 skipped_existing=0 skipped_bad=0 rate=7.47 patches/sec ETA=18m 51s
+[PROGRESS] step=4175 seen=33400/41815 saved=33400 skipped_existing=0 skipped_bad=0 rate=7.48 patches/sec ETA=18m 44s
+[PROGRESS] step=4180 seen=33440/41815 saved=33440 skipped_existing=0 skipped_bad=0 rate=7.49 patches/sec ETA=18m 38s
+[PROGRESS] step=4185 seen=33480/41815 saved=33480 skipped_existing=0 skipped_bad=0 rate=7.50 patches/sec ETA=18m 31s
+[PROGRESS] step=4190 seen=33520/41815 saved=33520 skipped_existing=0 skipped_bad=0 rate=7.50 patches/sec ETA=18m 25s
+[PROGRESS] step=4195 seen=33560/41815 saved=33560 skipped_existing=0 skipped_bad=0 rate=7.51 patches/sec ETA=18m 19s
+[PROGRESS] step=4200 seen=33600/41815 saved=33600 skipped_existing=0 skipped_bad=0 rate=7.52 patches/sec ETA=18m 12s
+[PROGRESS] step=4205 seen=33640/41815 saved=33640 skipped_existing=0 skipped_bad=0 rate=7.52 patches/sec ETA=18m 6s
+[PROGRESS] step=4210 seen=33680/41815 saved=33680 skipped_existing=0 skipped_bad=0 rate=7.53 patches/sec ETA=18m 0s
+[PROGRESS] step=4215 seen=33720/41815 saved=33720 skipped_existing=0 skipped_bad=0 rate=7.53 patches/sec ETA=17m 54s
+[PROGRESS] step=4220 seen=33760/41815 saved=33760 skipped_existing=0 skipped_bad=0 rate=7.54 patches/sec ETA=17m 48s
+[PROGRESS] step=4225 seen=33800/41815 saved=33800 skipped_existing=0 skipped_bad=0 rate=7.53 patches/sec ETA=17m 44s
+[PROGRESS] step=4230 seen=33840/41815 saved=33840 skipped_existing=0 skipped_bad=0 rate=7.53 patches/sec ETA=17m 38s
+[PROGRESS] step=4235 seen=33880/41815 saved=33880 skipped_existing=0 skipped_bad=0 rate=7.54 patches/sec ETA=17m 32s
+[PROGRESS] step=4240 seen=33920/41815 saved=33920 skipped_existing=0 skipped_bad=0 rate=7.55 patches/sec ETA=17m 25s
+[PROGRESS] step=4245 seen=33960/41815 saved=33960 skipped_existing=0 skipped_bad=0 rate=7.56 patches/sec ETA=17m 19s
+[PROGRESS] step=4250 seen=34000/41815 saved=34000 skipped_existing=0 skipped_bad=0 rate=7.56 patches/sec ETA=17m 13s
+[PROGRESS] step=4255 seen=34040/41815 saved=34040 skipped_existing=0 skipped_bad=0 rate=7.57 patches/sec ETA=17m 7s
+[PROGRESS] step=4260 seen=34080/41815 saved=34080 skipped_existing=0 skipped_bad=0 rate=7.58 patches/sec ETA=17m 0s
+[PROGRESS] step=4265 seen=34120/41815 saved=34120 skipped_existing=0 skipped_bad=0 rate=7.58 patches/sec ETA=16m 54s
+[PROGRESS] step=4270 seen=34160/41815 saved=34160 skipped_existing=0 skipped_bad=0 rate=7.59 patches/sec ETA=16m 48s
+[PROGRESS] step=4275 seen=34200/41815 saved=34200 skipped_existing=0 skipped_bad=0 rate=7.60 patches/sec ETA=16m 42s
+[PROGRESS] step=4280 seen=34240/41815 saved=34240 skipped_existing=0 skipped_bad=0 rate=7.61 patches/sec ETA=16m 36s
+[PROGRESS] step=4285 seen=34280/41815 saved=34280 skipped_existing=0 skipped_bad=0 rate=7.61 patches/sec ETA=16m 29s
+[PROGRESS] step=4290 seen=34320/41815 saved=34320 skipped_existing=0 skipped_bad=0 rate=7.62 patches/sec ETA=16m 23s
+[PROGRESS] step=4295 seen=34360/41815 saved=34360 skipped_existing=0 skipped_bad=0 rate=7.63 patches/sec ETA=16m 17s
+[PROGRESS] step=4300 seen=34400/41815 saved=34400 skipped_existing=0 skipped_bad=0 rate=7.63 patches/sec ETA=16m 11s
+[PROGRESS] step=4305 seen=34440/41815 saved=34440 skipped_existing=0 skipped_bad=0 rate=7.64 patches/sec ETA=16m 5s
+[PROGRESS] step=4310 seen=34480/41815 saved=34480 skipped_existing=0 skipped_bad=0 rate=7.64 patches/sec ETA=15m 59s
+[PROGRESS] step=4315 seen=34520/41815 saved=34520 skipped_existing=0 skipped_bad=0 rate=7.65 patches/sec ETA=15m 53s
+[PROGRESS] step=4320 seen=34560/41815 saved=34560 skipped_existing=0 skipped_bad=0 rate=7.65 patches/sec ETA=15m 47s
+[PROGRESS] step=4325 seen=34600/41815 saved=34600 skipped_existing=0 skipped_bad=0 rate=7.66 patches/sec ETA=15m 42s
+[PROGRESS] step=4330 seen=34640/41815 saved=34640 skipped_existing=0 skipped_bad=0 rate=7.67 patches/sec ETA=15m 35s
+[PROGRESS] step=4335 seen=34680/41815 saved=34680 skipped_existing=0 skipped_bad=0 rate=7.67 patches/sec ETA=15m 30s
+[PROGRESS] step=4340 seen=34720/41815 saved=34720 skipped_existing=0 skipped_bad=0 rate=7.68 patches/sec ETA=15m 24s
+[PROGRESS] step=4345 seen=34760/41815 saved=34760 skipped_existing=0 skipped_bad=0 rate=7.68 patches/sec ETA=15m 18s
+[PROGRESS] step=4350 seen=34800/41815 saved=34800 skipped_existing=0 skipped_bad=0 rate=7.69 patches/sec ETA=15m 12s
+[PROGRESS] step=4355 seen=34840/41815 saved=34840 skipped_existing=0 skipped_bad=0 rate=7.70 patches/sec ETA=15m 6s
+[PROGRESS] step=4360 seen=34880/41815 saved=34880 skipped_existing=0 skipped_bad=0 rate=7.71 patches/sec ETA=14m 59s
+[PROGRESS] step=4365 seen=34920/41815 saved=34920 skipped_existing=0 skipped_bad=0 rate=7.71 patches/sec ETA=14m 53s
+[PROGRESS] step=4370 seen=34960/41815 saved=34960 skipped_existing=0 skipped_bad=0 rate=7.72 patches/sec ETA=14m 47s
+[PROGRESS] step=4375 seen=35000/41815 saved=35000 skipped_existing=0 skipped_bad=0 rate=7.73 patches/sec ETA=14m 42s
+[PROGRESS] step=4380 seen=35040/41815 saved=35040 skipped_existing=0 skipped_bad=0 rate=7.73 patches/sec ETA=14m 36s
+[PROGRESS] step=4385 seen=35080/41815 saved=35080 skipped_existing=0 skipped_bad=0 rate=7.74 patches/sec ETA=14m 30s
+[PROGRESS] step=4390 seen=35120/41815 saved=35120 skipped_existing=0 skipped_bad=0 rate=7.75 patches/sec ETA=14m 24s
+[PROGRESS] step=4395 seen=35160/41815 saved=35160 skipped_existing=0 skipped_bad=0 rate=7.75 patches/sec ETA=14m 18s
+[PROGRESS] step=4400 seen=35200/41815 saved=35200 skipped_existing=0 skipped_bad=0 rate=7.75 patches/sec ETA=14m 13s
+[PROGRESS] step=4405 seen=35240/41815 saved=35240 skipped_existing=0 skipped_bad=0 rate=7.76 patches/sec ETA=14m 7s
+[PROGRESS] step=4410 seen=35280/41815 saved=35280 skipped_existing=0 skipped_bad=0 rate=7.77 patches/sec ETA=14m 1s
+[PROGRESS] step=4415 seen=35320/41815 saved=35320 skipped_existing=0 skipped_bad=0 rate=7.77 patches/sec ETA=13m 55s
+[PROGRESS] step=4420 seen=35360/41815 saved=35360 skipped_existing=0 skipped_bad=0 rate=7.78 patches/sec ETA=13m 49s
+[PROGRESS] step=4425 seen=35400/41815 saved=35400 skipped_existing=0 skipped_bad=0 rate=7.79 patches/sec ETA=13m 43s
+[PROGRESS] step=4430 seen=35440/41815 saved=35440 skipped_existing=0 skipped_bad=0 rate=7.80 patches/sec ETA=13m 37s
+[PROGRESS] step=4435 seen=35480/41815 saved=35480 skipped_existing=0 skipped_bad=0 rate=7.80 patches/sec ETA=13m 31s
+[PROGRESS] step=4440 seen=35520/41815 saved=35520 skipped_existing=0 skipped_bad=0 rate=7.81 patches/sec ETA=13m 26s
+[PROGRESS] step=4445 seen=35560/41815 saved=35560 skipped_existing=0 skipped_bad=0 rate=7.82 patches/sec ETA=13m 20s
+[PROGRESS] step=4450 seen=35600/41815 saved=35600 skipped_existing=0 skipped_bad=0 rate=7.82 patches/sec ETA=13m 14s
+[PROGRESS] step=4455 seen=35640/41815 saved=35640 skipped_existing=0 skipped_bad=0 rate=7.83 patches/sec ETA=13m 8s
+[PROGRESS] step=4460 seen=35680/41815 saved=35680 skipped_existing=0 skipped_bad=0 rate=7.84 patches/sec ETA=13m 2s
+[PROGRESS] step=4465 seen=35720/41815 saved=35720 skipped_existing=0 skipped_bad=0 rate=7.84 patches/sec ETA=12m 57s
+[PROGRESS] step=4470 seen=35760/41815 saved=35760 skipped_existing=0 skipped_bad=0 rate=7.85 patches/sec ETA=12m 51s
+[PROGRESS] step=4475 seen=35800/41815 saved=35800 skipped_existing=0 skipped_bad=0 rate=7.86 patches/sec ETA=12m 45s
+[PROGRESS] step=4480 seen=35840/41815 saved=35840 skipped_existing=0 skipped_bad=0 rate=7.86 patches/sec ETA=12m 39s
+[PROGRESS] step=4485 seen=35880/41815 saved=35880 skipped_existing=0 skipped_bad=0 rate=7.87 patches/sec ETA=12m 34s
+[PROGRESS] step=4490 seen=35920/41815 saved=35920 skipped_existing=0 skipped_bad=0 rate=7.87 patches/sec ETA=12m 28s
+[PROGRESS] step=4495 seen=35960/41815 saved=35960 skipped_existing=0 skipped_bad=0 rate=7.88 patches/sec ETA=12m 23s
+[PROGRESS] step=4500 seen=36000/41815 saved=36000 skipped_existing=0 skipped_bad=0 rate=7.88 patches/sec ETA=12m 17s
+[PROGRESS] step=4505 seen=36040/41815 saved=36040 skipped_existing=0 skipped_bad=0 rate=7.89 patches/sec ETA=12m 12s
+[PROGRESS] step=4510 seen=36080/41815 saved=36080 skipped_existing=0 skipped_bad=0 rate=7.89 patches/sec ETA=12m 6s
+[PROGRESS] step=4515 seen=36120/41815 saved=36120 skipped_existing=0 skipped_bad=0 rate=7.90 patches/sec ETA=12m 0s
+[PROGRESS] step=4520 seen=36160/41815 saved=36160 skipped_existing=0 skipped_bad=0 rate=7.91 patches/sec ETA=11m 55s
+[PROGRESS] step=4525 seen=36200/41815 saved=36200 skipped_existing=0 skipped_bad=0 rate=7.91 patches/sec ETA=11m 49s
+[PROGRESS] step=4530 seen=36240/41815 saved=36240 skipped_existing=0 skipped_bad=0 rate=7.92 patches/sec ETA=11m 44s
+[PROGRESS] step=4535 seen=36280/41815 saved=36280 skipped_existing=0 skipped_bad=0 rate=7.92 patches/sec ETA=11m 38s
+[PROGRESS] step=4540 seen=36320/41815 saved=36320 skipped_existing=0 skipped_bad=0 rate=7.92 patches/sec ETA=11m 33s
+[PROGRESS] step=4545 seen=36360/41815 saved=36360 skipped_existing=0 skipped_bad=0 rate=7.93 patches/sec ETA=11m 27s
+[PROGRESS] step=4550 seen=36400/41815 saved=36400 skipped_existing=0 skipped_bad=0 rate=7.94 patches/sec ETA=11m 22s
+[PROGRESS] step=4555 seen=36440/41815 saved=36440 skipped_existing=0 skipped_bad=0 rate=7.94 patches/sec ETA=11m 16s
+[PROGRESS] step=4560 seen=36480/41815 saved=36480 skipped_existing=0 skipped_bad=0 rate=7.95 patches/sec ETA=11m 11s
+[PROGRESS] step=4565 seen=36520/41815 saved=36520 skipped_existing=0 skipped_bad=0 rate=7.96 patches/sec ETA=11m 5s
+[PROGRESS] step=4570 seen=36560/41815 saved=36560 skipped_existing=0 skipped_bad=0 rate=7.96 patches/sec ETA=11m 0s
+[PROGRESS] step=4575 seen=36600/41815 saved=36600 skipped_existing=0 skipped_bad=0 rate=7.96 patches/sec ETA=10m 54s
+[PROGRESS] step=4580 seen=36640/41815 saved=36640 skipped_existing=0 skipped_bad=0 rate=7.97 patches/sec ETA=10m 49s
+[PROGRESS] step=4585 seen=36680/41815 saved=36680 skipped_existing=0 skipped_bad=0 rate=7.97 patches/sec ETA=10m 44s
+[PROGRESS] step=4590 seen=36720/41815 saved=36720 skipped_existing=0 skipped_bad=0 rate=7.98 patches/sec ETA=10m 38s
+[PROGRESS] step=4595 seen=36760/41815 saved=36760 skipped_existing=0 skipped_bad=0 rate=7.98 patches/sec ETA=10m 33s
+[PROGRESS] step=4600 seen=36800/41815 saved=36800 skipped_existing=0 skipped_bad=0 rate=7.99 patches/sec ETA=10m 27s
+[PROGRESS] step=4605 seen=36840/41815 saved=36840 skipped_existing=0 skipped_bad=0 rate=7.99 patches/sec ETA=10m 22s
+[PROGRESS] step=4610 seen=36880/41815 saved=36880 skipped_existing=0 skipped_bad=0 rate=8.00 patches/sec ETA=10m 16s
+[PROGRESS] step=4615 seen=36920/41815 saved=36920 skipped_existing=0 skipped_bad=0 rate=8.01 patches/sec ETA=10m 11s
+[PROGRESS] step=4620 seen=36960/41815 saved=36960 skipped_existing=0 skipped_bad=0 rate=8.01 patches/sec ETA=10m 5s
+[PROGRESS] step=4625 seen=37000/41815 saved=37000 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=10m 0s
+[PROGRESS] step=4630 seen=37040/41815 saved=37040 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=9m 54s
+[PROGRESS] step=4635 seen=37080/41815 saved=37080 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=9m 49s
+[PROGRESS] step=4640 seen=37120/41815 saved=37120 skipped_existing=0 skipped_bad=0 rate=8.04 patches/sec ETA=9m 43s
+[PROGRESS] step=4645 seen=37160/41815 saved=37160 skipped_existing=0 skipped_bad=0 rate=8.05 patches/sec ETA=9m 38s
+[PROGRESS] step=4650 seen=37200/41815 saved=37200 skipped_existing=0 skipped_bad=0 rate=8.06 patches/sec ETA=9m 32s
+[PROGRESS] step=4655 seen=37240/41815 saved=37240 skipped_existing=0 skipped_bad=0 rate=8.06 patches/sec ETA=9m 27s
+[PROGRESS] step=4660 seen=37280/41815 saved=37280 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=9m 24s
+[PROGRESS] step=4665 seen=37320/41815 saved=37320 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=9m 20s
+[PROGRESS] step=4670 seen=37360/41815 saved=37360 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=9m 15s
+[PROGRESS] step=4675 seen=37400/41815 saved=37400 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=9m 9s
+[PROGRESS] step=4680 seen=37440/41815 saved=37440 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=9m 5s
+[PROGRESS] step=4685 seen=37480/41815 saved=37480 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=9m 0s
+[PROGRESS] step=4690 seen=37520/41815 saved=37520 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=8m 55s
+[PROGRESS] step=4695 seen=37560/41815 saved=37560 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=8m 49s
+[PROGRESS] step=4700 seen=37600/41815 saved=37600 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=8m 45s
+[PROGRESS] step=4705 seen=37640/41815 saved=37640 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=8m 40s
+[PROGRESS] step=4710 seen=37680/41815 saved=37680 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=8m 34s
+[PROGRESS] step=4715 seen=37720/41815 saved=37720 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=8m 30s
+[PROGRESS] step=4720 seen=37760/41815 saved=37760 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=8m 25s
+[PROGRESS] step=4725 seen=37800/41815 saved=37800 skipped_existing=0 skipped_bad=0 rate=8.03 patches/sec ETA=8m 19s
+[PROGRESS] step=4730 seen=37840/41815 saved=37840 skipped_existing=0 skipped_bad=0 rate=8.04 patches/sec ETA=8m 14s
+[PROGRESS] step=4735 seen=37880/41815 saved=37880 skipped_existing=0 skipped_bad=0 rate=8.04 patches/sec ETA=8m 9s
+[PROGRESS] step=4740 seen=37920/41815 saved=37920 skipped_existing=0 skipped_bad=0 rate=8.04 patches/sec ETA=8m 4s
+[PROGRESS] step=4745 seen=37960/41815 saved=37960 skipped_existing=0 skipped_bad=0 rate=8.05 patches/sec ETA=7m 58s
+[PROGRESS] step=4750 seen=38000/41815 saved=38000 skipped_existing=0 skipped_bad=0 rate=8.06 patches/sec ETA=7m 53s
+[PROGRESS] step=4755 seen=38040/41815 saved=38040 skipped_existing=0 skipped_bad=0 rate=8.02 patches/sec ETA=7m 50s
+[PROGRESS] step=4760 seen=38080/41815 saved=38080 skipped_existing=0 skipped_bad=0 rate=7.80 patches/sec ETA=7m 58s
+[PROGRESS] step=4765 seen=38120/41815 saved=38120 skipped_existing=0 skipped_bad=0 rate=7.64 patches/sec ETA=8m 3s
+[PROGRESS] step=4770 seen=38160/41815 saved=38160 skipped_existing=0 skipped_bad=0 rate=7.46 patches/sec ETA=8m 10s
+[PROGRESS] step=4775 seen=38200/41815 saved=38200 skipped_existing=0 skipped_bad=0 rate=7.34 patches/sec ETA=8m 12s
+[PROGRESS] step=4780 seen=38240/41815 saved=38240 skipped_existing=0 skipped_bad=0 rate=7.24 patches/sec ETA=8m 13s
+[PROGRESS] step=4785 seen=38280/41815 saved=38280 skipped_existing=0 skipped_bad=0 rate=7.16 patches/sec ETA=8m 13s
+[PROGRESS] step=4790 seen=38320/41815 saved=38320 skipped_existing=0 skipped_bad=0 rate=7.09 patches/sec ETA=8m 12s
+[PROGRESS] step=4795 seen=38360/41815 saved=38360 skipped_existing=0 skipped_bad=0 rate=7.10 patches/sec ETA=8m 6s
+[PROGRESS] step=4800 seen=38400/41815 saved=38400 skipped_existing=0 skipped_bad=0 rate=7.10 patches/sec ETA=8m 0s
+[PROGRESS] step=4805 seen=38440/41815 saved=38440 skipped_existing=0 skipped_bad=0 rate=7.11 patches/sec ETA=7m 54s
+[PROGRESS] step=4810 seen=38480/41815 saved=38480 skipped_existing=0 skipped_bad=0 rate=7.12 patches/sec ETA=7m 48s
+[PROGRESS] step=4815 seen=38520/41815 saved=38520 skipped_existing=0 skipped_bad=0 rate=7.12 patches/sec ETA=7m 42s
+[PROGRESS] step=4820 seen=38560/41815 saved=38560 skipped_existing=0 skipped_bad=0 rate=7.13 patches/sec ETA=7m 36s
+[PROGRESS] step=4825 seen=38600/41815 saved=38600 skipped_existing=0 skipped_bad=0 rate=7.13 patches/sec ETA=7m 30s
+[PROGRESS] step=4830 seen=38640/41815 saved=38640 skipped_existing=0 skipped_bad=0 rate=7.14 patches/sec ETA=7m 24s
+[PROGRESS] step=4835 seen=38680/41815 saved=38680 skipped_existing=0 skipped_bad=0 rate=7.15 patches/sec ETA=7m 18s
+[PROGRESS] step=4840 seen=38720/41815 saved=38720 skipped_existing=0 skipped_bad=0 rate=7.15 patches/sec ETA=7m 12s
+[PROGRESS] step=4845 seen=38760/41815 saved=38760 skipped_existing=0 skipped_bad=0 rate=7.16 patches/sec ETA=7m 6s
+[PROGRESS] step=4850 seen=38800/41815 saved=38800 skipped_existing=0 skipped_bad=0 rate=7.17 patches/sec ETA=7m 0s
+[PROGRESS] step=4855 seen=38840/41815 saved=38840 skipped_existing=0 skipped_bad=0 rate=7.17 patches/sec ETA=6m 54s
+[PROGRESS] step=4860 seen=38880/41815 saved=38880 skipped_existing=0 skipped_bad=0 rate=7.18 patches/sec ETA=6m 48s
+[PROGRESS] step=4865 seen=38920/41815 saved=38920 skipped_existing=0 skipped_bad=0 rate=7.18 patches/sec ETA=6m 43s
+[PROGRESS] step=4870 seen=38960/41815 saved=38960 skipped_existing=0 skipped_bad=0 rate=7.19 patches/sec ETA=6m 37s
+[PROGRESS] step=4875 seen=39000/41815 saved=39000 skipped_existing=0 skipped_bad=0 rate=7.19 patches/sec ETA=6m 31s
+[PROGRESS] step=4880 seen=39040/41815 saved=39040 skipped_existing=0 skipped_bad=0 rate=7.19 patches/sec ETA=6m 25s
+[PROGRESS] step=4885 seen=39080/41815 saved=39080 skipped_existing=0 skipped_bad=0 rate=7.20 patches/sec ETA=6m 20s
+[PROGRESS] step=4890 seen=39120/41815 saved=39120 skipped_existing=0 skipped_bad=0 rate=7.20 patches/sec ETA=6m 14s
+[PROGRESS] step=4895 seen=39160/41815 saved=39160 skipped_existing=0 skipped_bad=0 rate=7.20 patches/sec ETA=6m 8s
+[PROGRESS] step=4900 seen=39200/41815 saved=39200 skipped_existing=0 skipped_bad=0 rate=7.21 patches/sec ETA=6m 2s
+[PROGRESS] step=4905 seen=39240/41815 saved=39240 skipped_existing=0 skipped_bad=0 rate=7.21 patches/sec ETA=5m 56s
+[PROGRESS] step=4910 seen=39280/41815 saved=39280 skipped_existing=0 skipped_bad=0 rate=7.22 patches/sec ETA=5m 51s
+[PROGRESS] step=4915 seen=39320/41815 saved=39320 skipped_existing=0 skipped_bad=0 rate=7.23 patches/sec ETA=5m 45s
+[PROGRESS] step=4920 seen=39360/41815 saved=39360 skipped_existing=0 skipped_bad=0 rate=7.23 patches/sec ETA=5m 39s
+[PROGRESS] step=4925 seen=39400/41815 saved=39400 skipped_existing=0 skipped_bad=0 rate=7.24 patches/sec ETA=5m 33s
+[PROGRESS] step=4930 seen=39440/41815 saved=39440 skipped_existing=0 skipped_bad=0 rate=7.24 patches/sec ETA=5m 27s
+[PROGRESS] step=4935 seen=39480/41815 saved=39480 skipped_existing=0 skipped_bad=0 rate=7.25 patches/sec ETA=5m 22s
+[PROGRESS] step=4940 seen=39520/41815 saved=39520 skipped_existing=0 skipped_bad=0 rate=7.25 patches/sec ETA=5m 16s
+[PROGRESS] step=4945 seen=39560/41815 saved=39560 skipped_existing=0 skipped_bad=0 rate=7.26 patches/sec ETA=5m 10s
+[PROGRESS] step=4950 seen=39600/41815 saved=39600 skipped_existing=0 skipped_bad=0 rate=7.27 patches/sec ETA=5m 4s
+[PROGRESS] step=4955 seen=39640/41815 saved=39640 skipped_existing=0 skipped_bad=0 rate=7.27 patches/sec ETA=4m 59s
+[PROGRESS] step=4960 seen=39680/41815 saved=39680 skipped_existing=0 skipped_bad=0 rate=7.28 patches/sec ETA=4m 53s
+[PROGRESS] step=4965 seen=39720/41815 saved=39720 skipped_existing=0 skipped_bad=0 rate=7.28 patches/sec ETA=4m 47s
+[PROGRESS] step=4970 seen=39760/41815 saved=39760 skipped_existing=0 skipped_bad=0 rate=7.29 patches/sec ETA=4m 41s
+[PROGRESS] step=4975 seen=39800/41815 saved=39800 skipped_existing=0 skipped_bad=0 rate=7.30 patches/sec ETA=4m 36s
+[PROGRESS] step=4980 seen=39840/41815 saved=39840 skipped_existing=0 skipped_bad=0 rate=7.30 patches/sec ETA=4m 30s
+[PROGRESS] step=4985 seen=39880/41815 saved=39880 skipped_existing=0 skipped_bad=0 rate=7.31 patches/sec ETA=4m 24s
+[PROGRESS] step=4990 seen=39920/41815 saved=39920 skipped_existing=0 skipped_bad=0 rate=7.31 patches/sec ETA=4m 19s
+[PROGRESS] step=4995 seen=39960/41815 saved=39960 skipped_existing=0 skipped_bad=0 rate=7.32 patches/sec ETA=4m 13s
+[PROGRESS] step=5000 seen=40000/41815 saved=40000 skipped_existing=0 skipped_bad=0 rate=7.32 patches/sec ETA=4m 7s
+[PROGRESS] step=5005 seen=40040/41815 saved=40040 skipped_existing=0 skipped_bad=0 rate=7.33 patches/sec ETA=4m 2s
+[PROGRESS] step=5010 seen=40080/41815 saved=40080 skipped_existing=0 skipped_bad=0 rate=7.33 patches/sec ETA=3m 56s
+[PROGRESS] step=5015 seen=40120/41815 saved=40120 skipped_existing=0 skipped_bad=0 rate=7.34 patches/sec ETA=3m 50s
+[PROGRESS] step=5020 seen=40160/41815 saved=40160 skipped_existing=0 skipped_bad=0 rate=7.34 patches/sec ETA=3m 45s
+[PROGRESS] step=5025 seen=40200/41815 saved=40200 skipped_existing=0 skipped_bad=0 rate=7.34 patches/sec ETA=3m 39s
+[PROGRESS] step=5030 seen=40240/41815 saved=40240 skipped_existing=0 skipped_bad=0 rate=7.35 patches/sec ETA=3m 34s
+[PROGRESS] step=5035 seen=40280/41815 saved=40280 skipped_existing=0 skipped_bad=0 rate=7.35 patches/sec ETA=3m 28s
+[PROGRESS] step=5040 seen=40320/41815 saved=40320 skipped_existing=0 skipped_bad=0 rate=7.36 patches/sec ETA=3m 23s
+[PROGRESS] step=5045 seen=40360/41815 saved=40360 skipped_existing=0 skipped_bad=0 rate=7.37 patches/sec ETA=3m 17s
+[PROGRESS] step=5050 seen=40400/41815 saved=40400 skipped_existing=0 skipped_bad=0 rate=7.37 patches/sec ETA=3m 11s
+[PROGRESS] step=5055 seen=40440/41815 saved=40440 skipped_existing=0 skipped_bad=0 rate=7.38 patches/sec ETA=3m 6s
+[PROGRESS] step=5060 seen=40480/41815 saved=40480 skipped_existing=0 skipped_bad=0 rate=7.38 patches/sec ETA=3m 0s
+[PROGRESS] step=5065 seen=40520/41815 saved=40520 skipped_existing=0 skipped_bad=0 rate=7.39 patches/sec ETA=2m 55s
+[PROGRESS] step=5070 seen=40560/41815 saved=40560 skipped_existing=0 skipped_bad=0 rate=7.39 patches/sec ETA=2m 49s
+[PROGRESS] step=5075 seen=40600/41815 saved=40600 skipped_existing=0 skipped_bad=0 rate=7.40 patches/sec ETA=2m 44s
+[PROGRESS] step=5080 seen=40640/41815 saved=40640 skipped_existing=0 skipped_bad=0 rate=7.40 patches/sec ETA=2m 38s
+[PROGRESS] step=5085 seen=40680/41815 saved=40680 skipped_existing=0 skipped_bad=0 rate=7.41 patches/sec ETA=2m 33s
+[PROGRESS] step=5090 seen=40720/41815 saved=40720 skipped_existing=0 skipped_bad=0 rate=7.41 patches/sec ETA=2m 27s
+[PROGRESS] step=5095 seen=40760/41815 saved=40760 skipped_existing=0 skipped_bad=0 rate=7.42 patches/sec ETA=2m 22s
+[PROGRESS] step=5100 seen=40800/41815 saved=40800 skipped_existing=0 skipped_bad=0 rate=7.42 patches/sec ETA=2m 16s
+[PROGRESS] step=5105 seen=40840/41815 saved=40840 skipped_existing=0 skipped_bad=0 rate=7.43 patches/sec ETA=2m 11s
+[PROGRESS] step=5110 seen=40880/41815 saved=40880 skipped_existing=0 skipped_bad=0 rate=7.44 patches/sec ETA=2m 5s
+[PROGRESS] step=5115 seen=40920/41815 saved=40920 skipped_existing=0 skipped_bad=0 rate=7.44 patches/sec ETA=2m 0s
+[PROGRESS] step=5120 seen=40960/41815 saved=40960 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=1m 54s
+[PROGRESS] step=5125 seen=41000/41815 saved=41000 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=1m 49s
+[PROGRESS] step=5130 seen=41040/41815 saved=41040 skipped_existing=0 skipped_bad=0 rate=7.45 patches/sec ETA=1m 43s
+[PROGRESS] step=5135 seen=41080/41815 saved=41080 skipped_existing=0 skipped_bad=0 rate=7.46 patches/sec ETA=1m 38s
+[PROGRESS] step=5140 seen=41120/41815 saved=41120 skipped_existing=0 skipped_bad=0 rate=7.46 patches/sec ETA=1m 33s
+[PROGRESS] step=5145 seen=41160/41815 saved=41160 skipped_existing=0 skipped_bad=0 rate=7.47 patches/sec ETA=1m 27s
+[PROGRESS] step=5150 seen=41200/41815 saved=41200 skipped_existing=0 skipped_bad=0 rate=7.47 patches/sec ETA=1m 22s
+[PROGRESS] step=5155 seen=41240/41815 saved=41240 skipped_existing=0 skipped_bad=0 rate=7.48 patches/sec ETA=1m 16s
+[PROGRESS] step=5160 seen=41280/41815 saved=41280 skipped_existing=0 skipped_bad=0 rate=7.48 patches/sec ETA=1m 11s
+[PROGRESS] step=5165 seen=41320/41815 saved=41320 skipped_existing=0 skipped_bad=0 rate=7.49 patches/sec ETA=1m 6s
+[PROGRESS] step=5170 seen=41360/41815 saved=41360 skipped_existing=0 skipped_bad=0 rate=7.49 patches/sec ETA=1m 0s
+[PROGRESS] step=5175 seen=41400/41815 saved=41400 skipped_existing=0 skipped_bad=0 rate=7.50 patches/sec ETA=55s
+[PROGRESS] step=5180 seen=41440/41815 saved=41440 skipped_existing=0 skipped_bad=0 rate=7.51 patches/sec ETA=49s
+[PROGRESS] step=5185 seen=41480/41815 saved=41480 skipped_existing=0 skipped_bad=0 rate=7.51 patches/sec ETA=44s
+[PROGRESS] step=5190 seen=41520/41815 saved=41520 skipped_existing=0 skipped_bad=0 rate=7.52 patches/sec ETA=39s
+[PROGRESS] step=5195 seen=41560/41815 saved=41560 skipped_existing=0 skipped_bad=0 rate=7.52 patches/sec ETA=33s
+[PROGRESS] step=5200 seen=41600/41815 saved=41600 skipped_existing=0 skipped_bad=0 rate=7.52 patches/sec ETA=28s
+[PROGRESS] step=5205 seen=41640/41815 saved=41640 skipped_existing=0 skipped_bad=0 rate=7.53 patches/sec ETA=23s
+[PROGRESS] step=5210 seen=41680/41815 saved=41680 skipped_existing=0 skipped_bad=0 rate=7.53 patches/sec ETA=17s
+[PROGRESS] step=5215 seen=41720/41815 saved=41720 skipped_existing=0 skipped_bad=0 rate=7.54 patches/sec ETA=12s
+[PROGRESS] step=5220 seen=41760/41815 saved=41760 skipped_existing=0 skipped_bad=0 rate=7.54 patches/sec ETA=7s
+[PROGRESS] step=5225 seen=41800/41815 saved=41800 skipped_existing=0 skipped_bad=0 rate=7.54 patches/sec ETA=1s
+[PROGRESS] step=5227 seen=41815/41815 saved=41815 skipped_existing=0 skipped_bad=0 rate=7.55 patches/sec ETA=0s
+[DONE]
+[SUMMARY] total_png=41815
+[SUMMARY] saved=41815
+[SUMMARY] skipped_existing=0
+[SUMMARY] skipped_bad=0
+[SUMMARY] embeddings_dir=/home/cny2467/uni2_embeddings_1536
+[SUMMARY] total_time=1h 32m 21s
+Note: saved tensors are length 1536 (frozen UNI2-h class token).
