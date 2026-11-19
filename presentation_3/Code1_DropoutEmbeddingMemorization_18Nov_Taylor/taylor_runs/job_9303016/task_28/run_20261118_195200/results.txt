@@ -1,0 +1,9 @@
+Test Results:
+Test Loss: 0.0936
+Test Accuracy: 0.9500
+Number of samples: 20
+Checkpoint used: /home/vnc0125/presentation_3/runs_99/job_9303016/task_28/run_20261118_195200/checkpoints/best.pth
+
+Output files:
+- predictions.csv: Per-case predictions and probabilities
+- confusion_matrix.png: Visual confusion matrix

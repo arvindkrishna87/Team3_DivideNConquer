@@ -1,0 +1,34 @@
+Shard 14 of 20
+[INFO] patches_dir:      /home/vnc0125/presentation_3/six_cases_patches
+[INFO] embeddings_dir:   /home/vnc0125/presentation_3/embeddings_six_cases
+[INFO] encoder:          uni2
+[INFO] kimianet_ckpt:    KimiaNet.pth
+[INFO] shard:            15 of 20
+[INFO] device:           cpu
+[INFO] batch_size:       2
+[INFO] num_workers:      2
+[INFO] overwrite:        False
+[INFO] dtype:            fp16
+[INFO] min_patch_size:   32x32
+[INFO] log_every:        20
+[INFO] resizing:         disabled
+[INFO] forward pass:     batched
+[INFO] Found 268 PNG files.
+[PROGRESS] step=20 seen=40/268 saved=36 skipped_existing=0 skipped_bad=0 skipped_too_small=4 rate=2.09 patches/sec ETA=1m 48s
+[PROGRESS] step=40 seen=80/268 saved=74 skipped_existing=0 skipped_bad=0 skipped_too_small=6 rate=1.16 patches/sec ETA=2m 42s
+[PROGRESS] step=60 seen=120/268 saved=114 skipped_existing=0 skipped_bad=0 skipped_too_small=6 rate=1.37 patches/sec ETA=1m 48s
+[PROGRESS] step=80 seen=160/268 saved=154 skipped_existing=0 skipped_bad=0 skipped_too_small=6 rate=1.48 patches/sec ETA=1m 12s
+[PROGRESS] step=100 seen=200/268 saved=186 skipped_existing=0 skipped_bad=0 skipped_too_small=14 rate=1.55 patches/sec ETA=43s
+[PROGRESS] step=120 seen=240/268 saved=223 skipped_existing=0 skipped_bad=0 skipped_too_small=17 rate=1.73 patches/sec ETA=16s
+[PROGRESS] step=134 seen=268/268 saved=247 skipped_existing=0 skipped_bad=0 skipped_too_small=21 rate=1.85 patches/sec ETA=0s
+[DONE]
+[SUMMARY] total_png=268
+[SUMMARY] saved=247
+[SUMMARY] skipped_existing=0
+[SUMMARY] skipped_bad=0
+[SUMMARY] skipped_too_small=21
+[SUMMARY] embeddings_dir=/home/vnc0125/presentation_3/embeddings_six_cases
+[SUMMARY] total_time=2m 25s
+Note: saved tensors are length 1536.
+Note: this version is typically slower than the resized batched version because
+      variable-size patches are forwarded one at a time instead of as a stacked batch.

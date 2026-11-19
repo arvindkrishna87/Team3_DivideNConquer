@@ -1,0 +1,7 @@
+Setting,Cases,Accuracy,Benign recall,High-grade recall,Right only for variant / baseline,McNemar p
+Baseline,99,0.879,0.886,0.875,,
+Stain dropout 0.3,99,0.909,0.886,0.922,5 / 2,0.453
+Slice dropout 0.3,99,0.909,0.914,0.906,4 / 1,0.375
+Embedding 64,99,0.879,0.943,0.844,7 / 7,1.000
+Embedding 128,99,0.96,0.886,1.0,9 / 1,0.021
+Embedding 256,99,0.949,0.914,0.969,7 / 0,0.016

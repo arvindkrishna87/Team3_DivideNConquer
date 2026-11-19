@@ -1,0 +1,7 @@
+Setting,Splits,Runs reaching clean loss < 0.05,Median epoch below 0.05,Mean val-train gap at best epoch,Mean best epoch,Mean epochs run
+Baseline,5,5 / 5,5.0,0.137,6.2,13.8
+Stain dropout 0.3,5,5 / 5,6.0,0.149,9.4,17.4
+Slice dropout 0.3,5,5 / 5,5.0,0.14,6.6,14.6
+Embedding 64,5,5 / 5,9.0,0.198,11.6,18.6
+Embedding 128,5,5 / 5,6.0,0.134,12.6,19.0
+Embedding 256,5,5 / 5,6.0,0.179,15.2,20.4

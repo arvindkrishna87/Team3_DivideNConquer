@@ -1,0 +1,12 @@
+{
+ "tag": "emb256",
+ "seed": 42,
+ "load_splits": "/home/vnc0125/presentation_3/base_code/taylor_splits_99/data_splits_new_05.npz",
+ "emb_dir": "/home/vnc0125/presentation_3/embeddings_uni2_99",
+ "pooled_dim": 1536,
+ "embed_dim": 256,
+ "stain_dropout": 0.0,
+ "slice_dropout": 0.0,
+ "per_slice_cap": 500,
+ "max_slices_per_stain": 5
+}
