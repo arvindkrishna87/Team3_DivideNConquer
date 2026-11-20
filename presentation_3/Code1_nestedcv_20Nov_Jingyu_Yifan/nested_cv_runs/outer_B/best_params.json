@@ -1,0 +1,91 @@
+{
+  "outer_test_fold": "B",
+  "hparams": {
+    "learning_rate": 0.0004870865037631054,
+    "weight_decay": 0.0,
+    "classifier_dropout": 0.07345131039619446,
+    "entropy_lambda": 0.0,
+    "projector_dropout": 0.19511835277080536
+  },
+  "selected_epochs": 11,
+  "mean_val_at_selected": 0.09533458316913955,
+  "val_at_selected": {
+    "A": 0.08369261756756664,
+    "C": 0.0013701469398846122,
+    "D": 0.18989395366998538,
+    "E": 0.1063816144991216
+  },
+  "refit_class_weights": {
+    "benign": 1.4107142857142858,
+    "high_grade": 0.7745098039215687,
+    "n_benign": 28,
+    "n_high": 51
+  },
+  "widened": 0,
+  "bounds_used": {
+    "learning_rate": [
+      1e-05,
+      0.001
+    ],
+    "weight_decay": [
+      1e-05,
+      1000.0
+    ],
+    "entropy_lambda": [
+      0.001,
+      1.0
+    ],
+    "classifier_dropout": [
+      0.0,
+      0.5
+    ],
+    "projector_dropout": [
+      0.0,
+      0.5
+    ]
+  },
+  "boundary_notes": [
+    "weight_decay=0 is an allowed search point, not an edge",
+    "entropy_lambda=0 is an allowed search point, not an edge"
+  ],
+  "still_on_expandable_edge": 0,
+  "final_edge_notes": [
+    "weight_decay=0 is an allowed search point, not an edge",
+    "entropy_lambda=0 is an allowed search point, not an edge"
+  ],
+  "reported_epoch": 11,
+  "refit_train_loss_per_epoch": [
+    0.5543026028158986,
+    0.3436320022976614,
+    0.14399843018355005,
+    0.09191237097382074,
+    0.05322225262589891,
+    0.008707934773069668,
+    0.0019263543383716106,
+    0.0013524089827762532,
+    0.0006550860762289735,
+    0.00046254784123609364,
+    0.00028335407990319174
+  ],
+  "refit_test_loss_per_epoch": [
+    0.9285634923035504,
+    0.4605758940662861,
+    0.32151156891224353,
+    0.259353834047343,
+    0.29145355634986175,
+    0.45783012500612463,
+    0.4991413196248786,
+    0.502753128560461,
+    0.5623703471626589,
+    0.5963092422427337,
+    0.6512232711759001
+  ],
+  "metrics": {
+    "accuracy": 0.85,
+    "benign_recall": 0.8571428571428571,
+    "high_grade_recall": 0.8461538461538461
+  },
+  "checkpoint": "/root/autodl-tmp/nested_cv_runs/outer_B/refit.pth",
+  "predictions": "/root/autodl-tmp/nested_cv_runs/outer_B/predictions.csv",
+  "refit_curves": "/root/autodl-tmp/nested_cv_runs/outer_B/refit_curves.npz"
+}

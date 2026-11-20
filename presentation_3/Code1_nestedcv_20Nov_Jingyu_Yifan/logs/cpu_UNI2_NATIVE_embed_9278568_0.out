@@ -1,0 +1,44 @@
+[INFO] patches_dir:      /projects/e32998/patch_images
+[INFO] embeddings_dir:   /home/cny2467/uni2_embeddings_1536_native_cpu
+[INFO] encoder:          uni2
+[INFO] kimianet_ckpt:    KimiaNet.pth
+[INFO] shard:            1 of 4
+[INFO] device:           cpu
+[INFO] batch_size:       64
+[INFO] num_workers:      2
+[INFO] overwrite:        False
+[INFO] dtype:            fp16
+[INFO] min_patch_size:   32x32
+[INFO] log_every:        20
+[INFO] resizing:         disabled
+[INFO] forward pass:     batched
+[INFO] Found 22251 PNG files.
+[PROGRESS] step=20 seen=1280/22251 saved=1274 skipped_existing=0 skipped_bad=0 skipped_too_small=6 rate=0.16 patches/sec ETA=36h 51m 16s
+[PROGRESS] step=40 seen=2560/22251 saved=2532 skipped_existing=0 skipped_bad=0 skipped_too_small=28 rate=0.13 patches/sec ETA=42h 33m 56s
+[PROGRESS] step=60 seen=3840/22251 saved=3785 skipped_existing=0 skipped_bad=0 skipped_too_small=55 rate=0.13 patches/sec ETA=38h 22m 7s
+[PROGRESS] step=80 seen=5120/22251 saved=5058 skipped_existing=0 skipped_bad=0 skipped_too_small=62 rate=0.16 patches/sec ETA=29h 32m 29s
+[PROGRESS] step=100 seen=6400/22251 saved=6323 skipped_existing=0 skipped_bad=0 skipped_too_small=77 rate=0.17 patches/sec ETA=25h 37m 58s
+[PROGRESS] step=120 seen=7680/22251 saved=7574 skipped_existing=0 skipped_bad=0 skipped_too_small=106 rate=0.19 patches/sec ETA=21h 9m 12s
+[PROGRESS] step=140 seen=8960/22251 saved=8834 skipped_existing=0 skipped_bad=0 skipped_too_small=126 rate=0.22 patches/sec ETA=17h 8m 3s
+[PROGRESS] step=160 seen=10240/22251 saved=10086 skipped_existing=0 skipped_bad=0 skipped_too_small=154 rate=0.24 patches/sec ETA=14h 6m 33s
+[PROGRESS] step=180 seen=11520/22251 saved=11346 skipped_existing=0 skipped_bad=0 skipped_too_small=174 rate=0.26 patches/sec ETA=11h 33m 1s
+[PROGRESS] step=200 seen=12800/22251 saved=12625 skipped_existing=0 skipped_bad=0 skipped_too_small=175 rate=0.28 patches/sec ETA=9h 17m 49s
+[PROGRESS] step=220 seen=14080/22251 saved=13886 skipped_existing=0 skipped_bad=0 skipped_too_small=194 rate=0.23 patches/sec ETA=9h 45m 9s
+[PROGRESS] step=240 seen=15360/22251 saved=15052 skipped_existing=0 skipped_bad=0 skipped_too_small=308 rate=0.25 patches/sec ETA=7h 44m 44s
+[PROGRESS] step=260 seen=16640/22251 saved=16185 skipped_existing=0 skipped_bad=0 skipped_too_small=455 rate=0.26 patches/sec ETA=6h 4m 11s
+[PROGRESS] step=280 seen=17920/22251 saved=17396 skipped_existing=0 skipped_bad=0 skipped_too_small=524 rate=0.27 patches/sec ETA=4h 23m 55s
+[PROGRESS] step=300 seen=19200/22251 saved=18649 skipped_existing=0 skipped_bad=0 skipped_too_small=551 rate=0.29 patches/sec ETA=2h 56m 2s
+[PROGRESS] step=320 seen=20480/22251 saved=19925 skipped_existing=0 skipped_bad=0 skipped_too_small=555 rate=0.26 patches/sec ETA=1h 52m 24s
+[PROGRESS] step=340 seen=21760/22251 saved=21204 skipped_existing=0 skipped_bad=0 skipped_too_small=556 rate=0.27 patches/sec ETA=30m 2s
+[PROGRESS] step=348 seen=22251/22251 saved=21695 skipped_existing=0 skipped_bad=0 skipped_too_small=556 rate=0.28 patches/sec ETA=0s
+[DONE]
+[SUMMARY] total_png=22251
+[SUMMARY] saved=21695
+[SUMMARY] skipped_existing=0
+[SUMMARY] skipped_bad=0
+[SUMMARY] skipped_too_small=556
+[SUMMARY] embeddings_dir=/home/cny2467/uni2_embeddings_1536_native_cpu
+[SUMMARY] total_time=22h 19m 23s
+Note: saved tensors are length 1536.
+Note: this version is typically slower than the resized batched version because
+      variable-size patches are forwarded one at a time instead of as a stacked batch.

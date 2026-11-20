@@ -1,0 +1,9 @@
+outer_test_fold,selected_configuration,accuracy,benign_recall,high_grade_recall
+A,"{""learning_rate"": 0.0011186463847734803, ""weight_decay"": 0.00010803762306320474, ""classifier_dropout"": 0.011138691989956984, ""entropy_lambda"": 0.0, ""projector_dropout"": 0.031690208210815245, ""selected_epochs"": 8}",1.0,1.0,1.0
+B,"{""learning_rate"": 0.0004870865037631054, ""weight_decay"": 0.0, ""classifier_dropout"": 0.07345131039619446, ""entropy_lambda"": 0.0, ""projector_dropout"": 0.19511835277080536, ""selected_epochs"": 11}",0.85,0.8571428571428571,0.8461538461538461
+C,"{""learning_rate"": 0.0007107398677618925, ""weight_decay"": 0.22660944917148937, ""classifier_dropout"": 0.34809714555740356, ""entropy_lambda"": 0.04228296075172131, ""projector_dropout"": 0.17796754539012907, ""selected_epochs"": 12}",1.0,1.0,1.0
+D,"{""learning_rate"": 0.0004870865037631054, ""weight_decay"": 0.0, ""classifier_dropout"": 0.07345131039619446, ""entropy_lambda"": 0.0, ""projector_dropout"": 0.19511835277080536, ""selected_epochs"": 5}",0.9473684210526315,0.8571428571428571,1.0
+E,"{""learning_rate"": 0.00013033638830818446, ""weight_decay"": 0.00708916256463543, ""classifier_dropout"": 0.452417867216225, ""entropy_lambda"": 0.04355546972181697, ""projector_dropout"": 0.12153920982059317, ""selected_epochs"": 8}",0.95,0.8571428571428571,1.0
+pooled,differs by fold,0.9494949494949495,0.9142857142857143,0.96875
+range_min,,0.85,0.8571428571428571,0.8461538461538461
+range_max,,1.0,1.0,1.0

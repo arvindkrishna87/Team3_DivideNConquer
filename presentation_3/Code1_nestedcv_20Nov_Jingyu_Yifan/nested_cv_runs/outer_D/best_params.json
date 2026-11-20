@@ -1,0 +1,79 @@
+{
+  "outer_test_fold": "D",
+  "hparams": {
+    "learning_rate": 0.0004870865037631054,
+    "weight_decay": 0.0,
+    "classifier_dropout": 0.07345131039619446,
+    "entropy_lambda": 0.0,
+    "projector_dropout": 0.19511835277080536
+  },
+  "selected_epochs": 5,
+  "mean_val_at_selected": 0.13990593281997152,
+  "val_at_selected": {
+    "A": 0.05960283096774819,
+    "B": 0.3587626555459932,
+    "C": 0.09188763393187681,
+    "E": 0.0493706108342679
+  },
+  "refit_class_weights": {
+    "benign": 1.4285714285714286,
+    "high_grade": 0.7692307692307693,
+    "n_benign": 28,
+    "n_high": 52
+  },
+  "widened": 0,
+  "bounds_used": {
+    "learning_rate": [
+      1e-05,
+      0.001
+    ],
+    "weight_decay": [
+      1e-05,
+      1000.0
+    ],
+    "entropy_lambda": [
+      0.001,
+      1.0
+    ],
+    "classifier_dropout": [
+      0.0,
+      0.5
+    ],
+    "projector_dropout": [
+      0.0,
+      0.5
+    ]
+  },
+  "boundary_notes": [
+    "weight_decay=0 is an allowed search point, not an edge",
+    "entropy_lambda=0 is an allowed search point, not an edge"
+  ],
+  "still_on_expandable_edge": 0,
+  "final_edge_notes": [
+    "weight_decay=0 is an allowed search point, not an edge",
+    "entropy_lambda=0 is an allowed search point, not an edge"
+  ],
+  "reported_epoch": 5,
+  "refit_train_loss_per_epoch": [
+    0.6784771686419845,
+    0.36614550579106436,
+    0.19314668575971156,
+    0.026630860084355844,
+    0.011350545983441407
+  ],
+  "refit_test_loss_per_epoch": [
+    0.5129770409714962,
+    0.38119610433655216,
+    0.27968815649797935,
+    0.32144965135531883,
+    0.30337720918734185
+  ],
+  "metrics": {
+    "accuracy": 0.9473684210526315,
+    "benign_recall": 0.8571428571428571,
+    "high_grade_recall": 1.0
+  },
+  "checkpoint": "/root/autodl-tmp/nested_cv_runs/outer_D/refit.pth",
+  "predictions": "/root/autodl-tmp/nested_cv_runs/outer_D/predictions.csv",
+  "refit_curves": "/root/autodl-tmp/nested_cv_runs/outer_D/refit_curves.npz"
+}

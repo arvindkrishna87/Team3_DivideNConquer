@@ -1,0 +1,86 @@
+{
+  "outer_test_fold": "A",
+  "hparams": {
+    "learning_rate": 0.0011186463847734803,
+    "weight_decay": 0.00010803762306320474,
+    "classifier_dropout": 0.011138691989956984,
+    "entropy_lambda": 0.0,
+    "projector_dropout": 0.031690208210815245
+  },
+  "selected_epochs": 8,
+  "mean_val_at_selected": 0.2209855019389707,
+  "val_at_selected": {
+    "B": 0.3198911686099114,
+    "C": 0.09698527752956139,
+    "D": 0.23040032951086603,
+    "E": 0.23666523210554408
+  },
+  "refit_class_weights": {
+    "benign": 1.4107142857142858,
+    "high_grade": 0.7745098039215687,
+    "n_benign": 28,
+    "n_high": 51
+  },
+  "widened": 1,
+  "bounds_used": {
+    "learning_rate": [
+      1e-05,
+      0.01
+    ],
+    "weight_decay": [
+      1e-05,
+      1000.0
+    ],
+    "entropy_lambda": [
+      0.001,
+      1.0
+    ],
+    "classifier_dropout": [
+      0.0,
+      0.5
+    ],
+    "projector_dropout": [
+      0.0,
+      0.5
+    ]
+  },
+  "boundary_notes": [
+    "learning_rate=0.000915125 is within the upper 5% of [1e-05, 0.001]; upper bound becomes 0.01",
+    "weight_decay=0 is an allowed search point, not an edge",
+    "entropy_lambda=0 is an allowed search point, not an edge"
+  ],
+  "still_on_expandable_edge": 0,
+  "final_edge_notes": [
+    "entropy_lambda=0 is an allowed search point, not an edge",
+    "classifier_dropout=0.0111387 is near the legal lower bound 0; the range is not widened"
+  ],
+  "reported_epoch": 8,
+  "refit_train_loss_per_epoch": [
+    0.6162853830765131,
+    0.32489785535667753,
+    0.1354140094275103,
+    0.04224752887506539,
+    0.004701684906070954,
+    0.0013179397339592492,
+    0.0005959826684910338,
+    0.00029019491522589466
+  ],
+  "refit_test_loss_per_epoch": [
+    0.3061298569562016,
+    0.16499919739838403,
+    0.1795308947778092,
+    0.06910222748007112,
+    0.011816690999534491,
+    0.01605787819173681,
+    0.00443383950610516,
+    0.002260871234210089
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "benign_recall": 1.0,
+    "high_grade_recall": 1.0
+  },
+  "checkpoint": "/root/autodl-tmp/nested_cv_runs/outer_A/refit.pth",
+  "predictions": "/root/autodl-tmp/nested_cv_runs/outer_A/predictions.csv",
+  "refit_curves": "/root/autodl-tmp/nested_cv_runs/outer_A/refit_curves.npz"
+}

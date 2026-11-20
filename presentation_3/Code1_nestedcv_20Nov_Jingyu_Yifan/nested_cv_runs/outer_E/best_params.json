@@ -1,0 +1,79 @@
+{
+  "outer_test_fold": "E",
+  "hparams": {
+    "learning_rate": 0.00013033638830818446,
+    "weight_decay": 0.00708916256463543,
+    "classifier_dropout": 0.452417867216225,
+    "entropy_lambda": 0.04355546972181697,
+    "projector_dropout": 0.12153920982059317
+  },
+  "selected_epochs": 8,
+  "mean_val_at_selected": 0.17575857441816536,
+  "val_at_selected": {
+    "A": 0.04568396233518577,
+    "B": 0.35229357094267266,
+    "C": 0.010998816707537376,
+    "D": 0.2940579476872656
+  },
+  "refit_class_weights": {
+    "benign": 1.4107142857142858,
+    "high_grade": 0.7745098039215687,
+    "n_benign": 28,
+    "n_high": 51
+  },
+  "widened": 0,
+  "bounds_used": {
+    "learning_rate": [
+      1e-05,
+      0.001
+    ],
+    "weight_decay": [
+      1e-05,
+      1000.0
+    ],
+    "entropy_lambda": [
+      0.001,
+      1.0
+    ],
+    "classifier_dropout": [
+      0.0,
+      0.5
+    ],
+    "projector_dropout": [
+      0.0,
+      0.5
+    ]
+  },
+  "boundary_notes": [],
+  "still_on_expandable_edge": 0,
+  "final_edge_notes": [],
+  "reported_epoch": 8,
+  "refit_train_loss_per_epoch": [
+    0.6017148768222784,
+    0.465623807539291,
+    0.35898937669264364,
+    0.20976478531013562,
+    0.0606452972875743,
+    -0.000839934366036065,
+    0.03681187680627726,
+    -0.024593229299481913
+  ],
+  "refit_test_loss_per_epoch": [
+    0.5507794167478006,
+    0.3698246445056501,
+    0.2668210414780693,
+    0.28098703389168606,
+    0.14680197629642644,
+    0.032855480836428044,
+    0.06870109507248603,
+    0.12502670045676614
+  ],
+  "metrics": {
+    "accuracy": 0.95,
+    "benign_recall": 0.8571428571428571,
+    "high_grade_recall": 1.0
+  },
+  "checkpoint": "/root/autodl-tmp/nested_cv_runs/outer_E/refit.pth",
+  "predictions": "/root/autodl-tmp/nested_cv_runs/outer_E/predictions.csv",
+  "refit_curves": "/root/autodl-tmp/nested_cv_runs/outer_E/refit_curves.npz"
+}
